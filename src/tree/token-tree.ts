@@ -71,6 +71,8 @@ export async function buildTokenTree(
   let frontier: FrontierItem[] = [{ node: root, depth: 0 }];
 
   for (let depth = 0; depth < maxDepth; depth++) {
+    console.log(`--- Processing Depth ${depth} ---`);
+
     // Expand current depth
     const nextFrontier: FrontierItem[] = [];
 

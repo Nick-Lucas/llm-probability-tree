@@ -12,13 +12,23 @@ export class LlamaServerSampler implements Sampler {
     const { topK = 200, temperature = 0.7 } = opts;
 
     // llama.cpp server /completion API; request 1 token and top-K probs
+    // https://llama-cpp-agent.readthedocs.io/en/latest/provider-api-reference/
     const body = {
       prompt: prefix,
-      n_predict: 1,
       temperature,
-      n_probs: topK,        // ask server to return top-K for the next token
-      // stop: ["</s>"],    // optional stop tokens
-      // cache_prompt: true // reuses kv cache across calls for speed
+
+      // Depth to complete to, for us 1 layer is enough since we just want the next token
+      n_predict: 1,
+
+      // Number of options to return for the next token
+      n_probs: topK,
+      
+      // We can enable the cache to improve performance
+      // But for this we ensure it's disabled just to demonstrate consistent results
+      cache_prompt: false,
+      
+      // no sampling randomness, we want consistent results
+      seed: -1,
     };
 
     const { body: resBody, statusCode } = await request(`${this.baseUrl}/completion`, {
