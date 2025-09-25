@@ -22,7 +22,7 @@ async function main() {
 
   const json = JSON.stringify(root, null, 2)
   console.log(json);
-  writeFileSync('./token-tree.json', json);
+  writeFileSync(`./token-tree--${prompt.replace(/ /g, "-").toLowerCase()}.json`, json);
 }
 
 main().catch(err => {
