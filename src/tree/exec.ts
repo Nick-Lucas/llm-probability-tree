@@ -3,8 +3,8 @@ import { buildTokenTree, TokenTrieNode } from "./token-tree.ts";
 import { LlamaServerSampler } from "./llama-sampler.ts";
 import { writeFileSync } from "fs";
 
-async function main() {
-  const prompt = "The capital of france is";
+async function execute(prompt: string) {
+  console.log(`\n=== Generating token tree for prompt: "${prompt}" ===\n`);
 
   const sampler = new LlamaServerSampler("http://127.0.0.1:8080");
 
@@ -22,10 +22,9 @@ async function main() {
 
   const json = JSON.stringify(root, null, 2)
   console.log(json);
-  writeFileSync(`./token-tree--${prompt.replace(/ /g, "-").toLowerCase()}.json`, json);
+  writeFileSync(`./outputs/token-tree--${prompt.replace(/ /g, "-").toLowerCase()}.json`, json);
 }
 
-main().catch(err => {
-  console.error(err);
-  process.exit(1);
-});
+await execute("The capital of france is");
+await execute("The meaning of life is");
+await execute("A great ingredient to put in soup is");

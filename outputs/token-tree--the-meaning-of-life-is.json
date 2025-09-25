@@ -1,0 +1,2981 @@
+{
+  "token": "",
+  "logprob": 0,
+  "totalLogprob": 0,
+  "text": "The meaning of life is",
+  "children": [
+    {
+      "token": " a",
+      "logprob": -0.23527024686336517,
+      "totalLogprob": -0.23527024686336517,
+      "text": "The meaning of life is a",
+      "children": [
+        {
+          "token": " question",
+          "logprob": -0.08496365696191788,
+          "totalLogprob": -0.32023390382528305,
+          "text": "The meaning of life is a question",
+          "children": [
+            {
+              "token": " that",
+              "logprob": -0.14349450170993805,
+              "totalLogprob": -0.4637284055352211,
+              "text": "The meaning of life is a question that",
+              "children": [
+                {
+                  "token": " has",
+                  "logprob": -0.045139435678720474,
+                  "totalLogprob": -0.5088678412139416,
+                  "text": "The meaning of life is a question that has",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "token": " humans",
+              "logprob": -3.451397657394409,
+              "totalLogprob": -3.7716315612196922,
+              "text": "The meaning of life is a question humans",
+              "children": [
+                {
+                  "token": " have",
+                  "logprob": -0.0075266375206410885,
+                  "totalLogprob": -3.7791581987403333,
+                  "text": "The meaning of life is a question humans have",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "token": " humanity",
+              "logprob": -3.503781318664551,
+              "totalLogprob": -3.824015222489834,
+              "text": "The meaning of life is a question humanity",
+              "children": [
+                {
+                  "token": " has",
+                  "logprob": -0.00391204422339797,
+                  "totalLogprob": -3.827927266713232,
+                  "text": "The meaning of life is a question humanity has",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "token": " pondered",
+              "logprob": -3.7696847915649414,
+              "totalLogprob": -4.0899186953902245,
+              "text": "The meaning of life is a question pondered",
+              "children": [
+                {
+                  "token": " by",
+                  "logprob": -0.17041733860969543,
+                  "totalLogprob": -4.26033603399992,
+                  "text": "The meaning of life is a question pondered by",
+                  "children": []
+                },
+                {
+                  "token": " for",
+                  "logprob": -2.0213828086853027,
+                  "totalLogprob": -6.111301504075527,
+                  "text": "The meaning of life is a question pondered for",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "token": " big",
+          "logprob": -4.2755537033081055,
+          "totalLogprob": -4.510823950171471,
+          "text": "The meaning of life is a big",
+          "children": [
+            {
+              "token": " question",
+              "logprob": -0.04791054129600525,
+              "totalLogprob": -4.558734491467476,
+              "text": "The meaning of life is a big question",
+              "children": [
+                {
+                  "token": ",",
+                  "logprob": -0.3146022856235504,
+                  "totalLogprob": -4.873336777091026,
+                  "text": "The meaning of life is a big question,",
+                  "children": []
+                },
+                {
+                  "token": " that",
+                  "logprob": -2.2143750190734863,
+                  "totalLogprob": -6.773109510540962,
+                  "text": "The meaning of life is a big question that",
+                  "children": []
+                },
+                {
+                  "token": ".",
+                  "logprob": -2.346815586090088,
+                  "totalLogprob": -6.905550077557564,
+                  "text": "The meaning of life is a big question.",
+                  "children": []
+                },
+                {
+                  "token": " and",
+                  "logprob": -3.548170566558838,
+                  "totalLogprob": -8.106905058026314,
+                  "text": "The meaning of life is a big question and",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "token": " philosophical",
+          "logprob": -4.869036674499512,
+          "totalLogprob": -5.104306921362877,
+          "text": "The meaning of life is a philosophical",
+          "children": [
+            {
+              "token": " question",
+              "logprob": -0.05082812160253525,
+              "totalLogprob": -5.155135042965412,
+              "text": "The meaning of life is a philosophical question",
+              "children": [
+                {
+                  "token": " that",
+                  "logprob": -0.129002645611763,
+                  "totalLogprob": -5.284137688577175,
+                  "text": "The meaning of life is a philosophical question that",
+                  "children": []
+                },
+                {
+                  "token": " with",
+                  "logprob": -2.713355302810669,
+                  "totalLogprob": -7.868490345776081,
+                  "text": "The meaning of life is a philosophical question with",
+                  "children": []
+                },
+                {
+                  "token": ",",
+                  "logprob": -3.7091493606567383,
+                  "totalLogprob": -8.86428440362215,
+                  "text": "The meaning of life is a philosophical question,",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "token": " persistent",
+          "logprob": -5.083207130432129,
+          "totalLogprob": -5.318477377295494,
+          "text": "The meaning of life is a persistent",
+          "children": [
+            {
+              "token": " question",
+              "logprob": -0.5494038462638855,
+              "totalLogprob": -5.86788122355938,
+              "text": "The meaning of life is a persistent question",
+              "children": [
+                {
+                  "token": ",",
+                  "logprob": -0.7328373789787292,
+                  "totalLogprob": -6.600718602538109,
+                  "text": "The meaning of life is a persistent question,",
+                  "children": []
+                },
+                {
+                  "token": " that",
+                  "logprob": -0.8872811198234558,
+                  "totalLogprob": -6.755162343382835,
+                  "text": "The meaning of life is a persistent question that",
+                  "children": []
+                },
+                {
+                  "token": " pondered",
+                  "logprob": -3.022084951400757,
+                  "totalLogprob": -8.889966174960136,
+                  "text": "The meaning of life is a persistent question pondered",
+                  "children": []
+                },
+                {
+                  "token": " humans",
+                  "logprob": -4.539590358734131,
+                  "totalLogprob": -10.40747158229351,
+                  "text": "The meaning of life is a persistent question humans",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "token": " and",
+              "logprob": -1.453149437904358,
+              "totalLogprob": -6.771626815199852,
+              "text": "The meaning of life is a persistent and",
+              "children": [
+                {
+                  "token": " complex",
+                  "logprob": -0.6818581223487854,
+                  "totalLogprob": -7.453484937548637,
+                  "text": "The meaning of life is a persistent and complex",
+                  "children": []
+                },
+                {
+                  "token": " often",
+                  "logprob": -2.009519577026367,
+                  "totalLogprob": -8.78114639222622,
+                  "text": "The meaning of life is a persistent and often",
+                  "children": []
+                },
+                {
+                  "token": " deeply",
+                  "logprob": -3.4448719024658203,
+                  "totalLogprob": -10.216498717665672,
+                  "text": "The meaning of life is a persistent and deeply",
+                  "children": []
+                },
+                {
+                  "token": " frustrating",
+                  "logprob": -3.451761245727539,
+                  "totalLogprob": -10.223388060927391,
+                  "text": "The meaning of life is a persistent and frustrating",
+                  "children": []
+                },
+                {
+                  "token": " fundamental",
+                  "logprob": -3.7287979125976562,
+                  "totalLogprob": -10.500424727797508,
+                  "text": "The meaning of life is a persistent and fundamental",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "token": ",",
+              "logprob": -2.0618948936462402,
+              "totalLogprob": -7.380372270941734,
+              "text": "The meaning of life is a persistent,",
+              "children": [
+                {
+                  "token": " and",
+                  "logprob": -1.464469075202942,
+                  "totalLogprob": -8.844841346144676,
+                  "text": "The meaning of life is a persistent, and",
+                  "children": []
+                },
+                {
+                  "token": " often",
+                  "logprob": -1.8721247911453247,
+                  "totalLogprob": -9.252497062087059,
+                  "text": "The meaning of life is a persistent, often",
+                  "children": []
+                },
+                {
+                  "token": " complex",
+                  "logprob": -2.56272029876709,
+                  "totalLogprob": -9.943092569708824,
+                  "text": "The meaning of life is a persistent, complex",
+                  "children": []
+                },
+                {
+                  "token": " frustrating",
+                  "logprob": -2.6837053298950195,
+                  "totalLogprob": -10.064077600836754,
+                  "text": "The meaning of life is a persistent, frustrating",
+                  "children": []
+                },
+                {
+                  "token": " philosophical",
+                  "logprob": -3.158665895462036,
+                  "totalLogprob": -10.53903816640377,
+                  "text": "The meaning of life is a persistent, philosophical",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "token": " philosophical",
+              "logprob": -3.333913564682007,
+              "totalLogprob": -8.652390941977501,
+              "text": "The meaning of life is a persistent philosophical",
+              "children": [
+                {
+                  "token": " question",
+                  "logprob": -0.07809557020664215,
+                  "totalLogprob": -8.730486512184143,
+                  "text": "The meaning of life is a persistent philosophical question",
+                  "children": []
+                },
+                {
+                  "token": " puzzle",
+                  "logprob": -3.9330379962921143,
+                  "totalLogprob": -12.585428938269615,
+                  "text": "The meaning of life is a persistent philosophical puzzle",
+                  "children": []
+                },
+                {
+                  "token": " problem",
+                  "logprob": -4.466944694519043,
+                  "totalLogprob": -13.119335636496544,
+                  "text": "The meaning of life is a persistent philosophical problem",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "token": " profound",
+          "logprob": -5.3595991134643555,
+          "totalLogprob": -5.594869360327721,
+          "text": "The meaning of life is a profound",
+          "children": [
+            {
+              "token": " and",
+              "logprob": -0.32187435030937195,
+              "totalLogprob": -5.916743710637093,
+              "text": "The meaning of life is a profound and",
+              "children": [
+                {
+                  "token": " enduring",
+                  "logprob": -1.22511625289917,
+                  "totalLogprob": -7.1418599635362625,
+                  "text": "The meaning of life is a profound and enduring",
+                  "children": []
+                },
+                {
+                  "token": " often",
+                  "logprob": -2.002501964569092,
+                  "totalLogprob": -7.919245675206184,
+                  "text": "The meaning of life is a profound and often",
+                  "children": []
+                },
+                {
+                  "token": " complex",
+                  "logprob": -2.1681761741638184,
+                  "totalLogprob": -8.084919884800911,
+                  "text": "The meaning of life is a profound and complex",
+                  "children": []
+                },
+                {
+                  "token": " endlessly",
+                  "logprob": -2.665952205657959,
+                  "totalLogprob": -8.582695916295052,
+                  "text": "The meaning of life is a profound and endlessly",
+                  "children": []
+                },
+                {
+                  "token": " persistent",
+                  "logprob": -3.261504650115967,
+                  "totalLogprob": -9.17824836075306,
+                  "text": "The meaning of life is a profound and persistent",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "token": " question",
+              "logprob": -1.5913312435150146,
+              "totalLogprob": -7.186200603842735,
+              "text": "The meaning of life is a profound question",
+              "children": [
+                {
+                  "token": " that",
+                  "logprob": -0.27306219935417175,
+                  "totalLogprob": -7.459262803196907,
+                  "text": "The meaning of life is a profound question that",
+                  "children": []
+                },
+                {
+                  "token": ",",
+                  "logprob": -1.668520450592041,
+                  "totalLogprob": -8.854721054434776,
+                  "text": "The meaning of life is a profound question,",
+                  "children": []
+                },
+                {
+                  "token": " pondered",
+                  "logprob": -3.975132465362549,
+                  "totalLogprob": -11.161333069205284,
+                  "text": "The meaning of life is a profound question pondered",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "token": ",",
+              "logprob": -2.8867528438568115,
+              "totalLogprob": -8.481622204184532,
+              "text": "The meaning of life is a profound,",
+              "children": [
+                {
+                  "token": " and",
+                  "logprob": -1.1552931070327759,
+                  "totalLogprob": -9.636915311217308,
+                  "text": "The meaning of life is a profound, and",
+                  "children": []
+                },
+                {
+                  "token": " often",
+                  "logprob": -1.8962714672088623,
+                  "totalLogprob": -10.377893671393394,
+                  "text": "The meaning of life is a profound, often",
+                  "children": []
+                },
+                {
+                  "token": " philosophical",
+                  "logprob": -2.19282603263855,
+                  "totalLogprob": -10.674448236823082,
+                  "text": "The meaning of life is a profound, philosophical",
+                  "children": []
+                },
+                {
+                  "token": " complex",
+                  "logprob": -2.655878782272339,
+                  "totalLogprob": -11.137500986456871,
+                  "text": "The meaning of life is a profound, complex",
+                  "children": []
+                },
+                {
+                  "token": " enduring",
+                  "logprob": -3.2888896465301514,
+                  "totalLogprob": -11.770511850714684,
+                  "text": "The meaning of life is a profound, enduring",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "token": " subjective",
+      "logprob": -3.2684123516082764,
+      "totalLogprob": -3.2684123516082764,
+      "text": "The meaning of life is subjective",
+      "children": [
+        {
+          "token": ".",
+          "logprob": -1.0749962329864502,
+          "totalLogprob": -4.343408584594727,
+          "text": "The meaning of life is subjective.",
+          "children": [
+            {
+              "token": "\n\n",
+              "logprob": -0.727750301361084,
+              "totalLogprob": -5.0711588859558105,
+              "text": "The meaning of life is subjective.\n\n",
+              "children": []
+            },
+            {
+              "token": " It",
+              "logprob": -2.1796984672546387,
+              "totalLogprob": -6.523107051849365,
+              "text": "The meaning of life is subjective. It",
+              "children": [
+                {
+                  "token": "'",
+                  "logprob": -0.7033872604370117,
+                  "totalLogprob": -7.226494312286377,
+                  "text": "The meaning of life is subjective. It'",
+                  "children": []
+                },
+                {
+                  "token": "’",
+                  "logprob": -1.0959081649780273,
+                  "totalLogprob": -7.619015216827393,
+                  "text": "The meaning of life is subjective. It’",
+                  "children": []
+                },
+                {
+                  "token": " is",
+                  "logprob": -2.080142021179199,
+                  "totalLogprob": -8.603249073028564,
+                  "text": "The meaning of life is subjective. It is",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "token": " There",
+              "logprob": -2.771483898162842,
+              "totalLogprob": -7.114892482757568,
+              "text": "The meaning of life is subjective. There",
+              "children": [
+                {
+                  "token": " is",
+                  "logprob": -0.6001360416412354,
+                  "totalLogprob": -7.715028524398804,
+                  "text": "The meaning of life is subjective. There is",
+                  "children": []
+                },
+                {
+                  "token": "'",
+                  "logprob": -1.4482100009918213,
+                  "totalLogprob": -8.56310248374939,
+                  "text": "The meaning of life is subjective. There'",
+                  "children": []
+                },
+                {
+                  "token": " isn",
+                  "logprob": -2.244804620742798,
+                  "totalLogprob": -9.359697103500366,
+                  "text": "The meaning of life is subjective. There isn",
+                  "children": []
+                },
+                {
+                  "token": "’",
+                  "logprob": -2.4214041233062744,
+                  "totalLogprob": -9.536296606063843,
+                  "text": "The meaning of life is subjective. There’",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "token": "  ",
+              "logprob": -2.8907694816589355,
+              "totalLogprob": -7.234178066253662,
+              "text": "The meaning of life is subjective.  ",
+              "children": [
+                {
+                  "token": "It",
+                  "logprob": -1.3174452781677246,
+                  "totalLogprob": -8.551623344421387,
+                  "text": "The meaning of life is subjective.  It",
+                  "children": []
+                },
+                {
+                  "token": "\n\n",
+                  "logprob": -1.4194903373718262,
+                  "totalLogprob": -8.653668403625488,
+                  "text": "The meaning of life is subjective.  \n\n",
+                  "children": []
+                },
+                {
+                  "token": "There",
+                  "logprob": -2.322566509246826,
+                  "totalLogprob": -9.556744575500488,
+                  "text": "The meaning of life is subjective.  There",
+                  "children": []
+                },
+                {
+                  "token": "That",
+                  "logprob": -2.8625388145446777,
+                  "totalLogprob": -10.09671688079834,
+                  "text": "The meaning of life is subjective.  That",
+                  "children": []
+                },
+                {
+                  "token": "However",
+                  "logprob": -2.9317126274108887,
+                  "totalLogprob": -10.16589069366455,
+                  "text": "The meaning of life is subjective.  However",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "token": " What",
+              "logprob": -2.9729971885681152,
+              "totalLogprob": -7.316405773162842,
+              "text": "The meaning of life is subjective. What",
+              "children": [
+                {
+                  "token": " matters",
+                  "logprob": -1.0313340425491333,
+                  "totalLogprob": -8.347739815711975,
+                  "text": "The meaning of life is subjective. What matters",
+                  "children": []
+                },
+                {
+                  "token": " is",
+                  "logprob": -1.9402676820755005,
+                  "totalLogprob": -9.256673455238342,
+                  "text": "The meaning of life is subjective. What is",
+                  "children": []
+                },
+                {
+                  "token": " gives",
+                  "logprob": -1.9429837465286255,
+                  "totalLogprob": -9.259389519691467,
+                  "text": "The meaning of life is subjective. What gives",
+                  "children": []
+                },
+                {
+                  "token": " one",
+                  "logprob": -2.755045175552368,
+                  "totalLogprob": -10.07145094871521,
+                  "text": "The meaning of life is subjective. What one",
+                  "children": []
+                },
+                {
+                  "token": " brings",
+                  "logprob": -2.9143850803375244,
+                  "totalLogprob": -10.230790853500366,
+                  "text": "The meaning of life is subjective. What brings",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "token": ",",
+          "logprob": -1.0929901599884033,
+          "totalLogprob": -4.36140251159668,
+          "text": "The meaning of life is subjective,",
+          "children": [
+            {
+              "token": " and",
+              "logprob": -0.7462878227233887,
+              "totalLogprob": -5.107690334320068,
+              "text": "The meaning of life is subjective, and",
+              "children": [
+                {
+                  "token": " that",
+                  "logprob": -1.0175492763519287,
+                  "totalLogprob": -6.125239610671997,
+                  "text": "The meaning of life is subjective, and that",
+                  "children": []
+                },
+                {
+                  "token": " this",
+                  "logprob": -2.530931234359741,
+                  "totalLogprob": -7.63862156867981,
+                  "text": "The meaning of life is subjective, and this",
+                  "children": []
+                },
+                {
+                  "token": " often",
+                  "logprob": -2.8235862255096436,
+                  "totalLogprob": -7.931276559829712,
+                  "text": "The meaning of life is subjective, and often",
+                  "children": []
+                },
+                {
+                  "token": " it",
+                  "logprob": -2.9095799922943115,
+                  "totalLogprob": -8.01727032661438,
+                  "text": "The meaning of life is subjective, and it",
+                  "children": []
+                },
+                {
+                  "token": " there",
+                  "logprob": -2.9768388271331787,
+                  "totalLogprob": -8.084529161453247,
+                  "text": "The meaning of life is subjective, and there",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "token": " but",
+              "logprob": -1.5957083702087402,
+              "totalLogprob": -5.95711088180542,
+              "text": "The meaning of life is subjective, but",
+              "children": [
+                {
+                  "token": " for",
+                  "logprob": -0.6342894434928894,
+                  "totalLogprob": -6.591400325298309,
+                  "text": "The meaning of life is subjective, but for",
+                  "children": []
+                },
+                {
+                  "token": " here",
+                  "logprob": -2.137373685836792,
+                  "totalLogprob": -8.094484567642212,
+                  "text": "The meaning of life is subjective, but here",
+                  "children": []
+                },
+                {
+                  "token": " it",
+                  "logprob": -2.693932294845581,
+                  "totalLogprob": -8.651043176651001,
+                  "text": "The meaning of life is subjective, but it",
+                  "children": []
+                },
+                {
+                  "token": " the",
+                  "logprob": -2.8527095317840576,
+                  "totalLogprob": -8.809820413589478,
+                  "text": "The meaning of life is subjective, but the",
+                  "children": []
+                },
+                {
+                  "token": " finding",
+                  "logprob": -3.6515796184539795,
+                  "totalLogprob": -9.6086905002594,
+                  "text": "The meaning of life is subjective, but finding",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "token": " a",
+              "logprob": -1.7529770135879517,
+              "totalLogprob": -6.114379525184631,
+              "text": "The meaning of life is subjective, a",
+              "children": [
+                {
+                  "token": " question",
+                  "logprob": -0.2956455647945404,
+                  "totalLogprob": -6.410025089979172,
+                  "text": "The meaning of life is subjective, a question",
+                  "children": []
+                },
+                {
+                  "token": " constant",
+                  "logprob": -3.0817344188690186,
+                  "totalLogprob": -9.19611394405365,
+                  "text": "The meaning of life is subjective, a constant",
+                  "children": []
+                },
+                {
+                  "token": " philosophical",
+                  "logprob": -3.206923246383667,
+                  "totalLogprob": -9.321302771568298,
+                  "text": "The meaning of life is subjective, a philosophical",
+                  "children": []
+                },
+                {
+                  "token": " vast",
+                  "logprob": -3.471693754196167,
+                  "totalLogprob": -9.586073279380798,
+                  "text": "The meaning of life is subjective, a vast",
+                  "children": []
+                },
+                {
+                  "token": " constantly",
+                  "logprob": -3.7263705730438232,
+                  "totalLogprob": -9.840750098228455,
+                  "text": "The meaning of life is subjective, a constantly",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "token": " it",
+              "logprob": -4.120265483856201,
+              "totalLogprob": -8.48166799545288,
+              "text": "The meaning of life is subjective, it",
+              "children": [
+                {
+                  "token": "'",
+                  "logprob": -1.023308515548706,
+                  "totalLogprob": -9.504976511001587,
+                  "text": "The meaning of life is subjective, it'",
+                  "children": []
+                },
+                {
+                  "token": "’",
+                  "logprob": -1.4239928722381592,
+                  "totalLogprob": -9.90566086769104,
+                  "text": "The meaning of life is subjective, it’",
+                  "children": []
+                },
+                {
+                  "token": " is",
+                  "logprob": -1.9555556774139404,
+                  "totalLogprob": -10.437223672866821,
+                  "text": "The meaning of life is subjective, it is",
+                  "children": []
+                },
+                {
+                  "token": " seems",
+                  "logprob": -2.383347272872925,
+                  "totalLogprob": -10.865015268325806,
+                  "text": "The meaning of life is subjective, it seems",
+                  "children": []
+                },
+                {
+                  "token": " says",
+                  "logprob": -3.417431592941284,
+                  "totalLogprob": -11.899099588394165,
+                  "text": "The meaning of life is subjective, it says",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "token": " which",
+              "logprob": -4.845303058624268,
+              "totalLogprob": -9.206705570220947,
+              "text": "The meaning of life is subjective, which",
+              "children": [
+                {
+                  "token": " is",
+                  "logprob": -0.17865048348903656,
+                  "totalLogprob": -9.385356053709984,
+                  "text": "The meaning of life is subjective, which is",
+                  "children": []
+                },
+                {
+                  "token": " makes",
+                  "logprob": -3.147758960723877,
+                  "totalLogprob": -12.354464530944824,
+                  "text": "The meaning of life is subjective, which makes",
+                  "children": []
+                },
+                {
+                  "token": " can",
+                  "logprob": -3.487671375274658,
+                  "totalLogprob": -12.694376945495605,
+                  "text": "The meaning of life is subjective, which can",
+                  "children": []
+                },
+                {
+                  "token": " means",
+                  "logprob": -4.093021869659424,
+                  "totalLogprob": -13.299727439880371,
+                  "text": "The meaning of life is subjective, which means",
+                  "children": []
+                },
+                {
+                  "token": " has",
+                  "logprob": -5.124845027923584,
+                  "totalLogprob": -14.331550598144531,
+                  "text": "The meaning of life is subjective, which has",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "token": " and",
+          "logprob": -1.2023462057113647,
+          "totalLogprob": -4.470758557319641,
+          "text": "The meaning of life is subjective and",
+          "children": [
+            {
+              "token": " varies",
+              "logprob": -0.6549343466758728,
+              "totalLogprob": -5.125692903995514,
+              "text": "The meaning of life is subjective and varies",
+              "children": [
+                {
+                  "token": " from",
+                  "logprob": -0.5627593994140625,
+                  "totalLogprob": -5.688452303409576,
+                  "text": "The meaning of life is subjective and varies from",
+                  "children": []
+                },
+                {
+                  "token": " greatly",
+                  "logprob": -1.1055870056152344,
+                  "totalLogprob": -6.231279909610748,
+                  "text": "The meaning of life is subjective and varies greatly",
+                  "children": []
+                },
+                {
+                  "token": " across",
+                  "logprob": -4.02183723449707,
+                  "totalLogprob": -9.147530138492584,
+                  "text": "The meaning of life is subjective and varies across",
+                  "children": []
+                },
+                {
+                  "token": " significantly",
+                  "logprob": -4.0841827392578125,
+                  "totalLogprob": -9.209875643253326,
+                  "text": "The meaning of life is subjective and varies significantly",
+                  "children": []
+                },
+                {
+                  "token": " for",
+                  "logprob": -4.665592193603516,
+                  "totalLogprob": -9.79128509759903,
+                  "text": "The meaning of life is subjective and varies for",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "token": " there",
+              "logprob": -2.979200601577759,
+              "totalLogprob": -7.4499591588974,
+              "text": "The meaning of life is subjective and there",
+              "children": [
+                {
+                  "token": " is",
+                  "logprob": -0.543755829334259,
+                  "totalLogprob": -7.993714988231659,
+                  "text": "The meaning of life is subjective and there is",
+                  "children": []
+                },
+                {
+                  "token": "'",
+                  "logprob": -1.384686827659607,
+                  "totalLogprob": -8.834645986557007,
+                  "text": "The meaning of life is subjective and there'",
+                  "children": []
+                },
+                {
+                  "token": "’",
+                  "logprob": -2.585986375808716,
+                  "totalLogprob": -10.035945534706116,
+                  "text": "The meaning of life is subjective and there’",
+                  "children": []
+                },
+                {
+                  "token": " isn",
+                  "logprob": -2.7699787616729736,
+                  "totalLogprob": -10.219937920570374,
+                  "text": "The meaning of life is subjective and there isn",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "token": " varied",
+              "logprob": -3.331941843032837,
+              "totalLogprob": -7.802700400352478,
+              "text": "The meaning of life is subjective and varied",
+              "children": [
+                {
+                  "token": " across",
+                  "logprob": -0.7441701889038086,
+                  "totalLogprob": -8.546870589256287,
+                  "text": "The meaning of life is subjective and varied across",
+                  "children": []
+                },
+                {
+                  "token": ".",
+                  "logprob": -1.4704923629760742,
+                  "totalLogprob": -9.273192763328552,
+                  "text": "The meaning of life is subjective and varied.",
+                  "children": []
+                },
+                {
+                  "token": ",",
+                  "logprob": -1.823197364807129,
+                  "totalLogprob": -9.625897765159607,
+                  "text": "The meaning of life is subjective and varied,",
+                  "children": []
+                },
+                {
+                  "token": " among",
+                  "logprob": -3.607224464416504,
+                  "totalLogprob": -11.409924864768982,
+                  "text": "The meaning of life is subjective and varied among",
+                  "children": []
+                },
+                {
+                  "token": " depending",
+                  "logprob": -3.7720956802368164,
+                  "totalLogprob": -11.574796080589294,
+                  "text": "The meaning of life is subjective and varied depending",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "token": " depends",
+              "logprob": -3.424023151397705,
+              "totalLogprob": -7.894781708717346,
+              "text": "The meaning of life is subjective and depends",
+              "children": [
+                {
+                  "token": " on",
+                  "logprob": -0.25112077593803406,
+                  "totalLogprob": -8.14590248465538,
+                  "text": "The meaning of life is subjective and depends on",
+                  "children": []
+                },
+                {
+                  "token": " entirely",
+                  "logprob": -2.1781132221221924,
+                  "totalLogprob": -10.072894930839539,
+                  "text": "The meaning of life is subjective and depends entirely",
+                  "children": []
+                },
+                {
+                  "token": " heavily",
+                  "logprob": -2.5708210468292236,
+                  "totalLogprob": -10.46560275554657,
+                  "text": "The meaning of life is subjective and depends heavily",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "token": " it",
+              "logprob": -3.4940781593322754,
+              "totalLogprob": -7.9648367166519165,
+              "text": "The meaning of life is subjective and it",
+              "children": [
+                {
+                  "token": "'",
+                  "logprob": -1.2158650159835815,
+                  "totalLogprob": -9.180701732635498,
+                  "text": "The meaning of life is subjective and it'",
+                  "children": []
+                },
+                {
+                  "token": " is",
+                  "logprob": -1.3106029033660889,
+                  "totalLogprob": -9.275439620018005,
+                  "text": "The meaning of life is subjective and it is",
+                  "children": []
+                },
+                {
+                  "token": "’",
+                  "logprob": -1.867781400680542,
+                  "totalLogprob": -9.832618117332458,
+                  "text": "The meaning of life is subjective and it’",
+                  "children": []
+                },
+                {
+                  "token": " depends",
+                  "logprob": -2.3004214763641357,
+                  "totalLogprob": -10.265258193016052,
+                  "text": "The meaning of life is subjective and it depends",
+                  "children": []
+                },
+                {
+                  "token": " varies",
+                  "logprob": -2.972834348678589,
+                  "totalLogprob": -10.937671065330505,
+                  "text": "The meaning of life is subjective and it varies",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "token": " often",
+      "logprob": -3.8078982830047607,
+      "totalLogprob": -3.8078982830047607,
+      "text": "The meaning of life is often",
+      "children": [
+        {
+          "token": " pondered",
+          "logprob": -1.0504753589630127,
+          "totalLogprob": -4.858373641967773,
+          "text": "The meaning of life is often pondered",
+          "children": [
+            {
+              "token": ",",
+              "logprob": -0.6007018685340881,
+              "totalLogprob": -5.459075510501862,
+              "text": "The meaning of life is often pondered,",
+              "children": [
+                {
+                  "token": " debated",
+                  "logprob": -0.8255437612533569,
+                  "totalLogprob": -6.2846192717552185,
+                  "text": "The meaning of life is often pondered, debated",
+                  "children": []
+                },
+                {
+                  "token": " and",
+                  "logprob": -0.9193776249885559,
+                  "totalLogprob": -6.3784531354904175,
+                  "text": "The meaning of life is often pondered, and",
+                  "children": []
+                },
+                {
+                  "token": " but",
+                  "logprob": -2.8686535358428955,
+                  "totalLogprob": -8.327729046344757,
+                  "text": "The meaning of life is often pondered, but",
+                  "children": []
+                },
+                {
+                  "token": " often",
+                  "logprob": -4.203723430633545,
+                  "totalLogprob": -9.662798941135406,
+                  "text": "The meaning of life is often pondered, often",
+                  "children": []
+                },
+                {
+                  "token": " explored",
+                  "logprob": -4.2126784324646,
+                  "totalLogprob": -9.671753942966461,
+                  "text": "The meaning of life is often pondered, explored",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "token": " by",
+              "logprob": -1.6959148645401,
+              "totalLogprob": -6.5542885065078735,
+              "text": "The meaning of life is often pondered by",
+              "children": [
+                {
+                  "token": " humans",
+                  "logprob": -0.6318038702011108,
+                  "totalLogprob": -7.186092376708984,
+                  "text": "The meaning of life is often pondered by humans",
+                  "children": []
+                },
+                {
+                  "token": " philosophers",
+                  "logprob": -0.8829997777938843,
+                  "totalLogprob": -7.437288284301758,
+                  "text": "The meaning of life is often pondered by philosophers",
+                  "children": []
+                },
+                {
+                  "token": " humanity",
+                  "logprob": -3.2885994911193848,
+                  "totalLogprob": -9.842887997627258,
+                  "text": "The meaning of life is often pondered by humanity",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "token": " and",
+              "logprob": -2.2713427543640137,
+              "totalLogprob": -7.129716396331787,
+              "text": "The meaning of life is often pondered and",
+              "children": [
+                {
+                  "token": " debated",
+                  "logprob": -0.009423891082406044,
+                  "totalLogprob": -7.139140287414193,
+                  "text": "The meaning of life is often pondered and debated",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "token": ".",
+              "logprob": -3.588904857635498,
+              "totalLogprob": -8.447278499603271,
+              "text": "The meaning of life is often pondered.",
+              "children": [
+                {
+                  "token": " Philosoph",
+                  "logprob": -0.9938091039657593,
+                  "totalLogprob": -9.44108760356903,
+                  "text": "The meaning of life is often pondered. Philosoph",
+                  "children": []
+                },
+                {
+                  "token": "  ",
+                  "logprob": -1.849096655845642,
+                  "totalLogprob": -10.296375155448914,
+                  "text": "The meaning of life is often pondered.  ",
+                  "children": []
+                },
+                {
+                  "token": " Religions",
+                  "logprob": -2.7210886478424072,
+                  "totalLogprob": -11.168367147445679,
+                  "text": "The meaning of life is often pondered. Religions",
+                  "children": []
+                },
+                {
+                  "token": " It",
+                  "logprob": -2.7693140506744385,
+                  "totalLogprob": -11.21659255027771,
+                  "text": "The meaning of life is often pondered. It",
+                  "children": []
+                },
+                {
+                  "token": " Is",
+                  "logprob": -2.8290677070617676,
+                  "totalLogprob": -11.276346206665039,
+                  "text": "The meaning of life is often pondered. Is",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "token": " as",
+              "logprob": -3.6768434047698975,
+              "totalLogprob": -8.535217046737671,
+              "text": "The meaning of life is often pondered as",
+              "children": [
+                {
+                  "token": " a",
+                  "logprob": -0.24877482652664185,
+                  "totalLogprob": -8.783991873264313,
+                  "text": "The meaning of life is often pondered as a",
+                  "children": []
+                },
+                {
+                  "token": " an",
+                  "logprob": -2.0043346881866455,
+                  "totalLogprob": -10.539551734924316,
+                  "text": "The meaning of life is often pondered as an",
+                  "children": []
+                },
+                {
+                  "token": " we",
+                  "logprob": -3.473437547683716,
+                  "totalLogprob": -12.008654594421387,
+                  "text": "The meaning of life is often pondered as we",
+                  "children": []
+                },
+                {
+                  "token": " humans",
+                  "logprob": -3.9662373065948486,
+                  "totalLogprob": -12.50145435333252,
+                  "text": "The meaning of life is often pondered as humans",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "token": " debated",
+          "logprob": -1.0699036121368408,
+          "totalLogprob": -4.877801895141602,
+          "text": "The meaning of life is often debated",
+          "children": [
+            {
+              "token": ",",
+              "logprob": -0.2792253792285919,
+              "totalLogprob": -5.1570272743701935,
+              "text": "The meaning of life is often debated,",
+              "children": [
+                {
+                  "token": " but",
+                  "logprob": -0.794354259967804,
+                  "totalLogprob": -5.951381534337997,
+                  "text": "The meaning of life is often debated, but",
+                  "children": []
+                },
+                {
+                  "token": " and",
+                  "logprob": -1.473582148551941,
+                  "totalLogprob": -6.630609422922134,
+                  "text": "The meaning of life is often debated, and",
+                  "children": []
+                },
+                {
+                  "token": " explored",
+                  "logprob": -2.242159605026245,
+                  "totalLogprob": -7.399186879396439,
+                  "text": "The meaning of life is often debated, explored",
+                  "children": []
+                },
+                {
+                  "token": " pondered",
+                  "logprob": -2.673067808151245,
+                  "totalLogprob": -7.830095082521439,
+                  "text": "The meaning of life is often debated, pondered",
+                  "children": []
+                },
+                {
+                  "token": " ranging",
+                  "logprob": -3.5346648693084717,
+                  "totalLogprob": -8.691692143678665,
+                  "text": "The meaning of life is often debated, ranging",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "token": " and",
+              "logprob": -2.3389177322387695,
+              "totalLogprob": -7.216719627380371,
+              "text": "The meaning of life is often debated and",
+              "children": [
+                {
+                  "token": " pondered",
+                  "logprob": -0.15928256511688232,
+                  "totalLogprob": -7.376002192497253,
+                  "text": "The meaning of life is often debated and pondered",
+                  "children": []
+                },
+                {
+                  "token": " explored",
+                  "logprob": -2.473438262939453,
+                  "totalLogprob": -9.690157890319824,
+                  "text": "The meaning of life is often debated and explored",
+                  "children": []
+                },
+                {
+                  "token": " interpreted",
+                  "logprob": -4.75372314453125,
+                  "totalLogprob": -11.970442771911621,
+                  "text": "The meaning of life is often debated and interpreted",
+                  "children": []
+                },
+                {
+                  "token": " questioned",
+                  "logprob": -4.805820465087891,
+                  "totalLogprob": -12.022540092468262,
+                  "text": "The meaning of life is often debated and questioned",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "token": ".",
+              "logprob": -2.5912179946899414,
+              "totalLogprob": -7.469019889831543,
+              "text": "The meaning of life is often debated.",
+              "children": [
+                {
+                  "token": " Philosoph",
+                  "logprob": -0.8522135019302368,
+                  "totalLogprob": -8.32123339176178,
+                  "text": "The meaning of life is often debated. Philosoph",
+                  "children": []
+                },
+                {
+                  "token": " Religions",
+                  "logprob": -2.235750913619995,
+                  "totalLogprob": -9.704770803451538,
+                  "text": "The meaning of life is often debated. Religions",
+                  "children": []
+                },
+                {
+                  "token": " There",
+                  "logprob": -2.4523568153381348,
+                  "totalLogprob": -9.921376705169678,
+                  "text": "The meaning of life is often debated. There",
+                  "children": []
+                },
+                {
+                  "token": "  ",
+                  "logprob": -2.4659106731414795,
+                  "totalLogprob": -9.934930562973022,
+                  "text": "The meaning of life is often debated.  ",
+                  "children": []
+                },
+                {
+                  "token": " But",
+                  "logprob": -2.751028537750244,
+                  "totalLogprob": -10.220048427581787,
+                  "text": "The meaning of life is often debated. But",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "token": " –",
+              "logprob": -3.791926383972168,
+              "totalLogprob": -8.66972827911377,
+              "text": "The meaning of life is often debated –",
+              "children": [
+                {
+                  "token": " a",
+                  "logprob": -0.21266721189022064,
+                  "totalLogprob": -8.88239549100399,
+                  "text": "The meaning of life is often debated – a",
+                  "children": []
+                },
+                {
+                  "token": " and",
+                  "logprob": -2.744863271713257,
+                  "totalLogprob": -11.414591550827026,
+                  "text": "The meaning of life is often debated – and",
+                  "children": []
+                },
+                {
+                  "token": " is",
+                  "logprob": -2.9710042476654053,
+                  "totalLogprob": -11.640732526779175,
+                  "text": "The meaning of life is often debated – is",
+                  "children": []
+                },
+                {
+                  "token": " from",
+                  "logprob": -3.891242742538452,
+                  "totalLogprob": -12.560971021652222,
+                  "text": "The meaning of life is often debated – from",
+                  "children": []
+                },
+                {
+                  "token": " whether",
+                  "logprob": -4.6554999351501465,
+                  "totalLogprob": -13.325228214263916,
+                  "text": "The meaning of life is often debated – whether",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "token": " discussed",
+          "logprob": -2.8835175037384033,
+          "totalLogprob": -6.691415786743164,
+          "text": "The meaning of life is often discussed",
+          "children": [
+            {
+              "token": ",",
+              "logprob": -0.4099382758140564,
+              "totalLogprob": -7.1013540625572205,
+              "text": "The meaning of life is often discussed,",
+              "children": [
+                {
+                  "token": " but",
+                  "logprob": -0.8328275084495544,
+                  "totalLogprob": -7.934181571006775,
+                  "text": "The meaning of life is often discussed, but",
+                  "children": []
+                },
+                {
+                  "token": " and",
+                  "logprob": -1.0636509656906128,
+                  "totalLogprob": -8.165005028247833,
+                  "text": "The meaning of life is often discussed, and",
+                  "children": []
+                },
+                {
+                  "token": " pondered",
+                  "logprob": -2.2076826095581055,
+                  "totalLogprob": -9.309036672115326,
+                  "text": "The meaning of life is often discussed, pondered",
+                  "children": []
+                },
+                {
+                  "token": " debated",
+                  "logprob": -3.373307228088379,
+                  "totalLogprob": -10.4746612906456,
+                  "text": "The meaning of life is often discussed, debated",
+                  "children": []
+                },
+                {
+                  "token": " often",
+                  "logprob": -4.313431739807129,
+                  "totalLogprob": -11.41478580236435,
+                  "text": "The meaning of life is often discussed, often",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "token": " in",
+              "logprob": -2.0444560050964355,
+              "totalLogprob": -8.7358717918396,
+              "text": "The meaning of life is often discussed in",
+              "children": [
+                {
+                  "token": " philosophical",
+                  "logprob": -0.5127192139625549,
+                  "totalLogprob": -9.248591005802155,
+                  "text": "The meaning of life is often discussed in philosophical",
+                  "children": []
+                },
+                {
+                  "token": " philosophy",
+                  "logprob": -1.9120492935180664,
+                  "totalLogprob": -10.647921085357666,
+                  "text": "The meaning of life is often discussed in philosophy",
+                  "children": []
+                },
+                {
+                  "token": " terms",
+                  "logprob": -2.1736326217651367,
+                  "totalLogprob": -10.909504413604736,
+                  "text": "The meaning of life is often discussed in terms",
+                  "children": []
+                },
+                {
+                  "token": " religious",
+                  "logprob": -3.562861442565918,
+                  "totalLogprob": -12.298733234405518,
+                  "text": "The meaning of life is often discussed in religious",
+                  "children": []
+                },
+                {
+                  "token": " relation",
+                  "logprob": -3.658879280090332,
+                  "totalLogprob": -12.394751071929932,
+                  "text": "The meaning of life is often discussed in relation",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "token": " as",
+              "logprob": -3.0059502124786377,
+              "totalLogprob": -9.697365999221802,
+              "text": "The meaning of life is often discussed as",
+              "children": [
+                {
+                  "token": " a",
+                  "logprob": -0.0957222431898117,
+                  "totalLogprob": -9.793088242411613,
+                  "text": "The meaning of life is often discussed as a",
+                  "children": []
+                },
+                {
+                  "token": " an",
+                  "logprob": -2.699443817138672,
+                  "totalLogprob": -12.396809816360474,
+                  "text": "The meaning of life is often discussed as an",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "token": " and",
+              "logprob": -3.0094103813171387,
+              "totalLogprob": -9.700826168060303,
+              "text": "The meaning of life is often discussed and",
+              "children": [
+                {
+                  "token": " debated",
+                  "logprob": -0.5211931467056274,
+                  "totalLogprob": -10.22201931476593,
+                  "text": "The meaning of life is often discussed and debated",
+                  "children": []
+                },
+                {
+                  "token": " pondered",
+                  "logprob": -0.9219271540641785,
+                  "totalLogprob": -10.622753322124481,
+                  "text": "The meaning of life is often discussed and pondered",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "token": ".",
+              "logprob": -3.5535922050476074,
+              "totalLogprob": -10.245007991790771,
+              "text": "The meaning of life is often discussed.",
+              "children": [
+                {
+                  "token": " Philosoph",
+                  "logprob": -0.8798283934593201,
+                  "totalLogprob": -11.124836385250092,
+                  "text": "The meaning of life is often discussed. Philosoph",
+                  "children": []
+                },
+                {
+                  "token": " But",
+                  "logprob": -2.107232093811035,
+                  "totalLogprob": -12.352240085601807,
+                  "text": "The meaning of life is often discussed. But",
+                  "children": []
+                },
+                {
+                  "token": "  ",
+                  "logprob": -2.2078752517700195,
+                  "totalLogprob": -12.452883243560791,
+                  "text": "The meaning of life is often discussed.  ",
+                  "children": []
+                },
+                {
+                  "token": " It",
+                  "logprob": -2.2986955642700195,
+                  "totalLogprob": -12.543703556060791,
+                  "text": "The meaning of life is often discussed. It",
+                  "children": []
+                },
+                {
+                  "token": " Philosophy",
+                  "logprob": -3.4192075729370117,
+                  "totalLogprob": -13.664215564727783,
+                  "text": "The meaning of life is often discussed. Philosophy",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "token": " explored",
+          "logprob": -3.3117058277130127,
+          "totalLogprob": -7.119604110717773,
+          "text": "The meaning of life is often explored",
+          "children": [
+            {
+              "token": " through",
+              "logprob": -0.8299679160118103,
+              "totalLogprob": -7.949572026729584,
+              "text": "The meaning of life is often explored through",
+              "children": [
+                {
+                  "token": " philosophy",
+                  "logprob": -0.2925909757614136,
+                  "totalLogprob": -8.242163002490997,
+                  "text": "The meaning of life is often explored through philosophy",
+                  "children": []
+                },
+                {
+                  "token": " philosophical",
+                  "logprob": -1.4610422849655151,
+                  "totalLogprob": -9.410614311695099,
+                  "text": "The meaning of life is often explored through philosophical",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "token": " in",
+              "logprob": -0.9337047338485718,
+              "totalLogprob": -8.053308844566345,
+              "text": "The meaning of life is often explored in",
+              "children": [
+                {
+                  "token": " philosophy",
+                  "logprob": -0.2631508708000183,
+                  "totalLogprob": -8.316459715366364,
+                  "text": "The meaning of life is often explored in philosophy",
+                  "children": []
+                },
+                {
+                  "token": " philosophical",
+                  "logprob": -1.7256085872650146,
+                  "totalLogprob": -9.77891743183136,
+                  "text": "The meaning of life is often explored in philosophical",
+                  "children": []
+                },
+                {
+                  "token": " literature",
+                  "logprob": -3.8486592769622803,
+                  "totalLogprob": -11.901968121528625,
+                  "text": "The meaning of life is often explored in literature",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "token": " by",
+              "logprob": -2.7708020210266113,
+              "totalLogprob": -9.890406131744385,
+              "text": "The meaning of life is often explored by",
+              "children": [
+                {
+                  "token": " philosophers",
+                  "logprob": -0.011881744489073753,
+                  "totalLogprob": -9.902287876233459,
+                  "text": "The meaning of life is often explored by philosophers",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "token": ",",
+              "logprob": -3.2917559146881104,
+              "totalLogprob": -10.411360025405884,
+              "text": "The meaning of life is often explored,",
+              "children": [
+                {
+                  "token": " debated",
+                  "logprob": -1.0196436643600464,
+                  "totalLogprob": -11.43100368976593,
+                  "text": "The meaning of life is often explored, debated",
+                  "children": []
+                },
+                {
+                  "token": " pondered",
+                  "logprob": -1.5018805265426636,
+                  "totalLogprob": -11.913240551948547,
+                  "text": "The meaning of life is often explored, pondered",
+                  "children": []
+                },
+                {
+                  "token": " but",
+                  "logprob": -1.5452975034713745,
+                  "totalLogprob": -11.956657528877258,
+                  "text": "The meaning of life is often explored, but",
+                  "children": []
+                },
+                {
+                  "token": " and",
+                  "logprob": -2.0250375270843506,
+                  "totalLogprob": -12.436397552490234,
+                  "text": "The meaning of life is often explored, and",
+                  "children": []
+                },
+                {
+                  "token": " often",
+                  "logprob": -4.422428131103516,
+                  "totalLogprob": -14.8337881565094,
+                  "text": "The meaning of life is often explored, often",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "token": " with",
+              "logprob": -3.6961522102355957,
+              "totalLogprob": -10.81575632095337,
+              "text": "The meaning of life is often explored with",
+              "children": [
+                {
+                  "token": " philosophical",
+                  "logprob": -0.8674602508544922,
+                  "totalLogprob": -11.683216571807861,
+                  "text": "The meaning of life is often explored with philosophical",
+                  "children": []
+                },
+                {
+                  "token": " philosophy",
+                  "logprob": -1.770883560180664,
+                  "totalLogprob": -12.586639881134033,
+                  "text": "The meaning of life is often explored with philosophy",
+                  "children": []
+                },
+                {
+                  "token": " a",
+                  "logprob": -2.0008182525634766,
+                  "totalLogprob": -12.816574573516846,
+                  "text": "The meaning of life is often explored with a",
+                  "children": []
+                },
+                {
+                  "token": " existential",
+                  "logprob": -2.9792346954345703,
+                  "totalLogprob": -13.79499101638794,
+                  "text": "The meaning of life is often explored with existential",
+                  "children": []
+                },
+                {
+                  "token": " philosophers",
+                  "logprob": -3.3183536529541016,
+                  "totalLogprob": -14.13410997390747,
+                  "text": "The meaning of life is often explored with philosophers",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "token": " a",
+          "logprob": -3.442408800125122,
+          "totalLogprob": -7.250307083129883,
+          "text": "The meaning of life is often a",
+          "children": [
+            {
+              "token": " question",
+              "logprob": -0.5395874381065369,
+              "totalLogprob": -7.78989452123642,
+              "text": "The meaning of life is often a question",
+              "children": [
+                {
+                  "token": " pondered",
+                  "logprob": -1.1069968938827515,
+                  "totalLogprob": -8.896891415119171,
+                  "text": "The meaning of life is often a question pondered",
+                  "children": []
+                },
+                {
+                  "token": " that",
+                  "logprob": -1.1765027046203613,
+                  "totalLogprob": -8.966397225856781,
+                  "text": "The meaning of life is often a question that",
+                  "children": []
+                },
+                {
+                  "token": " we",
+                  "logprob": -2.2054524421691895,
+                  "totalLogprob": -9.99534696340561,
+                  "text": "The meaning of life is often a question we",
+                  "children": []
+                },
+                {
+                  "token": " shrouded",
+                  "logprob": -2.5114407539367676,
+                  "totalLogprob": -10.301335275173187,
+                  "text": "The meaning of life is often a question shrouded",
+                  "children": []
+                },
+                {
+                  "token": " posed",
+                  "logprob": -2.8674206733703613,
+                  "totalLogprob": -10.657315194606781,
+                  "text": "The meaning of life is often a question posed",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "token": " subject",
+              "logprob": -2.2031922340393066,
+              "totalLogprob": -9.45349931716919,
+              "text": "The meaning of life is often a subject",
+              "children": [
+                {
+                  "token": " of",
+                  "logprob": -0.004104382824152708,
+                  "totalLogprob": -9.457603699993342,
+                  "text": "The meaning of life is often a subject of",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "token": " big",
+              "logprob": -2.8714146614074707,
+              "totalLogprob": -10.121721744537354,
+              "text": "The meaning of life is often a big",
+              "children": [
+                {
+                  "token": " question",
+                  "logprob": -0.40427255630493164,
+                  "totalLogprob": -10.525994300842285,
+                  "text": "The meaning of life is often a big question",
+                  "children": []
+                },
+                {
+                  "token": ",",
+                  "logprob": -1.173305869102478,
+                  "totalLogprob": -11.295027613639832,
+                  "text": "The meaning of life is often a big,",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "token": " source",
+              "logprob": -3.279055118560791,
+              "totalLogprob": -10.529362201690674,
+              "text": "The meaning of life is often a source",
+              "children": [
+                {
+                  "token": " of",
+                  "logprob": -0.00005757974577136338,
+                  "totalLogprob": -10.529419781436445,
+                  "text": "The meaning of life is often a source of",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "token": " philosophical",
+              "logprob": -3.6881699562072754,
+              "totalLogprob": -10.938477039337158,
+              "text": "The meaning of life is often a philosophical",
+              "children": [
+                {
+                  "token": " question",
+                  "logprob": -0.15938405692577362,
+                  "totalLogprob": -11.097861096262932,
+                  "text": "The meaning of life is often a philosophical question",
+                  "children": []
+                },
+                {
+                  "token": " debate",
+                  "logprob": -3.25331711769104,
+                  "totalLogprob": -14.191794157028198,
+                  "text": "The meaning of life is often a philosophical debate",
+                  "children": []
+                },
+                {
+                  "token": " puzzle",
+                  "logprob": -3.766002893447876,
+                  "totalLogprob": -14.704479932785034,
+                  "text": "The meaning of life is often a philosophical puzzle",
+                  "children": []
+                },
+                {
+                  "token": " pursuit",
+                  "logprob": -4.145341873168945,
+                  "totalLogprob": -15.083818912506104,
+                  "text": "The meaning of life is often a philosophical pursuit",
+                  "children": []
+                },
+                {
+                  "token": " conundrum",
+                  "logprob": -4.243408203125,
+                  "totalLogprob": -15.181885242462158,
+                  "text": "The meaning of life is often a philosophical conundrum",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "token": " an",
+      "logprob": -3.966130018234253,
+      "totalLogprob": -3.966130018234253,
+      "text": "The meaning of life is an",
+      "children": [
+        {
+          "token": " enduring",
+          "logprob": -1.1277751922607422,
+          "totalLogprob": -5.093905210494995,
+          "text": "The meaning of life is an enduring",
+          "children": [
+            {
+              "token": " question",
+              "logprob": -0.18514445424079895,
+              "totalLogprob": -5.279049664735794,
+              "text": "The meaning of life is an enduring question",
+              "children": [
+                {
+                  "token": " that",
+                  "logprob": -0.4007070064544678,
+                  "totalLogprob": -5.679756671190262,
+                  "text": "The meaning of life is an enduring question that",
+                  "children": []
+                },
+                {
+                  "token": ",",
+                  "logprob": -1.3795907497406006,
+                  "totalLogprob": -6.658640414476395,
+                  "text": "The meaning of life is an enduring question,",
+                  "children": []
+                },
+                {
+                  "token": " pondered",
+                  "logprob": -3.3460309505462646,
+                  "totalLogprob": -8.625080615282059,
+                  "text": "The meaning of life is an enduring question pondered",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "token": " philosophical",
+              "logprob": -2.2802352905273438,
+              "totalLogprob": -7.374140501022339,
+              "text": "The meaning of life is an enduring philosophical",
+              "children": [
+                {
+                  "token": " question",
+                  "logprob": -0.06025407835841179,
+                  "totalLogprob": -7.434394579380751,
+                  "text": "The meaning of life is an enduring philosophical question",
+                  "children": []
+                },
+                {
+                  "token": " puzzle",
+                  "logprob": -4.2240190505981445,
+                  "totalLogprob": -11.598159551620483,
+                  "text": "The meaning of life is an enduring philosophical puzzle",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "token": " and",
+              "logprob": -3.726175308227539,
+              "totalLogprob": -8.820080518722534,
+              "text": "The meaning of life is an enduring and",
+              "children": [
+                {
+                  "token": " complex",
+                  "logprob": -0.335710734128952,
+                  "totalLogprob": -9.155791252851486,
+                  "text": "The meaning of life is an enduring and complex",
+                  "children": []
+                },
+                {
+                  "token": " multifaceted",
+                  "logprob": -3.8815462589263916,
+                  "totalLogprob": -12.701626777648926,
+                  "text": "The meaning of life is an enduring and multifaceted",
+                  "children": []
+                },
+                {
+                  "token": " deeply",
+                  "logprob": -3.8987162113189697,
+                  "totalLogprob": -12.718796730041504,
+                  "text": "The meaning of life is an enduring and deeply",
+                  "children": []
+                },
+                {
+                  "token": " universal",
+                  "logprob": -3.9106104373931885,
+                  "totalLogprob": -12.730690956115723,
+                  "text": "The meaning of life is an enduring and universal",
+                  "children": []
+                },
+                {
+                  "token": " often",
+                  "logprob": -3.9107019901275635,
+                  "totalLogprob": -12.730782508850098,
+                  "text": "The meaning of life is an enduring and often",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "token": " old",
+          "logprob": -1.7876167297363281,
+          "totalLogprob": -5.753746747970581,
+          "text": "The meaning of life is an old",
+          "children": [
+            {
+              "token": " question",
+              "logprob": -0.19571970403194427,
+              "totalLogprob": -5.949466452002525,
+              "text": "The meaning of life is an old question",
+              "children": [
+                {
+                  "token": ",",
+                  "logprob": -0.16156785190105438,
+                  "totalLogprob": -6.11103430390358,
+                  "text": "The meaning of life is an old question,",
+                  "children": []
+                },
+                {
+                  "token": ".",
+                  "logprob": -2.677480936050415,
+                  "totalLogprob": -8.62694738805294,
+                  "text": "The meaning of life is an old question.",
+                  "children": []
+                },
+                {
+                  "token": " that",
+                  "logprob": -3.1115591526031494,
+                  "totalLogprob": -9.061025604605675,
+                  "text": "The meaning of life is an old question that",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "token": " and",
+              "logprob": -2.479334831237793,
+              "totalLogprob": -8.233081579208374,
+              "text": "The meaning of life is an old and",
+              "children": [
+                {
+                  "token": " complex",
+                  "logprob": -1.0170542001724243,
+                  "totalLogprob": -9.250135779380798,
+                  "text": "The meaning of life is an old and complex",
+                  "children": []
+                },
+                {
+                  "token": " enduring",
+                  "logprob": -2.6804871559143066,
+                  "totalLogprob": -10.91356873512268,
+                  "text": "The meaning of life is an old and enduring",
+                  "children": []
+                },
+                {
+                  "token": " deeply",
+                  "logprob": -2.8333191871643066,
+                  "totalLogprob": -11.06640076637268,
+                  "text": "The meaning of life is an old and deeply",
+                  "children": []
+                },
+                {
+                  "token": " often",
+                  "logprob": -2.994154691696167,
+                  "totalLogprob": -11.227236270904541,
+                  "text": "The meaning of life is an old and often",
+                  "children": []
+                },
+                {
+                  "token": " perennial",
+                  "logprob": -3.084192991256714,
+                  "totalLogprob": -11.317274570465088,
+                  "text": "The meaning of life is an old and perennial",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "token": ",",
+              "logprob": -3.117274284362793,
+              "totalLogprob": -8.871021032333374,
+              "text": "The meaning of life is an old,",
+              "children": [
+                {
+                  "token": " and",
+                  "logprob": -1.695141077041626,
+                  "totalLogprob": -10.566162109375,
+                  "text": "The meaning of life is an old, and",
+                  "children": []
+                },
+                {
+                  "token": " complex",
+                  "logprob": -2.3968260288238525,
+                  "totalLogprob": -11.267847061157227,
+                  "text": "The meaning of life is an old, complex",
+                  "children": []
+                },
+                {
+                  "token": " persistent",
+                  "logprob": -2.486278772354126,
+                  "totalLogprob": -11.3572998046875,
+                  "text": "The meaning of life is an old, persistent",
+                  "children": []
+                },
+                {
+                  "token": " philosophical",
+                  "logprob": -2.5109732151031494,
+                  "totalLogprob": -11.381994247436523,
+                  "text": "The meaning of life is an old, philosophical",
+                  "children": []
+                },
+                {
+                  "token": " big",
+                  "logprob": -2.6325552463531494,
+                  "totalLogprob": -11.503576278686523,
+                  "text": "The meaning of life is an old, big",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "token": " age",
+          "logprob": -2.2634449005126953,
+          "totalLogprob": -6.229574918746948,
+          "text": "The meaning of life is an age",
+          "children": [
+            {
+              "token": "-",
+              "logprob": -0.015262858010828495,
+              "totalLogprob": -6.244837776757777,
+              "text": "The meaning of life is an age-",
+              "children": [
+                {
+                  "token": "old",
+                  "logprob": -0.000041604907892178744,
+                  "totalLogprob": -6.244879381665669,
+                  "text": "The meaning of life is an age-old",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "token": " ancient",
+          "logprob": -2.4116897583007812,
+          "totalLogprob": -6.377819776535034,
+          "text": "The meaning of life is an ancient",
+          "children": [
+            {
+              "token": " question",
+              "logprob": -0.11066409945487976,
+              "totalLogprob": -6.488483875989914,
+              "text": "The meaning of life is an ancient question",
+              "children": [
+                {
+                  "token": ",",
+                  "logprob": -0.30175215005874634,
+                  "totalLogprob": -6.79023602604866,
+                  "text": "The meaning of life is an ancient question,",
+                  "children": []
+                },
+                {
+                  "token": " pondered",
+                  "logprob": -2.089031219482422,
+                  "totalLogprob": -8.577515095472336,
+                  "text": "The meaning of life is an ancient question pondered",
+                  "children": []
+                },
+                {
+                  "token": " that",
+                  "logprob": -2.4962425231933594,
+                  "totalLogprob": -8.984726399183273,
+                  "text": "The meaning of life is an ancient question that",
+                  "children": []
+                },
+                {
+                  "token": ".",
+                  "logprob": -3.822366714477539,
+                  "totalLogprob": -10.310850590467453,
+                  "text": "The meaning of life is an ancient question.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "token": " and",
+              "logprob": -2.9692494869232178,
+              "totalLogprob": -9.347069263458252,
+              "text": "The meaning of life is an ancient and",
+              "children": [
+                {
+                  "token": " complex",
+                  "logprob": -1.7478458881378174,
+                  "totalLogprob": -11.09491515159607,
+                  "text": "The meaning of life is an ancient and complex",
+                  "children": []
+                },
+                {
+                  "token": " profound",
+                  "logprob": -2.2408154010772705,
+                  "totalLogprob": -11.587884664535522,
+                  "text": "The meaning of life is an ancient and profound",
+                  "children": []
+                },
+                {
+                  "token": " enduring",
+                  "logprob": -2.3783504962921143,
+                  "totalLogprob": -11.725419759750366,
+                  "text": "The meaning of life is an ancient and enduring",
+                  "children": []
+                },
+                {
+                  "token": " endlessly",
+                  "logprob": -2.4837563037872314,
+                  "totalLogprob": -11.830825567245483,
+                  "text": "The meaning of life is an ancient and endlessly",
+                  "children": []
+                },
+                {
+                  "token": " perplexing",
+                  "logprob": -2.531012773513794,
+                  "totalLogprob": -11.878082036972046,
+                  "text": "The meaning of life is an ancient and perplexing",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "token": " philosophical",
+              "logprob": -3.139648199081421,
+              "totalLogprob": -9.517467975616455,
+              "text": "The meaning of life is an ancient philosophical",
+              "children": [
+                {
+                  "token": " question",
+                  "logprob": -0.04912567138671875,
+                  "totalLogprob": -9.566593647003174,
+                  "text": "The meaning of life is an ancient philosophical question",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "token": " eternal",
+          "logprob": -3.2495460510253906,
+          "totalLogprob": -7.2156760692596436,
+          "text": "The meaning of life is an eternal",
+          "children": [
+            {
+              "token": " question",
+              "logprob": -0.073298379778862,
+              "totalLogprob": -7.2889744490385056,
+              "text": "The meaning of life is an eternal question",
+              "children": [
+                {
+                  "token": ",",
+                  "logprob": -0.5260626077651978,
+                  "totalLogprob": -7.815037056803703,
+                  "text": "The meaning of life is an eternal question,",
+                  "children": []
+                },
+                {
+                  "token": " that",
+                  "logprob": -1.3403135538101196,
+                  "totalLogprob": -8.629288002848625,
+                  "text": "The meaning of life is an eternal question that",
+                  "children": []
+                },
+                {
+                  "token": " pondered",
+                  "logprob": -2.8725974559783936,
+                  "totalLogprob": -10.161571905016899,
+                  "text": "The meaning of life is an eternal question pondered",
+                  "children": []
+                },
+                {
+                  "token": ".",
+                  "logprob": -2.9168667793273926,
+                  "totalLogprob": -10.205841228365898,
+                  "text": "The meaning of life is an eternal question.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "token": " and",
+              "logprob": -3.9616594314575195,
+              "totalLogprob": -11.177335500717163,
+              "text": "The meaning of life is an eternal and",
+              "children": [
+                {
+                  "token": " complex",
+                  "logprob": -1.2320060729980469,
+                  "totalLogprob": -12.40934157371521,
+                  "text": "The meaning of life is an eternal and complex",
+                  "children": []
+                },
+                {
+                  "token": " subjective",
+                  "logprob": -1.5986461639404297,
+                  "totalLogprob": -12.775981664657593,
+                  "text": "The meaning of life is an eternal and subjective",
+                  "children": []
+                },
+                {
+                  "token": " deeply",
+                  "logprob": -2.1274471282958984,
+                  "totalLogprob": -13.304782629013062,
+                  "text": "The meaning of life is an eternal and deeply",
+                  "children": []
+                },
+                {
+                  "token": " profound",
+                  "logprob": -3.1234207153320312,
+                  "totalLogprob": -14.300756216049194,
+                  "text": "The meaning of life is an eternal and profound",
+                  "children": []
+                },
+                {
+                  "token": " profoundly",
+                  "logprob": -3.346982955932617,
+                  "totalLogprob": -14.52431845664978,
+                  "text": "The meaning of life is an eternal and profoundly",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "token": " philosophical",
+              "logprob": -4.039248466491699,
+              "totalLogprob": -11.254924535751343,
+              "text": "The meaning of life is an eternal philosophical",
+              "children": [
+                {
+                  "token": " question",
+                  "logprob": -0.10407589375972748,
+                  "totalLogprob": -11.35900042951107,
+                  "text": "The meaning of life is an eternal philosophical question",
+                  "children": []
+                },
+                {
+                  "token": " puzzle",
+                  "logprob": -3.613013744354248,
+                  "totalLogprob": -14.86793828010559,
+                  "text": "The meaning of life is an eternal philosophical puzzle",
+                  "children": []
+                },
+                {
+                  "token": " debate",
+                  "logprob": -4.083476543426514,
+                  "totalLogprob": -15.338401079177856,
+                  "text": "The meaning of life is an eternal philosophical debate",
+                  "children": []
+                },
+                {
+                  "token": " conundrum",
+                  "logprob": -4.313674449920654,
+                  "totalLogprob": -15.568598985671997,
+                  "text": "The meaning of life is an eternal philosophical conundrum",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "token": " something",
+      "logprob": -3.9911162853240967,
+      "totalLogprob": -3.9911162853240967,
+      "text": "The meaning of life is something",
+      "children": [
+        {
+          "token": " that",
+          "logprob": -0.7944795489311218,
+          "totalLogprob": -4.7855958342552185,
+          "text": "The meaning of life is something that",
+          "children": [
+            {
+              "token": " has",
+              "logprob": -0.30171000957489014,
+              "totalLogprob": -5.087305843830109,
+              "text": "The meaning of life is something that has",
+              "children": [
+                {
+                  "token": " been",
+                  "logprob": -0.3529812693595886,
+                  "totalLogprob": -5.440287113189697,
+                  "text": "The meaning of life is something that has been",
+                  "children": []
+                },
+                {
+                  "token": " occupied",
+                  "logprob": -2.7916924953460693,
+                  "totalLogprob": -7.878998339176178,
+                  "text": "The meaning of life is something that has occupied",
+                  "children": []
+                },
+                {
+                  "token": " plagued",
+                  "logprob": -2.938953161239624,
+                  "totalLogprob": -8.026259005069733,
+                  "text": "The meaning of life is something that has plagued",
+                  "children": []
+                },
+                {
+                  "token": " captivated",
+                  "logprob": -3.3610780239105225,
+                  "totalLogprob": -8.448383867740631,
+                  "text": "The meaning of life is something that has captivated",
+                  "children": []
+                },
+                {
+                  "token": " puzzled",
+                  "logprob": -3.391113042831421,
+                  "totalLogprob": -8.47841888666153,
+                  "text": "The meaning of life is something that has puzzled",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "token": " humans",
+              "logprob": -2.294891357421875,
+              "totalLogprob": -7.0804871916770935,
+              "text": "The meaning of life is something that humans",
+              "children": [
+                {
+                  "token": " have",
+                  "logprob": -0.028766486793756485,
+                  "totalLogprob": -7.10925367847085,
+                  "text": "The meaning of life is something that humans have",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "token": " philosophers",
+              "logprob": -3.4765892028808594,
+              "totalLogprob": -8.262185037136078,
+              "text": "The meaning of life is something that philosophers",
+              "children": [
+                {
+                  "token": " and",
+                  "logprob": -0.6024692058563232,
+                  "totalLogprob": -8.864654242992401,
+                  "text": "The meaning of life is something that philosophers and",
+                  "children": []
+                },
+                {
+                  "token": " have",
+                  "logprob": -1.007633924484253,
+                  "totalLogprob": -9.26981896162033,
+                  "text": "The meaning of life is something that philosophers have",
+                  "children": []
+                },
+                {
+                  "token": ",",
+                  "logprob": -2.487562894821167,
+                  "totalLogprob": -10.749747931957245,
+                  "text": "The meaning of life is something that philosophers,",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "token": " many",
+              "logprob": -3.5076370239257812,
+              "totalLogprob": -8.293232858181,
+              "text": "The meaning of life is something that many",
+              "children": [
+                {
+                  "token": " people",
+                  "logprob": -0.35228484869003296,
+                  "totalLogprob": -8.645517706871033,
+                  "text": "The meaning of life is something that many people",
+                  "children": []
+                },
+                {
+                  "token": " have",
+                  "logprob": -2.276761531829834,
+                  "totalLogprob": -10.569994390010834,
+                  "text": "The meaning of life is something that many have",
+                  "children": []
+                },
+                {
+                  "token": " humans",
+                  "logprob": -2.4196181297302246,
+                  "totalLogprob": -10.712850987911224,
+                  "text": "The meaning of life is something that many humans",
+                  "children": []
+                },
+                {
+                  "token": " philosophers",
+                  "logprob": -2.8057494163513184,
+                  "totalLogprob": -11.098982274532318,
+                  "text": "The meaning of life is something that many philosophers",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "token": " people",
+              "logprob": -4.265895843505859,
+              "totalLogprob": -9.051491677761078,
+              "text": "The meaning of life is something that people",
+              "children": [
+                {
+                  "token": " have",
+                  "logprob": -0.045159827917814255,
+                  "totalLogprob": -9.096651505678892,
+                  "text": "The meaning of life is something that people have",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "token": " humans",
+          "logprob": -1.7314894199371338,
+          "totalLogprob": -5.7226057052612305,
+          "text": "The meaning of life is something humans",
+          "children": [
+            {
+              "token": " have",
+              "logprob": -0.055020514875650406,
+              "totalLogprob": -5.777626220136881,
+              "text": "The meaning of life is something humans have",
+              "children": [
+                {
+                  "token": " pondered",
+                  "logprob": -0.45591288805007935,
+                  "totalLogprob": -6.23353910818696,
+                  "text": "The meaning of life is something humans have pondered",
+                  "children": []
+                },
+                {
+                  "token": " been",
+                  "logprob": -1.3691074848175049,
+                  "totalLogprob": -7.146733704954386,
+                  "text": "The meaning of life is something humans have been",
+                  "children": []
+                },
+                {
+                  "token": " debated",
+                  "logprob": -2.8816635608673096,
+                  "totalLogprob": -8.65928978100419,
+                  "text": "The meaning of life is something humans have debated",
+                  "children": []
+                },
+                {
+                  "token": " gra",
+                  "logprob": -3.7720863819122314,
+                  "totalLogprob": -9.549712602049112,
+                  "text": "The meaning of life is something humans have gra",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "token": " grapple",
+              "logprob": -4.543717384338379,
+              "totalLogprob": -10.26632308959961,
+              "text": "The meaning of life is something humans grapple",
+              "children": [
+                {
+                  "token": " with",
+                  "logprob": -0.00035959985689260066,
+                  "totalLogprob": -10.266682689456502,
+                  "text": "The meaning of life is something humans grapple with",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "token": " philosophers",
+          "logprob": -2.00337815284729,
+          "totalLogprob": -5.994494438171387,
+          "text": "The meaning of life is something philosophers",
+          "children": [
+            {
+              "token": " have",
+              "logprob": -0.4820381700992584,
+              "totalLogprob": -6.476532608270645,
+              "text": "The meaning of life is something philosophers have",
+              "children": [
+                {
+                  "token": " debated",
+                  "logprob": -0.9547363519668579,
+                  "totalLogprob": -7.431268960237503,
+                  "text": "The meaning of life is something philosophers have debated",
+                  "children": []
+                },
+                {
+                  "token": " pondered",
+                  "logprob": -1.056766152381897,
+                  "totalLogprob": -7.533298760652542,
+                  "text": "The meaning of life is something philosophers have pondered",
+                  "children": []
+                },
+                {
+                  "token": " been",
+                  "logprob": -1.9453768730163574,
+                  "totalLogprob": -8.421909481287003,
+                  "text": "The meaning of life is something philosophers have been",
+                  "children": []
+                },
+                {
+                  "token": " wrestled",
+                  "logprob": -2.4703288078308105,
+                  "totalLogprob": -8.946861416101456,
+                  "text": "The meaning of life is something philosophers have wrestled",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "token": " and",
+              "logprob": -1.0819107294082642,
+              "totalLogprob": -7.076405167579651,
+              "text": "The meaning of life is something philosophers and",
+              "children": [
+                {
+                  "token": " theologians",
+                  "logprob": -0.3443300426006317,
+                  "totalLogprob": -7.420735210180283,
+                  "text": "The meaning of life is something philosophers and theologians",
+                  "children": []
+                },
+                {
+                  "token": " individuals",
+                  "logprob": -1.878128170967102,
+                  "totalLogprob": -8.954533338546753,
+                  "text": "The meaning of life is something philosophers and individuals",
+                  "children": []
+                },
+                {
+                  "token": " thinkers",
+                  "logprob": -3.189283609390259,
+                  "totalLogprob": -10.26568877696991,
+                  "text": "The meaning of life is something philosophers and thinkers",
+                  "children": []
+                },
+                {
+                  "token": " religious",
+                  "logprob": -3.4783213138580322,
+                  "totalLogprob": -10.554726481437683,
+                  "text": "The meaning of life is something philosophers and religious",
+                  "children": []
+                },
+                {
+                  "token": " people",
+                  "logprob": -4.097301483154297,
+                  "totalLogprob": -11.173706650733948,
+                  "text": "The meaning of life is something philosophers and people",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "token": " many",
+          "logprob": -3.1118509769439697,
+          "totalLogprob": -7.102967262268066,
+          "text": "The meaning of life is something many",
+          "children": [
+            {
+              "token": " people",
+              "logprob": -0.20351026952266693,
+              "totalLogprob": -7.306477531790733,
+              "text": "The meaning of life is something many people",
+              "children": [
+                {
+                  "token": " grapple",
+                  "logprob": -0.9703477025032043,
+                  "totalLogprob": -8.276825234293938,
+                  "text": "The meaning of life is something many people grapple",
+                  "children": []
+                },
+                {
+                  "token": " have",
+                  "logprob": -1.4141952991485596,
+                  "totalLogprob": -8.720672830939293,
+                  "text": "The meaning of life is something many people have",
+                  "children": []
+                },
+                {
+                  "token": " ponder",
+                  "logprob": -1.5917962789535522,
+                  "totalLogprob": -8.898273810744286,
+                  "text": "The meaning of life is something many people ponder",
+                  "children": []
+                },
+                {
+                  "token": " struggle",
+                  "logprob": -2.9746296405792236,
+                  "totalLogprob": -10.281107172369957,
+                  "text": "The meaning of life is something many people struggle",
+                  "children": []
+                },
+                {
+                  "token": " ask",
+                  "logprob": -3.651435136795044,
+                  "totalLogprob": -10.957912668585777,
+                  "text": "The meaning of life is something many people ask",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "token": " humans",
+              "logprob": -2.7282772064208984,
+              "totalLogprob": -9.831244468688965,
+              "text": "The meaning of life is something many humans",
+              "children": [
+                {
+                  "token": " have",
+                  "logprob": -0.908004879951477,
+                  "totalLogprob": -10.739249348640442,
+                  "text": "The meaning of life is something many humans have",
+                  "children": []
+                },
+                {
+                  "token": " grapple",
+                  "logprob": -1.2224942445755005,
+                  "totalLogprob": -11.053738713264465,
+                  "text": "The meaning of life is something many humans grapple",
+                  "children": []
+                },
+                {
+                  "token": " ponder",
+                  "logprob": -2.12896728515625,
+                  "totalLogprob": -11.960211753845215,
+                  "text": "The meaning of life is something many humans ponder",
+                  "children": []
+                },
+                {
+                  "token": " contemplate",
+                  "logprob": -3.3767337799072266,
+                  "totalLogprob": -13.207978248596191,
+                  "text": "The meaning of life is something many humans contemplate",
+                  "children": []
+                },
+                {
+                  "token": " ask",
+                  "logprob": -3.910093307495117,
+                  "totalLogprob": -13.741337776184082,
+                  "text": "The meaning of life is something many humans ask",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "token": " have",
+              "logprob": -2.851194381713867,
+              "totalLogprob": -9.954161643981934,
+              "text": "The meaning of life is something many have",
+              "children": [
+                {
+                  "token": " pondered",
+                  "logprob": -0.0406440868973732,
+                  "totalLogprob": -9.994805730879307,
+                  "text": "The meaning of life is something many have pondered",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "token": " philosophers",
+              "logprob": -3.9014759063720703,
+              "totalLogprob": -11.004443168640137,
+              "text": "The meaning of life is something many philosophers",
+              "children": [
+                {
+                  "token": " and",
+                  "logprob": -0.29679450392723083,
+                  "totalLogprob": -11.301237672567368,
+                  "text": "The meaning of life is something many philosophers and",
+                  "children": []
+                },
+                {
+                  "token": ",",
+                  "logprob": -2.04420804977417,
+                  "totalLogprob": -13.048651218414307,
+                  "text": "The meaning of life is something many philosophers,",
+                  "children": []
+                },
+                {
+                  "token": " have",
+                  "logprob": -2.152068614959717,
+                  "totalLogprob": -13.156511783599854,
+                  "text": "The meaning of life is something many philosophers have",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "token": " we",
+          "logprob": -3.1567022800445557,
+          "totalLogprob": -7.147818565368652,
+          "text": "The meaning of life is something we",
+          "children": [
+            {
+              "token": " all",
+              "logprob": -0.6091398596763611,
+              "totalLogprob": -7.756958425045013,
+              "text": "The meaning of life is something we all",
+              "children": [
+                {
+                  "token": " grapple",
+                  "logprob": -0.26580092310905457,
+                  "totalLogprob": -8.022759348154068,
+                  "text": "The meaning of life is something we all grapple",
+                  "children": []
+                },
+                {
+                  "token": " ponder",
+                  "logprob": -1.953239917755127,
+                  "totalLogprob": -9.71019834280014,
+                  "text": "The meaning of life is something we all ponder",
+                  "children": []
+                },
+                {
+                  "token": " wrestle",
+                  "logprob": -3.723289966583252,
+                  "totalLogprob": -11.480248391628265,
+                  "text": "The meaning of life is something we all wrestle",
+                  "children": []
+                },
+                {
+                  "token": " struggle",
+                  "logprob": -4.16935396194458,
+                  "totalLogprob": -11.926312386989594,
+                  "text": "The meaning of life is something we all struggle",
+                  "children": []
+                },
+                {
+                  "token": " contemplate",
+                  "logprob": -4.199608325958252,
+                  "totalLogprob": -11.956566751003265,
+                  "text": "The meaning of life is something we all contemplate",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "token": " each",
+              "logprob": -2.0353636741638184,
+              "totalLogprob": -9.18318223953247,
+              "text": "The meaning of life is something we each",
+              "children": [
+                {
+                  "token": " grapple",
+                  "logprob": -0.6813818216323853,
+                  "totalLogprob": -9.864564061164856,
+                  "text": "The meaning of life is something we each grapple",
+                  "children": []
+                },
+                {
+                  "token": " must",
+                  "logprob": -2.336195707321167,
+                  "totalLogprob": -11.519377946853638,
+                  "text": "The meaning of life is something we each must",
+                  "children": []
+                },
+                {
+                  "token": " have",
+                  "logprob": -2.7793850898742676,
+                  "totalLogprob": -11.962567329406738,
+                  "text": "The meaning of life is something we each have",
+                  "children": []
+                },
+                {
+                  "token": " ponder",
+                  "logprob": -3.1705422401428223,
+                  "totalLogprob": -12.353724479675293,
+                  "text": "The meaning of life is something we each ponder",
+                  "children": []
+                },
+                {
+                  "token": " wrestle",
+                  "logprob": -3.2312684059143066,
+                  "totalLogprob": -12.414450645446777,
+                  "text": "The meaning of life is something we each wrestle",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "token": "'",
+              "logprob": -2.4603209495544434,
+              "totalLogprob": -9.608139514923096,
+              "text": "The meaning of life is something we'",
+              "children": [
+                {
+                  "token": "ve",
+                  "logprob": -0.017557917162775993,
+                  "totalLogprob": -9.625697432085872,
+                  "text": "The meaning of life is something we've",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "token": "’",
+              "logprob": -3.0136122703552246,
+              "totalLogprob": -10.161430835723877,
+              "text": "The meaning of life is something we’",
+              "children": [
+                {
+                  "token": "ve",
+                  "logprob": -0.017356665804982185,
+                  "totalLogprob": -10.17878750152886,
+                  "text": "The meaning of life is something we’ve",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "token": " often",
+              "logprob": -3.3983778953552246,
+              "totalLogprob": -10.546196460723877,
+              "text": "The meaning of life is something we often",
+              "children": [
+                {
+                  "token": " grapple",
+                  "logprob": -0.8579990863800049,
+                  "totalLogprob": -11.404195547103882,
+                  "text": "The meaning of life is something we often grapple",
+                  "children": []
+                },
+                {
+                  "token": " ponder",
+                  "logprob": -1.5050402879714966,
+                  "totalLogprob": -12.051236748695374,
+                  "text": "The meaning of life is something we often ponder",
+                  "children": []
+                },
+                {
+                  "token": " think",
+                  "logprob": -2.8916733264923096,
+                  "totalLogprob": -13.437869787216187,
+                  "text": "The meaning of life is something we often think",
+                  "children": []
+                },
+                {
+                  "token": " search",
+                  "logprob": -2.9150421619415283,
+                  "totalLogprob": -13.461238622665405,
+                  "text": "The meaning of life is something we often search",
+                  "children": []
+                },
+                {
+                  "token": " debate",
+                  "logprob": -3.1381847858428955,
+                  "totalLogprob": -13.684381246566772,
+                  "text": "The meaning of life is something we often debate",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

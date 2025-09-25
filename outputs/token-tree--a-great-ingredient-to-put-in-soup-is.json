@@ -1,0 +1,3551 @@
+{
+  "token": "",
+  "logprob": 0,
+  "totalLogprob": 0,
+  "text": "A great ingredient to put in soup is",
+  "children": [
+    {
+      "token": " a",
+      "logprob": -1.3165831565856934,
+      "totalLogprob": -1.3165831565856934,
+      "text": "A great ingredient to put in soup is a",
+      "children": [
+        {
+          "token": " little",
+          "logprob": -1.9980740547180176,
+          "totalLogprob": -3.314657211303711,
+          "text": "A great ingredient to put in soup is a little",
+          "children": [
+            {
+              "token": " bit",
+              "logprob": -0.18564487993717194,
+              "totalLogprob": -3.500302091240883,
+              "text": "A great ingredient to put in soup is a little bit",
+              "children": [
+                {
+                  "token": " of",
+                  "logprob": -0.012067417614161968,
+                  "totalLogprob": -3.512369508855045,
+                  "text": "A great ingredient to put in soup is a little bit of",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "token": " extra",
+              "logprob": -4.065082550048828,
+              "totalLogprob": -7.379739761352539,
+              "text": "A great ingredient to put in soup is a little extra",
+              "children": [
+                {
+                  "token": " flavor",
+                  "logprob": -1.6261579990386963,
+                  "totalLogprob": -9.005897760391235,
+                  "text": "A great ingredient to put in soup is a little extra flavor",
+                  "children": []
+                },
+                {
+                  "token": " bit",
+                  "logprob": -2.107374429702759,
+                  "totalLogprob": -9.487114191055298,
+                  "text": "A great ingredient to put in soup is a little extra bit",
+                  "children": []
+                },
+                {
+                  "token": " effort",
+                  "logprob": -2.8365137577056885,
+                  "totalLogprob": -10.216253519058228,
+                  "text": "A great ingredient to put in soup is a little extra effort",
+                  "children": []
+                },
+                {
+                  "token": " time",
+                  "logprob": -2.9845497608184814,
+                  "totalLogprob": -10.36428952217102,
+                  "text": "A great ingredient to put in soup is a little extra time",
+                  "children": []
+                },
+                {
+                  "token": ".",
+                  "logprob": -3.0226900577545166,
+                  "totalLogprob": -10.402429819107056,
+                  "text": "A great ingredient to put in soup is a little extra.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "token": " piece",
+              "logprob": -4.56784725189209,
+              "totalLogprob": -7.882504463195801,
+              "text": "A great ingredient to put in soup is a little piece",
+              "children": [
+                {
+                  "token": " of",
+                  "logprob": -0.009607723914086819,
+                  "totalLogprob": -7.892112187109888,
+                  "text": "A great ingredient to put in soup is a little piece of",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "token": " spice",
+              "logprob": -4.993863105773926,
+              "totalLogprob": -8.308520317077637,
+              "text": "A great ingredient to put in soup is a little spice",
+              "children": [
+                {
+                  "token": ".",
+                  "logprob": -0.4764464795589447,
+                  "totalLogprob": -8.784966796636581,
+                  "text": "A great ingredient to put in soup is a little spice.",
+                  "children": []
+                },
+                {
+                  "token": "!",
+                  "logprob": -1.3362696170806885,
+                  "totalLogprob": -9.644789934158325,
+                  "text": "A great ingredient to put in soup is a little spice!",
+                  "children": []
+                },
+                {
+                  "token": ",",
+                  "logprob": -2.7291204929351807,
+                  "totalLogprob": -11.037640810012817,
+                  "text": "A great ingredient to put in soup is a little spice,",
+                  "children": []
+                },
+                {
+                  "token": " and",
+                  "logprob": -4.2897772789001465,
+                  "totalLogprob": -12.598297595977783,
+                  "text": "A great ingredient to put in soup is a little spice and",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "token": " of",
+              "logprob": -5.0347700119018555,
+              "totalLogprob": -8.349427223205566,
+              "text": "A great ingredient to put in soup is a little of",
+              "children": [
+                {
+                  "token": " the",
+                  "logprob": -1.2339032888412476,
+                  "totalLogprob": -9.583330512046814,
+                  "text": "A great ingredient to put in soup is a little of the",
+                  "children": []
+                },
+                {
+                  "token": " this",
+                  "logprob": -2.9915289878845215,
+                  "totalLogprob": -11.340956211090088,
+                  "text": "A great ingredient to put in soup is a little of this",
+                  "children": []
+                },
+                {
+                  "token": " everything",
+                  "logprob": -3.2567875385284424,
+                  "totalLogprob": -11.606214761734009,
+                  "text": "A great ingredient to put in soup is a little of everything",
+                  "children": []
+                },
+                {
+                  "token": " what",
+                  "logprob": -3.3349125385284424,
+                  "totalLogprob": -11.684339761734009,
+                  "text": "A great ingredient to put in soup is a little of what",
+                  "children": []
+                },
+                {
+                  "token": " a",
+                  "logprob": -3.5968782901763916,
+                  "totalLogprob": -11.946305513381958,
+                  "text": "A great ingredient to put in soup is a little of a",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "token": " pinch",
+          "logprob": -2.1529603004455566,
+          "totalLogprob": -3.46954345703125,
+          "text": "A great ingredient to put in soup is a pinch",
+          "children": [
+            {
+              "token": " of",
+              "logprob": -0.05794018507003784,
+              "totalLogprob": -3.527483642101288,
+              "text": "A great ingredient to put in soup is a pinch of",
+              "children": [
+                {
+                  "token": " cinnamon",
+                  "logprob": -2.1301956176757812,
+                  "totalLogprob": -5.657679259777069,
+                  "text": "A great ingredient to put in soup is a pinch of cinnamon",
+                  "children": []
+                },
+                {
+                  "token": " saffron",
+                  "logprob": -2.4570512771606445,
+                  "totalLogprob": -5.984534919261932,
+                  "text": "A great ingredient to put in soup is a pinch of saffron",
+                  "children": []
+                },
+                {
+                  "token": " salt",
+                  "logprob": -2.71939754486084,
+                  "totalLogprob": -6.246881186962128,
+                  "text": "A great ingredient to put in soup is a pinch of salt",
+                  "children": []
+                },
+                {
+                  "token": " dried",
+                  "logprob": -2.7517175674438477,
+                  "totalLogprob": -6.2792012095451355,
+                  "text": "A great ingredient to put in soup is a pinch of dried",
+                  "children": []
+                },
+                {
+                  "token": " turmeric",
+                  "logprob": -2.998849868774414,
+                  "totalLogprob": -6.526333510875702,
+                  "text": "A great ingredient to put in soup is a pinch of turmeric",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "token": " or",
+              "logprob": -3.5593669414520264,
+              "totalLogprob": -7.028910398483276,
+              "text": "A great ingredient to put in soup is a pinch or",
+              "children": [
+                {
+                  "token": " two",
+                  "logprob": -0.12685748934745789,
+                  "totalLogprob": -7.155767887830734,
+                  "text": "A great ingredient to put in soup is a pinch or two",
+                  "children": []
+                },
+                {
+                  "token": " a",
+                  "logprob": -3.3331315517425537,
+                  "totalLogprob": -10.36204195022583,
+                  "text": "A great ingredient to put in soup is a pinch or a",
+                  "children": []
+                },
+                {
+                  "token": " tablespoon",
+                  "logprob": -4.263782978057861,
+                  "totalLogprob": -11.292693376541138,
+                  "text": "A great ingredient to put in soup is a pinch or tablespoon",
+                  "children": []
+                },
+                {
+                  "token": " even",
+                  "logprob": -4.4390788078308105,
+                  "totalLogprob": -11.467989206314087,
+                  "text": "A great ingredient to put in soup is a pinch or even",
+                  "children": []
+                },
+                {
+                  "token": " half",
+                  "logprob": -4.7301249504089355,
+                  "totalLogprob": -11.759035348892212,
+                  "text": "A great ingredient to put in soup is a pinch or half",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "token": " small",
+          "logprob": -2.8838324546813965,
+          "totalLogprob": -4.20041561126709,
+          "text": "A great ingredient to put in soup is a small",
+          "children": [
+            {
+              "token": " amount",
+              "logprob": -0.24363020062446594,
+              "totalLogprob": -4.444045811891556,
+              "text": "A great ingredient to put in soup is a small amount",
+              "children": [
+                {
+                  "token": " of",
+                  "logprob": -0.005850108340382576,
+                  "totalLogprob": -4.449895920231938,
+                  "text": "A great ingredient to put in soup is a small amount of",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "token": " piece",
+              "logprob": -2.053908109664917,
+              "totalLogprob": -6.254323720932007,
+              "text": "A great ingredient to put in soup is a small piece",
+              "children": [
+                {
+                  "token": " of",
+                  "logprob": -0.006922907195985317,
+                  "totalLogprob": -6.261246628127992,
+                  "text": "A great ingredient to put in soup is a small piece of",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "token": " bit",
+              "logprob": -4.538486480712891,
+              "totalLogprob": -8.73890209197998,
+              "text": "A great ingredient to put in soup is a small bit",
+              "children": [
+                {
+                  "token": " of",
+                  "logprob": -0.01349495816975832,
+                  "totalLogprob": -8.752397050149739,
+                  "text": "A great ingredient to put in soup is a small bit of",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "token": " handful",
+              "logprob": -4.594101905822754,
+              "totalLogprob": -8.794517517089844,
+              "text": "A great ingredient to put in soup is a small handful",
+              "children": [
+                {
+                  "token": " of",
+                  "logprob": -0.027203433215618134,
+                  "totalLogprob": -8.821720950305462,
+                  "text": "A great ingredient to put in soup is a small handful of",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "token": ",",
+              "logprob": -4.62471866607666,
+              "totalLogprob": -8.82513427734375,
+              "text": "A great ingredient to put in soup is a small,",
+              "children": [
+                {
+                  "token": " dried",
+                  "logprob": -2.2358617782592773,
+                  "totalLogprob": -11.060996055603027,
+                  "text": "A great ingredient to put in soup is a small, dried",
+                  "children": []
+                },
+                {
+                  "token": " flavorful",
+                  "logprob": -2.5628042221069336,
+                  "totalLogprob": -11.387938499450684,
+                  "text": "A great ingredient to put in soup is a small, flavorful",
+                  "children": []
+                },
+                {
+                  "token": " sweet",
+                  "logprob": -2.7699947357177734,
+                  "totalLogprob": -11.595129013061523,
+                  "text": "A great ingredient to put in soup is a small, sweet",
+                  "children": []
+                },
+                {
+                  "token": " vibrant",
+                  "logprob": -3.3663339614868164,
+                  "totalLogprob": -12.191468238830566,
+                  "text": "A great ingredient to put in soup is a small, vibrant",
+                  "children": []
+                },
+                {
+                  "token": " diced",
+                  "logprob": -3.3922805786132812,
+                  "totalLogprob": -12.217414855957031,
+                  "text": "A great ingredient to put in soup is a small, diced",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "token": " tablespoon",
+          "logprob": -3.0586743354797363,
+          "totalLogprob": -4.37525749206543,
+          "text": "A great ingredient to put in soup is a tablespoon",
+          "children": [
+            {
+              "token": " of",
+              "logprob": -0.20288576185703278,
+              "totalLogprob": -4.5781432539224625,
+              "text": "A great ingredient to put in soup is a tablespoon of",
+              "children": [
+                {
+                  "token": " dried",
+                  "logprob": -1.368646264076233,
+                  "totalLogprob": -5.946789517998695,
+                  "text": "A great ingredient to put in soup is a tablespoon of dried",
+                  "children": []
+                },
+                {
+                  "token": " olive",
+                  "logprob": -2.718942165374756,
+                  "totalLogprob": -7.297085419297218,
+                  "text": "A great ingredient to put in soup is a tablespoon of olive",
+                  "children": []
+                },
+                {
+                  "token": " lemon",
+                  "logprob": -2.805152416229248,
+                  "totalLogprob": -7.3832956701517105,
+                  "text": "A great ingredient to put in soup is a tablespoon of lemon",
+                  "children": []
+                },
+                {
+                  "token": " chopped",
+                  "logprob": -2.8839259147644043,
+                  "totalLogprob": -7.462069168686867,
+                  "text": "A great ingredient to put in soup is a tablespoon of chopped",
+                  "children": []
+                },
+                {
+                  "token": " butter",
+                  "logprob": -3.0827901363372803,
+                  "totalLogprob": -7.660933390259743,
+                  "text": "A great ingredient to put in soup is a tablespoon of butter",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "token": " or",
+              "logprob": -1.853079915046692,
+              "totalLogprob": -6.228337407112122,
+              "text": "A great ingredient to put in soup is a tablespoon or",
+              "children": [
+                {
+                  "token": " two",
+                  "logprob": -0.02728857286274433,
+                  "totalLogprob": -6.255625979974866,
+                  "text": "A great ingredient to put in soup is a tablespoon or two",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "token": " dash",
+          "logprob": -3.1688742637634277,
+          "totalLogprob": -4.485457420349121,
+          "text": "A great ingredient to put in soup is a dash",
+          "children": [
+            {
+              "token": " of",
+              "logprob": -0.06341299414634705,
+              "totalLogprob": -4.548870414495468,
+              "text": "A great ingredient to put in soup is a dash of",
+              "children": [
+                {
+                  "token": " cinnamon",
+                  "logprob": -2.0545082092285156,
+                  "totalLogprob": -6.603378623723984,
+                  "text": "A great ingredient to put in soup is a dash of cinnamon",
+                  "children": []
+                },
+                {
+                  "token": " chili",
+                  "logprob": -2.993459701538086,
+                  "totalLogprob": -7.542330116033554,
+                  "text": "A great ingredient to put in soup is a dash of chili",
+                  "children": []
+                },
+                {
+                  "token": " smoked",
+                  "logprob": -3.097299575805664,
+                  "totalLogprob": -7.646169990301132,
+                  "text": "A great ingredient to put in soup is a dash of smoked",
+                  "children": []
+                },
+                {
+                  "token": " spice",
+                  "logprob": -3.1812705993652344,
+                  "totalLogprob": -7.7301410138607025,
+                  "text": "A great ingredient to put in soup is a dash of spice",
+                  "children": []
+                },
+                {
+                  "token": " spices",
+                  "logprob": -3.268465042114258,
+                  "totalLogprob": -7.817335456609726,
+                  "text": "A great ingredient to put in soup is a dash of spices",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "token": " or",
+              "logprob": -2.986130952835083,
+              "totalLogprob": -7.471588373184204,
+              "text": "A great ingredient to put in soup is a dash or",
+              "children": [
+                {
+                  "token": " two",
+                  "logprob": -0.03746985271573067,
+                  "totalLogprob": -7.509058225899935,
+                  "text": "A great ingredient to put in soup is a dash or two",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "token": " the",
+      "logprob": -2.0703682899475098,
+      "totalLogprob": -2.0703682899475098,
+      "text": "A great ingredient to put in soup is the",
+      "children": [
+        {
+          "token": " addition",
+          "logprob": -2.064413547515869,
+          "totalLogprob": -4.134781837463379,
+          "text": "A great ingredient to put in soup is the addition",
+          "children": [
+            {
+              "token": " of",
+              "logprob": -0.0018996747676283121,
+              "totalLogprob": -4.136681512231007,
+              "text": "A great ingredient to put in soup is the addition of",
+              "children": [
+                {
+                  "token": " a",
+                  "logprob": -1.0560622215270996,
+                  "totalLogprob": -5.192743733758107,
+                  "text": "A great ingredient to put in soup is the addition of a",
+                  "children": []
+                },
+                {
+                  "token": " fresh",
+                  "logprob": -2.4920897483825684,
+                  "totalLogprob": -6.628771260613576,
+                  "text": "A great ingredient to put in soup is the addition of fresh",
+                  "children": []
+                },
+                {
+                  "token": " some",
+                  "logprob": -2.98271107673645,
+                  "totalLogprob": -7.119392588967457,
+                  "text": "A great ingredient to put in soup is the addition of some",
+                  "children": []
+                },
+                {
+                  "token": " herbs",
+                  "logprob": -3.313331127166748,
+                  "totalLogprob": -7.450012639397755,
+                  "text": "A great ingredient to put in soup is the addition of herbs",
+                  "children": []
+                },
+                {
+                  "token": " carrots",
+                  "logprob": -3.360976457595825,
+                  "totalLogprob": -7.497657969826832,
+                  "text": "A great ingredient to put in soup is the addition of carrots",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "token": " **",
+          "logprob": -2.635871410369873,
+          "totalLogprob": -4.706239700317383,
+          "text": "A great ingredient to put in soup is the **",
+          "children": [
+            {
+              "token": "onion",
+              "logprob": -2.181337594985962,
+              "totalLogprob": -6.887577295303345,
+              "text": "A great ingredient to put in soup is the **onion",
+              "children": [
+                {
+                  "token": "**.",
+                  "logprob": -0.09938275068998337,
+                  "totalLogprob": -6.986960045993328,
+                  "text": "A great ingredient to put in soup is the **onion**.",
+                  "children": []
+                },
+                {
+                  "token": "**",
+                  "logprob": -2.8713936805725098,
+                  "totalLogprob": -9.758970975875854,
+                  "text": "A great ingredient to put in soup is the **onion**",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "token": "ginger",
+              "logprob": -2.977224588394165,
+              "totalLogprob": -7.683464288711548,
+              "text": "A great ingredient to put in soup is the **ginger",
+              "children": [
+                {
+                  "token": "**.",
+                  "logprob": -0.6221548318862915,
+                  "totalLogprob": -8.30561912059784,
+                  "text": "A great ingredient to put in soup is the **ginger**.",
+                  "children": []
+                },
+                {
+                  "token": "**",
+                  "logprob": -1.423164963722229,
+                  "totalLogprob": -9.106629252433777,
+                  "text": "A great ingredient to put in soup is the **ginger**",
+                  "children": []
+                },
+                {
+                  "token": ".**",
+                  "logprob": -2.174494504928589,
+                  "totalLogprob": -9.857958793640137,
+                  "text": "A great ingredient to put in soup is the **ginger.**",
+                  "children": []
+                },
+                {
+                  "token": " root",
+                  "logprob": -2.603834867477417,
+                  "totalLogprob": -10.287299156188965,
+                  "text": "A great ingredient to put in soup is the **ginger root",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "token": "car",
+              "logprob": -3.1481058597564697,
+              "totalLogprob": -7.8543455600738525,
+              "text": "A great ingredient to put in soup is the **car",
+              "children": [
+                {
+                  "token": "rots",
+                  "logprob": -0.11405153572559357,
+                  "totalLogprob": -7.968397095799446,
+                  "text": "A great ingredient to put in soup is the **carrots",
+                  "children": []
+                },
+                {
+                  "token": "amel",
+                  "logprob": -2.4167935848236084,
+                  "totalLogprob": -10.271139144897461,
+                  "text": "A great ingredient to put in soup is the **caramel",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "token": "card",
+              "logprob": -3.323671579360962,
+              "totalLogprob": -8.029911279678345,
+              "text": "A great ingredient to put in soup is the **card",
+              "children": [
+                {
+                  "token": "amom",
+                  "logprob": -0.45017895102500916,
+                  "totalLogprob": -8.480090230703354,
+                  "text": "A great ingredient to put in soup is the **cardamom",
+                  "children": []
+                },
+                {
+                  "token": "board",
+                  "logprob": -1.4223145246505737,
+                  "totalLogprob": -9.452225804328918,
+                  "text": "A great ingredient to put in soup is the **cardboard",
+                  "children": []
+                },
+                {
+                  "token": "oon",
+                  "logprob": -2.4713659286499023,
+                  "totalLogprob": -10.501277208328247,
+                  "text": "A great ingredient to put in soup is the **cardoon",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "token": "fin",
+              "logprob": -3.3378565311431885,
+              "totalLogprob": -8.044096231460571,
+              "text": "A great ingredient to put in soup is the **fin",
+              "children": [
+                {
+                  "token": "ely",
+                  "logprob": -0.06313671171665192,
+                  "totalLogprob": -8.107232943177223,
+                  "text": "A great ingredient to put in soup is the **finely",
+                  "children": []
+                },
+                {
+                  "token": "est",
+                  "logprob": -3.291327953338623,
+                  "totalLogprob": -11.335424184799194,
+                  "text": "A great ingredient to put in soup is the **finest",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "token": " root",
+          "logprob": -3.555772304534912,
+          "totalLogprob": -5.626140594482422,
+          "text": "A great ingredient to put in soup is the root",
+          "children": [
+            {
+              "token": " of",
+              "logprob": -0.09337673336267471,
+              "totalLogprob": -5.719517327845097,
+              "text": "A great ingredient to put in soup is the root of",
+              "children": [
+                {
+                  "token": " the",
+                  "logprob": -0.6567518711090088,
+                  "totalLogprob": -6.376269198954105,
+                  "text": "A great ingredient to put in soup is the root of the",
+                  "children": []
+                },
+                {
+                  "token": " a",
+                  "logprob": -1.515570878982544,
+                  "totalLogprob": -7.2350882068276405,
+                  "text": "A great ingredient to put in soup is the root of a",
+                  "children": []
+                },
+                {
+                  "token": " carrots",
+                  "logprob": -3.60811448097229,
+                  "totalLogprob": -9.327631808817387,
+                  "text": "A great ingredient to put in soup is the root of carrots",
+                  "children": []
+                },
+                {
+                  "token": " thyme",
+                  "logprob": -3.8215982913970947,
+                  "totalLogprob": -9.541115619242191,
+                  "text": "A great ingredient to put in soup is the root of thyme",
+                  "children": []
+                },
+                {
+                  "token": " celery",
+                  "logprob": -3.8680803775787354,
+                  "totalLogprob": -9.587597705423832,
+                  "text": "A great ingredient to put in soup is the root of celery",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "token": " vegetable",
+              "logprob": -3.035849094390869,
+              "totalLogprob": -8.661989688873291,
+              "text": "A great ingredient to put in soup is the root vegetable",
+              "children": [
+                {
+                  "token": ".",
+                  "logprob": -0.565513551235199,
+                  "totalLogprob": -9.22750324010849,
+                  "text": "A great ingredient to put in soup is the root vegetable.",
+                  "children": []
+                },
+                {
+                  "token": ",",
+                  "logprob": -1.632451057434082,
+                  "totalLogprob": -10.294440746307373,
+                  "text": "A great ingredient to put in soup is the root vegetable,",
+                  "children": []
+                },
+                {
+                  "token": "!",
+                  "logprob": -2.9513511657714844,
+                  "totalLogprob": -11.613340854644775,
+                  "text": "A great ingredient to put in soup is the root vegetable!",
+                  "children": []
+                },
+                {
+                  "token": " of",
+                  "logprob": -3.017611265182495,
+                  "totalLogprob": -11.679600954055786,
+                  "text": "A great ingredient to put in soup is the root vegetable of",
+                  "children": []
+                },
+                {
+                  "token": " that",
+                  "logprob": -3.0692853927612305,
+                  "totalLogprob": -11.731275081634521,
+                  "text": "A great ingredient to put in soup is the root vegetable that",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "token": " ",
+          "logprob": -3.5730557441711426,
+          "totalLogprob": -5.643424034118652,
+          "text": "A great ingredient to put in soup is the ",
+          "children": [
+            {
+              "token": "1",
+              "logprob": -0.7410064339637756,
+              "totalLogprob": -6.384430468082428,
+              "text": "A great ingredient to put in soup is the 1",
+              "children": [
+                {
+                  "token": "0",
+                  "logprob": -0.9253101348876953,
+                  "totalLogprob": -7.309740602970123,
+                  "text": "A great ingredient to put in soup is the 10",
+                  "children": []
+                },
+                {
+                  "token": "/",
+                  "logprob": -1.6874303817749023,
+                  "totalLogprob": -8.07186084985733,
+                  "text": "A great ingredient to put in soup is the 1/",
+                  "children": []
+                },
+                {
+                  "token": "-",
+                  "logprob": -2.2703914642333984,
+                  "totalLogprob": -8.654821932315826,
+                  "text": "A great ingredient to put in soup is the 1-",
+                  "children": []
+                },
+                {
+                  "token": "2",
+                  "logprob": -2.464792251586914,
+                  "totalLogprob": -8.849222719669342,
+                  "text": "A great ingredient to put in soup is the 12",
+                  "children": []
+                },
+                {
+                  "token": ".",
+                  "logprob": -3.3899879455566406,
+                  "totalLogprob": -9.774418413639069,
+                  "text": "A great ingredient to put in soup is the 1.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "token": "\n\n",
+              "logprob": -1.7158905267715454,
+              "totalLogprob": -7.359314560890198,
+              "text": "A great ingredient to put in soup is the \n\n",
+              "children": []
+            },
+            {
+              "token": "\n",
+              "logprob": -1.861463189125061,
+              "totalLogprob": -7.504887223243713,
+              "text": "A great ingredient to put in soup is the \n",
+              "children": [
+                {
+                  "token": "*",
+                  "logprob": -1.160323143005371,
+                  "totalLogprob": -8.665210366249084,
+                  "text": "A great ingredient to put in soup is the \n*",
+                  "children": []
+                },
+                {
+                  "token": "**",
+                  "logprob": -1.783829689025879,
+                  "totalLogprob": -9.288716912269592,
+                  "text": "A great ingredient to put in soup is the \n**",
+                  "children": []
+                },
+                {
+                  "token": "-",
+                  "logprob": -2.683004379272461,
+                  "totalLogprob": -10.187891602516174,
+                  "text": "A great ingredient to put in soup is the \n-",
+                  "children": []
+                },
+                {
+                  "token": "\"",
+                  "logprob": -3.2433528900146484,
+                  "totalLogprob": -10.748240113258362,
+                  "text": "A great ingredient to put in soup is the \n\"",
+                  "children": []
+                },
+                {
+                  "token": "a",
+                  "logprob": -3.488821029663086,
+                  "totalLogprob": -10.9937082529068,
+                  "text": "A great ingredient to put in soup is the \na",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "token": "2",
+              "logprob": -2.6919989585876465,
+              "totalLogprob": -8.335422992706299,
+              "text": "A great ingredient to put in soup is the 2",
+              "children": [
+                {
+                  "token": "-",
+                  "logprob": -0.7235228419303894,
+                  "totalLogprob": -9.058945834636688,
+                  "text": "A great ingredient to put in soup is the 2-",
+                  "children": []
+                },
+                {
+                  "token": "0",
+                  "logprob": -1.3781659603118896,
+                  "totalLogprob": -9.713588953018188,
+                  "text": "A great ingredient to put in soup is the 20",
+                  "children": []
+                },
+                {
+                  "token": ".",
+                  "logprob": -3.0720889568328857,
+                  "totalLogprob": -11.407511949539185,
+                  "text": "A great ingredient to put in soup is the 2.",
+                  "children": []
+                },
+                {
+                  "token": "5",
+                  "logprob": -3.4391257762908936,
+                  "totalLogprob": -11.774548768997192,
+                  "text": "A great ingredient to put in soup is the 25",
+                  "children": []
+                },
+                {
+                  "token": "4",
+                  "logprob": -3.4463260173797607,
+                  "totalLogprob": -11.78174901008606,
+                  "text": "A great ingredient to put in soup is the 24",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "token": "3",
+              "logprob": -3.0880770683288574,
+              "totalLogprob": -8.73150110244751,
+              "text": "A great ingredient to put in soup is the 3",
+              "children": [
+                {
+                  "token": "-",
+                  "logprob": -0.2689148485660553,
+                  "totalLogprob": -9.000415951013565,
+                  "text": "A great ingredient to put in soup is the 3-",
+                  "children": []
+                },
+                {
+                  "token": "0",
+                  "logprob": -2.4809329509735107,
+                  "totalLogprob": -11.21243405342102,
+                  "text": "A great ingredient to put in soup is the 30",
+                  "children": []
+                },
+                {
+                  "token": "rd",
+                  "logprob": -4.011125087738037,
+                  "totalLogprob": -12.742626190185547,
+                  "text": "A great ingredient to put in soup is the 3rd",
+                  "children": []
+                },
+                {
+                  "token": ".",
+                  "logprob": -4.0750861167907715,
+                  "totalLogprob": -12.806587219238281,
+                  "text": "A great ingredient to put in soup is the 3.",
+                  "children": []
+                },
+                {
+                  "token": "2",
+                  "logprob": -4.314362049102783,
+                  "totalLogprob": -13.045863151550293,
+                  "text": "A great ingredient to put in soup is the 32",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "token": " \"",
+          "logprob": -3.758775234222412,
+          "totalLogprob": -5.829143524169922,
+          "text": "A great ingredient to put in soup is the \"",
+          "children": [
+            {
+              "token": "mother",
+              "logprob": -2.2107620239257812,
+              "totalLogprob": -8.039905548095703,
+              "text": "A great ingredient to put in soup is the \"mother",
+              "children": [
+                {
+                  "token": " of",
+                  "logprob": -0.5629096627235413,
+                  "totalLogprob": -8.602815210819244,
+                  "text": "A great ingredient to put in soup is the \"mother of",
+                  "children": []
+                },
+                {
+                  "token": "\"",
+                  "logprob": -1.650149941444397,
+                  "totalLogprob": -9.6900554895401,
+                  "text": "A great ingredient to put in soup is the \"mother\"",
+                  "children": []
+                },
+                {
+                  "token": "'",
+                  "logprob": -2.4307398796081543,
+                  "totalLogprob": -10.470645427703857,
+                  "text": "A great ingredient to put in soup is the \"mother'",
+                  "children": []
+                },
+                {
+                  "token": ".\"",
+                  "logprob": -4.0460896492004395,
+                  "totalLogprob": -12.085995197296143,
+                  "text": "A great ingredient to put in soup is the \"mother.\"",
+                  "children": []
+                },
+                {
+                  "token": "-",
+                  "logprob": -4.512160778045654,
+                  "totalLogprob": -12.552066326141357,
+                  "text": "A great ingredient to put in soup is the \"mother-",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "token": "secret",
+              "logprob": -2.4386987686157227,
+              "totalLogprob": -8.267842292785645,
+              "text": "A great ingredient to put in soup is the \"secret",
+              "children": [
+                {
+                  "token": "\"",
+                  "logprob": -0.45498916506767273,
+                  "totalLogprob": -8.722831457853317,
+                  "text": "A great ingredient to put in soup is the \"secret\"",
+                  "children": []
+                },
+                {
+                  "token": " ingredient",
+                  "logprob": -1.3634973764419556,
+                  "totalLogprob": -9.6313396692276,
+                  "text": "A great ingredient to put in soup is the \"secret ingredient",
+                  "children": []
+                },
+                {
+                  "token": ".\"",
+                  "logprob": -3.888584852218628,
+                  "totalLogprob": -12.156427145004272,
+                  "text": "A great ingredient to put in soup is the \"secret.\"",
+                  "children": []
+                },
+                {
+                  "token": " spice",
+                  "logprob": -4.038662910461426,
+                  "totalLogprob": -12.30650520324707,
+                  "text": "A great ingredient to put in soup is the \"secret spice",
+                  "children": []
+                },
+                {
+                  "token": " sauce",
+                  "logprob": -4.270773410797119,
+                  "totalLogprob": -12.538615703582764,
+                  "text": "A great ingredient to put in soup is the \"secret sauce",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "token": "golden",
+              "logprob": -2.9040346145629883,
+              "totalLogprob": -8.73317813873291,
+              "text": "A great ingredient to put in soup is the \"golden",
+              "children": [
+                {
+                  "token": "\"",
+                  "logprob": -1.0052645206451416,
+                  "totalLogprob": -9.738442659378052,
+                  "text": "A great ingredient to put in soup is the \"golden\"",
+                  "children": []
+                },
+                {
+                  "token": " root",
+                  "logprob": -2.172389268875122,
+                  "totalLogprob": -10.905567407608032,
+                  "text": "A great ingredient to put in soup is the \"golden root",
+                  "children": []
+                },
+                {
+                  "token": " ratio",
+                  "logprob": -3.232577323913574,
+                  "totalLogprob": -11.965755462646484,
+                  "text": "A great ingredient to put in soup is the \"golden ratio",
+                  "children": []
+                },
+                {
+                  "token": " hue",
+                  "logprob": -3.7095463275909424,
+                  "totalLogprob": -12.442724466323853,
+                  "text": "A great ingredient to put in soup is the \"golden hue",
+                  "children": []
+                },
+                {
+                  "token": " nectar",
+                  "logprob": -3.943894386291504,
+                  "totalLogprob": -12.677072525024414,
+                  "text": "A great ingredient to put in soup is the \"golden nectar",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "token": "root",
+              "logprob": -3.49106502532959,
+              "totalLogprob": -9.320208549499512,
+              "text": "A great ingredient to put in soup is the \"root",
+              "children": [
+                {
+                  "token": "\"",
+                  "logprob": -0.3974360227584839,
+                  "totalLogprob": -9.717644572257996,
+                  "text": "A great ingredient to put in soup is the \"root\"",
+                  "children": []
+                },
+                {
+                  "token": " of",
+                  "logprob": -1.304721713066101,
+                  "totalLogprob": -10.624930262565613,
+                  "text": "A great ingredient to put in soup is the \"root of",
+                  "children": []
+                },
+                {
+                  "token": " vegetable",
+                  "logprob": -4.068632125854492,
+                  "totalLogprob": -13.388840675354004,
+                  "text": "A great ingredient to put in soup is the \"root vegetable",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "token": "heart",
+              "logprob": -3.5085973739624023,
+              "totalLogprob": -9.337740898132324,
+              "text": "A great ingredient to put in soup is the \"heart",
+              "children": [
+                {
+                  "token": "\"",
+                  "logprob": -0.3229897618293762,
+                  "totalLogprob": -9.6607306599617,
+                  "text": "A great ingredient to put in soup is the \"heart\"",
+                  "children": []
+                },
+                {
+                  "token": " of",
+                  "logprob": -1.6706383228302002,
+                  "totalLogprob": -11.008379220962524,
+                  "text": "A great ingredient to put in soup is the \"heart of",
+                  "children": []
+                },
+                {
+                  "token": "string",
+                  "logprob": -4.117311000823975,
+                  "totalLogprob": -13.455051898956299,
+                  "text": "A great ingredient to put in soup is the \"heartstring",
+                  "children": []
+                },
+                {
+                  "token": ".\"",
+                  "logprob": -4.466760158538818,
+                  "totalLogprob": -13.804501056671143,
+                  "text": "A great ingredient to put in soup is the \"heart.\"",
+                  "children": []
+                },
+                {
+                  "token": "”",
+                  "logprob": -4.811646938323975,
+                  "totalLogprob": -14.149387836456299,
+                  "text": "A great ingredient to put in soup is the \"heart”",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "token": " dried",
+      "logprob": -3.039114475250244,
+      "totalLogprob": -3.039114475250244,
+      "text": "A great ingredient to put in soup is dried",
+      "children": [
+        {
+          "token": " mushrooms",
+          "logprob": -0.7231676578521729,
+          "totalLogprob": -3.762282133102417,
+          "text": "A great ingredient to put in soup is dried mushrooms",
+          "children": [
+            {
+              "token": ".",
+              "logprob": -0.2161089926958084,
+              "totalLogprob": -3.9783911257982254,
+              "text": "A great ingredient to put in soup is dried mushrooms.",
+              "children": [
+                {
+                  "token": " They",
+                  "logprob": -0.8551307916641235,
+                  "totalLogprob": -4.833521917462349,
+                  "text": "A great ingredient to put in soup is dried mushrooms. They",
+                  "children": []
+                },
+                {
+                  "token": "\n\n",
+                  "logprob": -1.6893669366836548,
+                  "totalLogprob": -5.66775806248188,
+                  "text": "A great ingredient to put in soup is dried mushrooms.\n\n",
+                  "children": []
+                },
+                {
+                  "token": " These",
+                  "logprob": -2.6414525508880615,
+                  "totalLogprob": -6.619843676686287,
+                  "text": "A great ingredient to put in soup is dried mushrooms. These",
+                  "children": []
+                },
+                {
+                  "token": " ",
+                  "logprob": -3.5718302726745605,
+                  "totalLogprob": -7.550221398472786,
+                  "text": "A great ingredient to put in soup is dried mushrooms. ",
+                  "children": []
+                },
+                {
+                  "token": " Dried",
+                  "logprob": -3.6096739768981934,
+                  "totalLogprob": -7.588065102696419,
+                  "text": "A great ingredient to put in soup is dried mushrooms. Dried",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "token": ",",
+              "logprob": -2.4513614177703857,
+              "totalLogprob": -6.213643550872803,
+              "text": "A great ingredient to put in soup is dried mushrooms,",
+              "children": [
+                {
+                  "token": " and",
+                  "logprob": -1.1890443563461304,
+                  "totalLogprob": -7.402687907218933,
+                  "text": "A great ingredient to put in soup is dried mushrooms, and",
+                  "children": []
+                },
+                {
+                  "token": " which",
+                  "logprob": -2.2494795322418213,
+                  "totalLogprob": -8.463123083114624,
+                  "text": "A great ingredient to put in soup is dried mushrooms, which",
+                  "children": []
+                },
+                {
+                  "token": " they",
+                  "logprob": -2.474604845046997,
+                  "totalLogprob": -8.6882483959198,
+                  "text": "A great ingredient to put in soup is dried mushrooms, they",
+                  "children": []
+                },
+                {
+                  "token": " because",
+                  "logprob": -2.4928696155548096,
+                  "totalLogprob": -8.706513166427612,
+                  "text": "A great ingredient to put in soup is dried mushrooms, because",
+                  "children": []
+                },
+                {
+                  "token": " as",
+                  "logprob": -3.074075937271118,
+                  "totalLogprob": -9.287719488143921,
+                  "text": "A great ingredient to put in soup is dried mushrooms, as",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "token": "!",
+              "logprob": -2.592350482940674,
+              "totalLogprob": -6.354632616043091,
+              "text": "A great ingredient to put in soup is dried mushrooms!",
+              "children": [
+                {
+                  "token": " They",
+                  "logprob": -0.6584798693656921,
+                  "totalLogprob": -7.013112485408783,
+                  "text": "A great ingredient to put in soup is dried mushrooms! They",
+                  "children": []
+                },
+                {
+                  "token": "\n\n",
+                  "logprob": -1.8315603733062744,
+                  "totalLogprob": -8.186192989349365,
+                  "text": "A great ingredient to put in soup is dried mushrooms!\n\n",
+                  "children": []
+                },
+                {
+                  "token": " Adding",
+                  "logprob": -3.3914778232574463,
+                  "totalLogprob": -9.746110439300537,
+                  "text": "A great ingredient to put in soup is dried mushrooms! Adding",
+                  "children": []
+                },
+                {
+                  "token": "  ",
+                  "logprob": -3.4605484008789062,
+                  "totalLogprob": -9.815181016921997,
+                  "text": "A great ingredient to put in soup is dried mushrooms!  ",
+                  "children": []
+                },
+                {
+                  "token": " ",
+                  "logprob": -3.5310633182525635,
+                  "totalLogprob": -9.885695934295654,
+                  "text": "A great ingredient to put in soup is dried mushrooms! ",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "token": " tomatoes",
+          "logprob": -2.395714044570923,
+          "totalLogprob": -5.434828519821167,
+          "text": "A great ingredient to put in soup is dried tomatoes",
+          "children": [
+            {
+              "token": ".",
+              "logprob": -0.16518811881542206,
+              "totalLogprob": -5.600016638636589,
+              "text": "A great ingredient to put in soup is dried tomatoes.",
+              "children": [
+                {
+                  "token": " They",
+                  "logprob": -0.714834988117218,
+                  "totalLogprob": -6.314851626753807,
+                  "text": "A great ingredient to put in soup is dried tomatoes. They",
+                  "children": []
+                },
+                {
+                  "token": "\n\n",
+                  "logprob": -1.8431710004806519,
+                  "totalLogprob": -7.443187639117241,
+                  "text": "A great ingredient to put in soup is dried tomatoes.\n\n",
+                  "children": []
+                },
+                {
+                  "token": " These",
+                  "logprob": -2.4875171184539795,
+                  "totalLogprob": -8.087533757090569,
+                  "text": "A great ingredient to put in soup is dried tomatoes. These",
+                  "children": []
+                },
+                {
+                  "token": " Dried",
+                  "logprob": -3.637383222579956,
+                  "totalLogprob": -9.237399861216545,
+                  "text": "A great ingredient to put in soup is dried tomatoes. Dried",
+                  "children": []
+                },
+                {
+                  "token": "  ",
+                  "logprob": -3.7765796184539795,
+                  "totalLogprob": -9.376596257090569,
+                  "text": "A great ingredient to put in soup is dried tomatoes.  ",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "token": ",",
+              "logprob": -2.4210283756256104,
+              "totalLogprob": -7.855856895446777,
+              "text": "A great ingredient to put in soup is dried tomatoes,",
+              "children": [
+                {
+                  "token": " and",
+                  "logprob": -1.2358076572418213,
+                  "totalLogprob": -9.091664552688599,
+                  "text": "A great ingredient to put in soup is dried tomatoes, and",
+                  "children": []
+                },
+                {
+                  "token": " which",
+                  "logprob": -1.9573861360549927,
+                  "totalLogprob": -9.81324303150177,
+                  "text": "A great ingredient to put in soup is dried tomatoes, which",
+                  "children": []
+                },
+                {
+                  "token": " they",
+                  "logprob": -2.22243332862854,
+                  "totalLogprob": -10.078290224075317,
+                  "text": "A great ingredient to put in soup is dried tomatoes, they",
+                  "children": []
+                },
+                {
+                  "token": " because",
+                  "logprob": -2.5490171909332275,
+                  "totalLogprob": -10.404874086380005,
+                  "text": "A great ingredient to put in soup is dried tomatoes, because",
+                  "children": []
+                },
+                {
+                  "token": " but",
+                  "logprob": -2.6908628940582275,
+                  "totalLogprob": -10.546719789505005,
+                  "text": "A great ingredient to put in soup is dried tomatoes, but",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "token": "!",
+              "logprob": -3.515556573867798,
+              "totalLogprob": -8.950385093688965,
+              "text": "A great ingredient to put in soup is dried tomatoes!",
+              "children": [
+                {
+                  "token": " They",
+                  "logprob": -0.5966421365737915,
+                  "totalLogprob": -9.547027230262756,
+                  "text": "A great ingredient to put in soup is dried tomatoes! They",
+                  "children": []
+                },
+                {
+                  "token": "\n\n",
+                  "logprob": -1.9173818826675415,
+                  "totalLogprob": -10.867766976356506,
+                  "text": "A great ingredient to put in soup is dried tomatoes!\n\n",
+                  "children": []
+                },
+                {
+                  "token": " These",
+                  "logprob": -3.35148286819458,
+                  "totalLogprob": -12.301867961883545,
+                  "text": "A great ingredient to put in soup is dried tomatoes! These",
+                  "children": []
+                },
+                {
+                  "token": " Adding",
+                  "logprob": -3.362156629562378,
+                  "totalLogprob": -12.312541723251343,
+                  "text": "A great ingredient to put in soup is dried tomatoes! Adding",
+                  "children": []
+                },
+                {
+                  "token": "  ",
+                  "logprob": -3.5646979808807373,
+                  "totalLogprob": -12.515083074569702,
+                  "text": "A great ingredient to put in soup is dried tomatoes!  ",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "token": " herbs",
+          "logprob": -2.491173028945923,
+          "totalLogprob": -5.530287504196167,
+          "text": "A great ingredient to put in soup is dried herbs",
+          "children": [
+            {
+              "token": ".",
+              "logprob": -0.45769914984703064,
+              "totalLogprob": -5.987986654043198,
+              "text": "A great ingredient to put in soup is dried herbs.",
+              "children": [
+                {
+                  "token": "\n\n",
+                  "logprob": -1.4298852682113647,
+                  "totalLogprob": -7.417871922254562,
+                  "text": "A great ingredient to put in soup is dried herbs.\n\n",
+                  "children": []
+                },
+                {
+                  "token": " They",
+                  "logprob": -1.4326814413070679,
+                  "totalLogprob": -7.4206680953502655,
+                  "text": "A great ingredient to put in soup is dried herbs. They",
+                  "children": []
+                },
+                {
+                  "token": " These",
+                  "logprob": -2.5058681964874268,
+                  "totalLogprob": -8.493854850530624,
+                  "text": "A great ingredient to put in soup is dried herbs. These",
+                  "children": []
+                },
+                {
+                  "token": " Dried",
+                  "logprob": -2.776864528656006,
+                  "totalLogprob": -8.764851182699203,
+                  "text": "A great ingredient to put in soup is dried herbs. Dried",
+                  "children": []
+                },
+                {
+                  "token": " ",
+                  "logprob": -3.2409508228302,
+                  "totalLogprob": -9.228937476873398,
+                  "text": "A great ingredient to put in soup is dried herbs. ",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "token": " and",
+              "logprob": -1.5815050601959229,
+              "totalLogprob": -7.11179256439209,
+              "text": "A great ingredient to put in soup is dried herbs and",
+              "children": [
+                {
+                  "token": " spices",
+                  "logprob": -0.025870272889733315,
+                  "totalLogprob": -7.137662837281823,
+                  "text": "A great ingredient to put in soup is dried herbs and spices",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "token": ",",
+              "logprob": -2.4666292667388916,
+              "totalLogprob": -7.996916770935059,
+              "text": "A great ingredient to put in soup is dried herbs,",
+              "children": [
+                {
+                  "token": " and",
+                  "logprob": -1.1687960624694824,
+                  "totalLogprob": -9.165712833404541,
+                  "text": "A great ingredient to put in soup is dried herbs, and",
+                  "children": []
+                },
+                {
+                  "token": " such",
+                  "logprob": -1.8184542655944824,
+                  "totalLogprob": -9.815371036529541,
+                  "text": "A great ingredient to put in soup is dried herbs, such",
+                  "children": []
+                },
+                {
+                  "token": " like",
+                  "logprob": -2.6738924980163574,
+                  "totalLogprob": -10.670809268951416,
+                  "text": "A great ingredient to put in soup is dried herbs, like",
+                  "children": []
+                },
+                {
+                  "token": " which",
+                  "logprob": -2.7575316429138184,
+                  "totalLogprob": -10.754448413848877,
+                  "text": "A great ingredient to put in soup is dried herbs, which",
+                  "children": []
+                },
+                {
+                  "token": " because",
+                  "logprob": -2.773254871368408,
+                  "totalLogprob": -10.770171642303467,
+                  "text": "A great ingredient to put in soup is dried herbs, because",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "token": "!",
+              "logprob": -3.1537363529205322,
+              "totalLogprob": -8.6840238571167,
+              "text": "A great ingredient to put in soup is dried herbs!",
+              "children": [
+                {
+                  "token": " They",
+                  "logprob": -1.0836900472640991,
+                  "totalLogprob": -9.767713904380798,
+                  "text": "A great ingredient to put in soup is dried herbs! They",
+                  "children": []
+                },
+                {
+                  "token": "\n\n",
+                  "logprob": -1.7537645101547241,
+                  "totalLogprob": -10.437788367271423,
+                  "text": "A great ingredient to put in soup is dried herbs!\n\n",
+                  "children": []
+                },
+                {
+                  "token": " Dried",
+                  "logprob": -2.4533114433288574,
+                  "totalLogprob": -11.137335300445557,
+                  "text": "A great ingredient to put in soup is dried herbs! Dried",
+                  "children": []
+                },
+                {
+                  "token": " Adding",
+                  "logprob": -2.8138115406036377,
+                  "totalLogprob": -11.497835397720337,
+                  "text": "A great ingredient to put in soup is dried herbs! Adding",
+                  "children": []
+                },
+                {
+                  "token": " These",
+                  "logprob": -3.2347195148468018,
+                  "totalLogprob": -11.918743371963501,
+                  "text": "A great ingredient to put in soup is dried herbs! These",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "token": ",",
+          "logprob": -3.2294676303863525,
+          "totalLogprob": -6.268582105636597,
+          "text": "A great ingredient to put in soup is dried,",
+          "children": [
+            {
+              "token": " chopped",
+              "logprob": -1.1473870277404785,
+              "totalLogprob": -7.415969133377075,
+              "text": "A great ingredient to put in soup is dried, chopped",
+              "children": [
+                {
+                  "token": " mushrooms",
+                  "logprob": -1.3493809700012207,
+                  "totalLogprob": -8.765350103378296,
+                  "text": "A great ingredient to put in soup is dried, chopped mushrooms",
+                  "children": []
+                },
+                {
+                  "token": " herbs",
+                  "logprob": -1.5916790962219238,
+                  "totalLogprob": -9.007648229598999,
+                  "text": "A great ingredient to put in soup is dried, chopped herbs",
+                  "children": []
+                },
+                {
+                  "token": " vegetables",
+                  "logprob": -1.8826355934143066,
+                  "totalLogprob": -9.298604726791382,
+                  "text": "A great ingredient to put in soup is dried, chopped vegetables",
+                  "children": []
+                },
+                {
+                  "token": " tomatoes",
+                  "logprob": -2.2649807929992676,
+                  "totalLogprob": -9.680949926376343,
+                  "text": "A great ingredient to put in soup is dried, chopped tomatoes",
+                  "children": []
+                },
+                {
+                  "token": ",",
+                  "logprob": -3.273163318634033,
+                  "totalLogprob": -10.689132452011108,
+                  "text": "A great ingredient to put in soup is dried, chopped,",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "token": " crushed",
+              "logprob": -1.5990872383117676,
+              "totalLogprob": -7.867669343948364,
+              "text": "A great ingredient to put in soup is dried, crushed",
+              "children": [
+                {
+                  "token": " tomatoes",
+                  "logprob": -0.759967565536499,
+                  "totalLogprob": -8.627636909484863,
+                  "text": "A great ingredient to put in soup is dried, crushed tomatoes",
+                  "children": []
+                },
+                {
+                  "token": " herbs",
+                  "logprob": -2.3303897380828857,
+                  "totalLogprob": -10.19805908203125,
+                  "text": "A great ingredient to put in soup is dried, crushed herbs",
+                  "children": []
+                },
+                {
+                  "token": ",",
+                  "logprob": -2.7685868740081787,
+                  "totalLogprob": -10.636256217956543,
+                  "text": "A great ingredient to put in soup is dried, crushed,",
+                  "children": []
+                },
+                {
+                  "token": " mushrooms",
+                  "logprob": -2.8467233180999756,
+                  "totalLogprob": -10.71439266204834,
+                  "text": "A great ingredient to put in soup is dried, crushed mushrooms",
+                  "children": []
+                },
+                {
+                  "token": " or",
+                  "logprob": -3.535926580429077,
+                  "totalLogprob": -11.403595924377441,
+                  "text": "A great ingredient to put in soup is dried, crushed or",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "token": " whole",
+              "logprob": -2.5546555519104004,
+              "totalLogprob": -8.823237657546997,
+              "text": "A great ingredient to put in soup is dried, whole",
+              "children": [
+                {
+                  "token": " mushrooms",
+                  "logprob": -1.6900542974472046,
+                  "totalLogprob": -10.513291954994202,
+                  "text": "A great ingredient to put in soup is dried, whole mushrooms",
+                  "children": []
+                },
+                {
+                  "token": " herbs",
+                  "logprob": -1.7307151556015015,
+                  "totalLogprob": -10.553952813148499,
+                  "text": "A great ingredient to put in soup is dried, whole herbs",
+                  "children": []
+                },
+                {
+                  "token": " tomatoes",
+                  "logprob": -1.7494186162948608,
+                  "totalLogprob": -10.572656273841858,
+                  "text": "A great ingredient to put in soup is dried, whole tomatoes",
+                  "children": []
+                },
+                {
+                  "token": ",",
+                  "logprob": -2.51543927192688,
+                  "totalLogprob": -11.338676929473877,
+                  "text": "A great ingredient to put in soup is dried, whole,",
+                  "children": []
+                },
+                {
+                  "token": " beans",
+                  "logprob": -3.0309109687805176,
+                  "totalLogprob": -11.854148626327515,
+                  "text": "A great ingredient to put in soup is dried, whole beans",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "token": " or",
+              "logprob": -3.4032998085021973,
+              "totalLogprob": -9.671881914138794,
+              "text": "A great ingredient to put in soup is dried, or",
+              "children": [
+                {
+                  "token": " preserved",
+                  "logprob": -1.9453788995742798,
+                  "totalLogprob": -11.617260813713074,
+                  "text": "A great ingredient to put in soup is dried, or preserved",
+                  "children": []
+                },
+                {
+                  "token": " canned",
+                  "logprob": -1.97869074344635,
+                  "totalLogprob": -11.650572657585144,
+                  "text": "A great ingredient to put in soup is dried, or canned",
+                  "children": []
+                },
+                {
+                  "token": " fresh",
+                  "logprob": -2.4235522747039795,
+                  "totalLogprob": -12.095434188842773,
+                  "text": "A great ingredient to put in soup is dried, or fresh",
+                  "children": []
+                },
+                {
+                  "token": " frozen",
+                  "logprob": -2.629788875579834,
+                  "totalLogprob": -12.301670789718628,
+                  "text": "A great ingredient to put in soup is dried, or frozen",
+                  "children": []
+                },
+                {
+                  "token": " powdered",
+                  "logprob": -3.228301525115967,
+                  "totalLogprob": -12.90018343925476,
+                  "text": "A great ingredient to put in soup is dried, or powdered",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "token": " fresh",
+              "logprob": -3.6524319648742676,
+              "totalLogprob": -9.921014070510864,
+              "text": "A great ingredient to put in soup is dried, fresh",
+              "children": [
+                {
+                  "token": " herbs",
+                  "logprob": -0.61443692445755,
+                  "totalLogprob": -10.535450994968414,
+                  "text": "A great ingredient to put in soup is dried, fresh herbs",
+                  "children": []
+                },
+                {
+                  "token": " or",
+                  "logprob": -1.408273458480835,
+                  "totalLogprob": -11.3292875289917,
+                  "text": "A great ingredient to put in soup is dried, fresh or",
+                  "children": []
+                },
+                {
+                  "token": ",",
+                  "logprob": -2.040788412094116,
+                  "totalLogprob": -11.96180248260498,
+                  "text": "A great ingredient to put in soup is dried, fresh,",
+                  "children": []
+                },
+                {
+                  "token": " and",
+                  "logprob": -4.189765930175781,
+                  "totalLogprob": -14.110780000686646,
+                  "text": "A great ingredient to put in soup is dried, fresh and",
+                  "children": []
+                },
+                {
+                  "token": " mushrooms",
+                  "logprob": -4.418881893157959,
+                  "totalLogprob": -14.339895963668823,
+                  "text": "A great ingredient to put in soup is dried, fresh mushrooms",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "token": " cranberries",
+          "logprob": -3.2849409580230713,
+          "totalLogprob": -6.324055433273315,
+          "text": "A great ingredient to put in soup is dried cranberries",
+          "children": [
+            {
+              "token": ".",
+              "logprob": -0.16229671239852905,
+              "totalLogprob": -6.4863521456718445,
+              "text": "A great ingredient to put in soup is dried cranberries.",
+              "children": [
+                {
+                  "token": " They",
+                  "logprob": -0.9114095568656921,
+                  "totalLogprob": -7.397761702537537,
+                  "text": "A great ingredient to put in soup is dried cranberries. They",
+                  "children": []
+                },
+                {
+                  "token": "\n\n",
+                  "logprob": -1.3561785221099854,
+                  "totalLogprob": -7.84253066778183,
+                  "text": "A great ingredient to put in soup is dried cranberries.\n\n",
+                  "children": []
+                },
+                {
+                  "token": " These",
+                  "logprob": -2.670595407485962,
+                  "totalLogprob": -9.156947553157806,
+                  "text": "A great ingredient to put in soup is dried cranberries. These",
+                  "children": []
+                },
+                {
+                  "token": " Adding",
+                  "logprob": -2.8798677921295166,
+                  "totalLogprob": -9.366219937801361,
+                  "text": "A great ingredient to put in soup is dried cranberries. Adding",
+                  "children": []
+                },
+                {
+                  "token": " ",
+                  "logprob": -3.286369562149048,
+                  "totalLogprob": -9.772721707820892,
+                  "text": "A great ingredient to put in soup is dried cranberries. ",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "token": ",",
+              "logprob": -2.9623494148254395,
+              "totalLogprob": -9.286404848098755,
+              "text": "A great ingredient to put in soup is dried cranberries,",
+              "children": [
+                {
+                  "token": " they",
+                  "logprob": -1.4871611595153809,
+                  "totalLogprob": -10.773566007614136,
+                  "text": "A great ingredient to put in soup is dried cranberries, they",
+                  "children": []
+                },
+                {
+                  "token": " and",
+                  "logprob": -1.6410956382751465,
+                  "totalLogprob": -10.927500486373901,
+                  "text": "A great ingredient to put in soup is dried cranberries, and",
+                  "children": []
+                },
+                {
+                  "token": " but",
+                  "logprob": -2.2671618461608887,
+                  "totalLogprob": -11.553566694259644,
+                  "text": "A great ingredient to put in soup is dried cranberries, but",
+                  "children": []
+                },
+                {
+                  "token": " because",
+                  "logprob": -2.3597655296325684,
+                  "totalLogprob": -11.646170377731323,
+                  "text": "A great ingredient to put in soup is dried cranberries, because",
+                  "children": []
+                },
+                {
+                  "token": " which",
+                  "logprob": -2.5455288887023926,
+                  "totalLogprob": -11.831933736801147,
+                  "text": "A great ingredient to put in soup is dried cranberries, which",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "token": " and",
+              "logprob": -3.265188694000244,
+              "totalLogprob": -9.58924412727356,
+              "text": "A great ingredient to put in soup is dried cranberries and",
+              "children": [
+                {
+                  "token": " blueberries",
+                  "logprob": -2.0413777828216553,
+                  "totalLogprob": -11.630621910095215,
+                  "text": "A great ingredient to put in soup is dried cranberries and blueberries",
+                  "children": []
+                },
+                {
+                  "token": " chopped",
+                  "logprob": -2.5037295818328857,
+                  "totalLogprob": -12.092973709106445,
+                  "text": "A great ingredient to put in soup is dried cranberries and chopped",
+                  "children": []
+                },
+                {
+                  "token": " raisins",
+                  "logprob": -2.733088254928589,
+                  "totalLogprob": -12.322332382202148,
+                  "text": "A great ingredient to put in soup is dried cranberries and raisins",
+                  "children": []
+                },
+                {
+                  "token": " apples",
+                  "logprob": -2.9312493801116943,
+                  "totalLogprob": -12.520493507385254,
+                  "text": "A great ingredient to put in soup is dried cranberries and apples",
+                  "children": []
+                },
+                {
+                  "token": " apple",
+                  "logprob": -3.1876933574676514,
+                  "totalLogprob": -12.776937484741211,
+                  "text": "A great ingredient to put in soup is dried cranberries and apple",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "token": "!",
+              "logprob": -3.975773334503174,
+              "totalLogprob": -10.29982876777649,
+              "text": "A great ingredient to put in soup is dried cranberries!",
+              "children": [
+                {
+                  "token": " They",
+                  "logprob": -0.7827544212341309,
+                  "totalLogprob": -11.08258318901062,
+                  "text": "A great ingredient to put in soup is dried cranberries! They",
+                  "children": []
+                },
+                {
+                  "token": "\n\n",
+                  "logprob": -1.3890624046325684,
+                  "totalLogprob": -11.688891172409058,
+                  "text": "A great ingredient to put in soup is dried cranberries!\n\n",
+                  "children": []
+                },
+                {
+                  "token": " Adding",
+                  "logprob": -2.8005518913269043,
+                  "totalLogprob": -13.100380659103394,
+                  "text": "A great ingredient to put in soup is dried cranberries! Adding",
+                  "children": []
+                },
+                {
+                  "token": " ",
+                  "logprob": -3.146195888519287,
+                  "totalLogprob": -13.446024656295776,
+                  "text": "A great ingredient to put in soup is dried cranberries! ",
+                  "children": []
+                },
+                {
+                  "token": " These",
+                  "logprob": -3.313554286956787,
+                  "totalLogprob": -13.613383054733276,
+                  "text": "A great ingredient to put in soup is dried cranberries! These",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "token": " fresh",
+      "logprob": -3.0510811805725098,
+      "totalLogprob": -3.0510811805725098,
+      "text": "A great ingredient to put in soup is fresh",
+      "children": [
+        {
+          "token": " herbs",
+          "logprob": -1.2900047302246094,
+          "totalLogprob": -4.341085910797119,
+          "text": "A great ingredient to put in soup is fresh herbs",
+          "children": [
+            {
+              "token": ".",
+              "logprob": -0.2907203137874603,
+              "totalLogprob": -4.6318062245845795,
+              "text": "A great ingredient to put in soup is fresh herbs.",
+              "children": [
+                {
+                  "token": " They",
+                  "logprob": -1.3556787967681885,
+                  "totalLogprob": -5.987485021352768,
+                  "text": "A great ingredient to put in soup is fresh herbs. They",
+                  "children": []
+                },
+                {
+                  "token": "\n\n",
+                  "logprob": -1.5748827457427979,
+                  "totalLogprob": -6.206688970327377,
+                  "text": "A great ingredient to put in soup is fresh herbs.\n\n",
+                  "children": []
+                },
+                {
+                  "token": " Fresh",
+                  "logprob": -1.7892534732818604,
+                  "totalLogprob": -6.42105969786644,
+                  "text": "A great ingredient to put in soup is fresh herbs. Fresh",
+                  "children": []
+                },
+                {
+                  "token": " Adding",
+                  "logprob": -2.4804422855377197,
+                  "totalLogprob": -7.112248510122299,
+                  "text": "A great ingredient to put in soup is fresh herbs. Adding",
+                  "children": []
+                },
+                {
+                  "token": " ",
+                  "logprob": -3.2872660160064697,
+                  "totalLogprob": -7.919072240591049,
+                  "text": "A great ingredient to put in soup is fresh herbs. ",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "token": "!",
+              "logprob": -2.280317783355713,
+              "totalLogprob": -6.621403694152832,
+              "text": "A great ingredient to put in soup is fresh herbs!",
+              "children": [
+                {
+                  "token": " Fresh",
+                  "logprob": -1.2270781993865967,
+                  "totalLogprob": -7.848481893539429,
+                  "text": "A great ingredient to put in soup is fresh herbs! Fresh",
+                  "children": []
+                },
+                {
+                  "token": " They",
+                  "logprob": -1.292061686515808,
+                  "totalLogprob": -7.91346538066864,
+                  "text": "A great ingredient to put in soup is fresh herbs! They",
+                  "children": []
+                },
+                {
+                  "token": "\n\n",
+                  "logprob": -2.0519912242889404,
+                  "totalLogprob": -8.673394918441772,
+                  "text": "A great ingredient to put in soup is fresh herbs!\n\n",
+                  "children": []
+                },
+                {
+                  "token": " Adding",
+                  "logprob": -2.2677009105682373,
+                  "totalLogprob": -8.88910460472107,
+                  "text": "A great ingredient to put in soup is fresh herbs! Adding",
+                  "children": []
+                },
+                {
+                  "token": " ",
+                  "logprob": -3.5241591930389404,
+                  "totalLogprob": -10.145562887191772,
+                  "text": "A great ingredient to put in soup is fresh herbs! ",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "token": ",",
+              "logprob": -2.604605197906494,
+              "totalLogprob": -6.945691108703613,
+              "text": "A great ingredient to put in soup is fresh herbs,",
+              "children": [
+                {
+                  "token": " and",
+                  "logprob": -1.0557154417037964,
+                  "totalLogprob": -8.00140655040741,
+                  "text": "A great ingredient to put in soup is fresh herbs, and",
+                  "children": []
+                },
+                {
+                  "token": " such",
+                  "logprob": -2.3916378021240234,
+                  "totalLogprob": -9.337328910827637,
+                  "text": "A great ingredient to put in soup is fresh herbs, such",
+                  "children": []
+                },
+                {
+                  "token": " like",
+                  "logprob": -2.450378179550171,
+                  "totalLogprob": -9.396069288253784,
+                  "text": "A great ingredient to put in soup is fresh herbs, like",
+                  "children": []
+                },
+                {
+                  "token": " because",
+                  "logprob": -2.6761577129364014,
+                  "totalLogprob": -9.621848821640015,
+                  "text": "A great ingredient to put in soup is fresh herbs, because",
+                  "children": []
+                },
+                {
+                  "token": " which",
+                  "logprob": -2.77756667137146,
+                  "totalLogprob": -9.723257780075073,
+                  "text": "A great ingredient to put in soup is fresh herbs, which",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "token": " and",
+              "logprob": -3.269646167755127,
+              "totalLogprob": -7.610732078552246,
+              "text": "A great ingredient to put in soup is fresh herbs and",
+              "children": [
+                {
+                  "token": " spices",
+                  "logprob": -0.1095123365521431,
+                  "totalLogprob": -7.720244415104389,
+                  "text": "A great ingredient to put in soup is fresh herbs and spices",
+                  "children": []
+                },
+                {
+                  "token": " vegetables",
+                  "logprob": -3.289844512939453,
+                  "totalLogprob": -10.9005765914917,
+                  "text": "A great ingredient to put in soup is fresh herbs and vegetables",
+                  "children": []
+                },
+                {
+                  "token": " a",
+                  "logprob": -5.109880447387695,
+                  "totalLogprob": -12.720612525939941,
+                  "text": "A great ingredient to put in soup is fresh herbs and a",
+                  "children": []
+                },
+                {
+                  "token": " arom",
+                  "logprob": -5.177153587341309,
+                  "totalLogprob": -12.787885665893555,
+                  "text": "A great ingredient to put in soup is fresh herbs and arom",
+                  "children": []
+                },
+                {
+                  "token": " fresh",
+                  "logprob": -5.453066825866699,
+                  "totalLogprob": -13.063798904418945,
+                  "text": "A great ingredient to put in soup is fresh herbs and fresh",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "token": ",",
+          "logprob": -1.84649658203125,
+          "totalLogprob": -4.89757776260376,
+          "text": "A great ingredient to put in soup is fresh,",
+          "children": [
+            {
+              "token": " chopped",
+              "logprob": -1.6546992063522339,
+              "totalLogprob": -6.552276968955994,
+              "text": "A great ingredient to put in soup is fresh, chopped",
+              "children": [
+                {
+                  "token": " carrots",
+                  "logprob": -1.4851444959640503,
+                  "totalLogprob": -8.037421464920044,
+                  "text": "A great ingredient to put in soup is fresh, chopped carrots",
+                  "children": []
+                },
+                {
+                  "token": " parsley",
+                  "logprob": -1.6714657545089722,
+                  "totalLogprob": -8.223742723464966,
+                  "text": "A great ingredient to put in soup is fresh, chopped parsley",
+                  "children": []
+                },
+                {
+                  "token": " herbs",
+                  "logprob": -1.863362193107605,
+                  "totalLogprob": -8.415639162063599,
+                  "text": "A great ingredient to put in soup is fresh, chopped herbs",
+                  "children": []
+                },
+                {
+                  "token": " onions",
+                  "logprob": -2.6226699352264404,
+                  "totalLogprob": -9.174946904182434,
+                  "text": "A great ingredient to put in soup is fresh, chopped onions",
+                  "children": []
+                },
+                {
+                  "token": " vegetables",
+                  "logprob": -2.6231868267059326,
+                  "totalLogprob": -9.175463795661926,
+                  "text": "A great ingredient to put in soup is fresh, chopped vegetables",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "token": " vibrant",
+              "logprob": -1.7078094482421875,
+              "totalLogprob": -6.605387210845947,
+              "text": "A great ingredient to put in soup is fresh, vibrant",
+              "children": [
+                {
+                  "token": " herbs",
+                  "logprob": -1.5490379333496094,
+                  "totalLogprob": -8.154425144195557,
+                  "text": "A great ingredient to put in soup is fresh, vibrant herbs",
+                  "children": []
+                },
+                {
+                  "token": " vegetables",
+                  "logprob": -1.5689468383789062,
+                  "totalLogprob": -8.174334049224854,
+                  "text": "A great ingredient to put in soup is fresh, vibrant vegetables",
+                  "children": []
+                },
+                {
+                  "token": ",",
+                  "logprob": -1.9637203216552734,
+                  "totalLogprob": -8.56910753250122,
+                  "text": "A great ingredient to put in soup is fresh, vibrant,",
+                  "children": []
+                },
+                {
+                  "token": " green",
+                  "logprob": -2.4356870651245117,
+                  "totalLogprob": -9.041074275970459,
+                  "text": "A great ingredient to put in soup is fresh, vibrant green",
+                  "children": []
+                },
+                {
+                  "token": " carrots",
+                  "logprob": -3.185919761657715,
+                  "totalLogprob": -9.791306972503662,
+                  "text": "A great ingredient to put in soup is fresh, vibrant carrots",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "token": " ripe",
+              "logprob": -2.2996997833251953,
+              "totalLogprob": -7.197277545928955,
+              "text": "A great ingredient to put in soup is fresh, ripe",
+              "children": [
+                {
+                  "token": " tomatoes",
+                  "logprob": -0.2263973504304886,
+                  "totalLogprob": -7.423674896359444,
+                  "text": "A great ingredient to put in soup is fresh, ripe tomatoes",
+                  "children": []
+                },
+                {
+                  "token": ",",
+                  "logprob": -2.541977643966675,
+                  "totalLogprob": -9.73925518989563,
+                  "text": "A great ingredient to put in soup is fresh, ripe,",
+                  "children": []
+                },
+                {
+                  "token": " fruit",
+                  "logprob": -3.9043872356414795,
+                  "totalLogprob": -11.101664781570435,
+                  "text": "A great ingredient to put in soup is fresh, ripe fruit",
+                  "children": []
+                },
+                {
+                  "token": " herbs",
+                  "logprob": -4.322545051574707,
+                  "totalLogprob": -11.519822597503662,
+                  "text": "A great ingredient to put in soup is fresh, ripe herbs",
+                  "children": []
+                },
+                {
+                  "token": " vegetables",
+                  "logprob": -4.451327323913574,
+                  "totalLogprob": -11.64860486984253,
+                  "text": "A great ingredient to put in soup is fresh, ripe vegetables",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "token": " high",
+              "logprob": -2.631093978881836,
+              "totalLogprob": -7.528671741485596,
+              "text": "A great ingredient to put in soup is fresh, high",
+              "children": [
+                {
+                  "token": "-",
+                  "logprob": -0.031129801645874977,
+                  "totalLogprob": -7.559801543131471,
+                  "text": "A great ingredient to put in soup is fresh, high-",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "token": " organic",
+              "logprob": -2.9103803634643555,
+              "totalLogprob": -7.807958126068115,
+              "text": "A great ingredient to put in soup is fresh, organic",
+              "children": [
+                {
+                  "token": " herbs",
+                  "logprob": -1.4422276020050049,
+                  "totalLogprob": -9.25018572807312,
+                  "text": "A great ingredient to put in soup is fresh, organic herbs",
+                  "children": []
+                },
+                {
+                  "token": ",",
+                  "logprob": -1.8296290636062622,
+                  "totalLogprob": -9.637587189674377,
+                  "text": "A great ingredient to put in soup is fresh, organic,",
+                  "children": []
+                },
+                {
+                  "token": " carrots",
+                  "logprob": -2.110135316848755,
+                  "totalLogprob": -9.91809344291687,
+                  "text": "A great ingredient to put in soup is fresh, organic carrots",
+                  "children": []
+                },
+                {
+                  "token": " vegetables",
+                  "logprob": -2.7578623294830322,
+                  "totalLogprob": -10.565820455551147,
+                  "text": "A great ingredient to put in soup is fresh, organic vegetables",
+                  "children": []
+                },
+                {
+                  "token": " thyme",
+                  "logprob": -3.1349174976348877,
+                  "totalLogprob": -10.942875623703003,
+                  "text": "A great ingredient to put in soup is fresh, organic thyme",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "token": " thyme",
+          "logprob": -1.9422340393066406,
+          "totalLogprob": -4.99331521987915,
+          "text": "A great ingredient to put in soup is fresh thyme",
+          "children": [
+            {
+              "token": ".",
+              "logprob": -0.1969074308872223,
+              "totalLogprob": -5.190222650766373,
+              "text": "A great ingredient to put in soup is fresh thyme.",
+              "children": [
+                {
+                  "token": " It",
+                  "logprob": -0.9850262403488159,
+                  "totalLogprob": -6.175248891115189,
+                  "text": "A great ingredient to put in soup is fresh thyme. It",
+                  "children": []
+                },
+                {
+                  "token": "\n\n",
+                  "logprob": -1.5246208906173706,
+                  "totalLogprob": -6.714843541383743,
+                  "text": "A great ingredient to put in soup is fresh thyme.\n\n",
+                  "children": []
+                },
+                {
+                  "token": " Th",
+                  "logprob": -2.484764814376831,
+                  "totalLogprob": -7.674987465143204,
+                  "text": "A great ingredient to put in soup is fresh thyme. Th",
+                  "children": []
+                },
+                {
+                  "token": " Fresh",
+                  "logprob": -2.950882911682129,
+                  "totalLogprob": -8.141105562448502,
+                  "text": "A great ingredient to put in soup is fresh thyme. Fresh",
+                  "children": []
+                },
+                {
+                  "token": "\n",
+                  "logprob": -3.283358573913574,
+                  "totalLogprob": -8.473581224679947,
+                  "text": "A great ingredient to put in soup is fresh thyme.\n",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "token": "!",
+              "logprob": -2.8490090370178223,
+              "totalLogprob": -7.842324256896973,
+              "text": "A great ingredient to put in soup is fresh thyme!",
+              "children": [
+                {
+                  "token": " It",
+                  "logprob": -0.9806352853775024,
+                  "totalLogprob": -8.822959542274475,
+                  "text": "A great ingredient to put in soup is fresh thyme! It",
+                  "children": []
+                },
+                {
+                  "token": "\n\n",
+                  "logprob": -1.4025484323501587,
+                  "totalLogprob": -9.244872689247131,
+                  "text": "A great ingredient to put in soup is fresh thyme!\n\n",
+                  "children": []
+                },
+                {
+                  "token": " Fresh",
+                  "logprob": -2.778881549835205,
+                  "totalLogprob": -10.621205806732178,
+                  "text": "A great ingredient to put in soup is fresh thyme! Fresh",
+                  "children": []
+                },
+                {
+                  "token": " Th",
+                  "logprob": -2.9711880683898926,
+                  "totalLogprob": -10.813512325286865,
+                  "text": "A great ingredient to put in soup is fresh thyme! Th",
+                  "children": []
+                },
+                {
+                  "token": " Adding",
+                  "logprob": -3.0210843086242676,
+                  "totalLogprob": -10.86340856552124,
+                  "text": "A great ingredient to put in soup is fresh thyme! Adding",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "token": ",",
+              "logprob": -2.9827027320861816,
+              "totalLogprob": -7.976017951965332,
+              "text": "A great ingredient to put in soup is fresh thyme,",
+              "children": [
+                {
+                  "token": " and",
+                  "logprob": -1.0270259380340576,
+                  "totalLogprob": -9.00304388999939,
+                  "text": "A great ingredient to put in soup is fresh thyme, and",
+                  "children": []
+                },
+                {
+                  "token": " which",
+                  "logprob": -2.177586317062378,
+                  "totalLogprob": -10.15360426902771,
+                  "text": "A great ingredient to put in soup is fresh thyme, which",
+                  "children": []
+                },
+                {
+                  "token": " because",
+                  "logprob": -2.2106597423553467,
+                  "totalLogprob": -10.186677694320679,
+                  "text": "A great ingredient to put in soup is fresh thyme, because",
+                  "children": []
+                },
+                {
+                  "token": " but",
+                  "logprob": -2.3064019680023193,
+                  "totalLogprob": -10.282419919967651,
+                  "text": "A great ingredient to put in soup is fresh thyme, but",
+                  "children": []
+                },
+                {
+                  "token": " it",
+                  "logprob": -2.494826078414917,
+                  "totalLogprob": -10.470844030380249,
+                  "text": "A great ingredient to put in soup is fresh thyme, it",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "token": " and",
+              "logprob": -3.015657901763916,
+              "totalLogprob": -8.008973121643066,
+              "text": "A great ingredient to put in soup is fresh thyme and",
+              "children": [
+                {
+                  "token": " rosemary",
+                  "logprob": -0.5376585721969604,
+                  "totalLogprob": -8.546631693840027,
+                  "text": "A great ingredient to put in soup is fresh thyme and rosemary",
+                  "children": []
+                },
+                {
+                  "token": " parsley",
+                  "logprob": -2.180509328842163,
+                  "totalLogprob": -10.18948245048523,
+                  "text": "A great ingredient to put in soup is fresh thyme and parsley",
+                  "children": []
+                },
+                {
+                  "token": " a",
+                  "logprob": -2.743428945541382,
+                  "totalLogprob": -10.752402067184448,
+                  "text": "A great ingredient to put in soup is fresh thyme and a",
+                  "children": []
+                },
+                {
+                  "token": " sage",
+                  "logprob": -3.2016592025756836,
+                  "totalLogprob": -11.21063232421875,
+                  "text": "A great ingredient to put in soup is fresh thyme and sage",
+                  "children": []
+                },
+                {
+                  "token": " garlic",
+                  "logprob": -3.710893392562866,
+                  "totalLogprob": -11.719866514205933,
+                  "text": "A great ingredient to put in soup is fresh thyme and garlic",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "token": " parsley",
+          "logprob": -2.4119529724121094,
+          "totalLogprob": -5.463034152984619,
+          "text": "A great ingredient to put in soup is fresh parsley",
+          "children": [
+            {
+              "token": ".",
+              "logprob": -0.18879581987857819,
+              "totalLogprob": -5.651829972863197,
+              "text": "A great ingredient to put in soup is fresh parsley.",
+              "children": [
+                {
+                  "token": " It",
+                  "logprob": -0.9694830775260925,
+                  "totalLogprob": -6.62131305038929,
+                  "text": "A great ingredient to put in soup is fresh parsley. It",
+                  "children": []
+                },
+                {
+                  "token": "\n\n",
+                  "logprob": -1.5553861856460571,
+                  "totalLogprob": -7.2072161585092545,
+                  "text": "A great ingredient to put in soup is fresh parsley.\n\n",
+                  "children": []
+                },
+                {
+                  "token": " Fresh",
+                  "logprob": -2.8505122661590576,
+                  "totalLogprob": -8.502342239022255,
+                  "text": "A great ingredient to put in soup is fresh parsley. Fresh",
+                  "children": []
+                },
+                {
+                  "token": " Adding",
+                  "logprob": -2.9390971660614014,
+                  "totalLogprob": -8.590927138924599,
+                  "text": "A great ingredient to put in soup is fresh parsley. Adding",
+                  "children": []
+                },
+                {
+                  "token": " Pars",
+                  "logprob": -3.17132830619812,
+                  "totalLogprob": -8.823158279061317,
+                  "text": "A great ingredient to put in soup is fresh parsley. Pars",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "token": ",",
+              "logprob": -2.715620756149292,
+              "totalLogprob": -8.178654909133911,
+              "text": "A great ingredient to put in soup is fresh parsley,",
+              "children": [
+                {
+                  "token": " and",
+                  "logprob": -1.135480284690857,
+                  "totalLogprob": -9.314135193824768,
+                  "text": "A great ingredient to put in soup is fresh parsley, and",
+                  "children": []
+                },
+                {
+                  "token": " which",
+                  "logprob": -1.9877142906188965,
+                  "totalLogprob": -10.166369199752808,
+                  "text": "A great ingredient to put in soup is fresh parsley, which",
+                  "children": []
+                },
+                {
+                  "token": " because",
+                  "logprob": -2.1726107597351074,
+                  "totalLogprob": -10.351265668869019,
+                  "text": "A great ingredient to put in soup is fresh parsley, because",
+                  "children": []
+                },
+                {
+                  "token": " it",
+                  "logprob": -2.2713711261749268,
+                  "totalLogprob": -10.450026035308838,
+                  "text": "A great ingredient to put in soup is fresh parsley, it",
+                  "children": []
+                },
+                {
+                  "token": " but",
+                  "logprob": -2.83839750289917,
+                  "totalLogprob": -11.017052412033081,
+                  "text": "A great ingredient to put in soup is fresh parsley, but",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "token": "!",
+              "logprob": -2.849013090133667,
+              "totalLogprob": -8.312047243118286,
+              "text": "A great ingredient to put in soup is fresh parsley!",
+              "children": [
+                {
+                  "token": " It",
+                  "logprob": -0.9577149152755737,
+                  "totalLogprob": -9.26976215839386,
+                  "text": "A great ingredient to put in soup is fresh parsley! It",
+                  "children": []
+                },
+                {
+                  "token": "\n\n",
+                  "logprob": -1.5294712781906128,
+                  "totalLogprob": -9.841518521308899,
+                  "text": "A great ingredient to put in soup is fresh parsley!\n\n",
+                  "children": []
+                },
+                {
+                  "token": " Fresh",
+                  "logprob": -2.5398967266082764,
+                  "totalLogprob": -10.851943969726562,
+                  "text": "A great ingredient to put in soup is fresh parsley! Fresh",
+                  "children": []
+                },
+                {
+                  "token": " Adding",
+                  "logprob": -2.7218730449676514,
+                  "totalLogprob": -11.033920288085938,
+                  "text": "A great ingredient to put in soup is fresh parsley! Adding",
+                  "children": []
+                },
+                {
+                  "token": " ",
+                  "logprob": -3.2490832805633545,
+                  "totalLogprob": -11.56113052368164,
+                  "text": "A great ingredient to put in soup is fresh parsley! ",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "token": " ginger",
+          "logprob": -2.703634262084961,
+          "totalLogprob": -5.754715442657471,
+          "text": "A great ingredient to put in soup is fresh ginger",
+          "children": [
+            {
+              "token": ".",
+              "logprob": -0.20132583379745483,
+              "totalLogprob": -5.9560412764549255,
+              "text": "A great ingredient to put in soup is fresh ginger.",
+              "children": [
+                {
+                  "token": " It",
+                  "logprob": -0.8321460485458374,
+                  "totalLogprob": -6.788187325000763,
+                  "text": "A great ingredient to put in soup is fresh ginger. It",
+                  "children": []
+                },
+                {
+                  "token": "\n\n",
+                  "logprob": -1.806759238243103,
+                  "totalLogprob": -7.762800514698029,
+                  "text": "A great ingredient to put in soup is fresh ginger.\n\n",
+                  "children": []
+                },
+                {
+                  "token": " Ginger",
+                  "logprob": -2.605987787246704,
+                  "totalLogprob": -8.56202906370163,
+                  "text": "A great ingredient to put in soup is fresh ginger. Ginger",
+                  "children": []
+                },
+                {
+                  "token": " Its",
+                  "logprob": -2.685638666152954,
+                  "totalLogprob": -8.64167994260788,
+                  "text": "A great ingredient to put in soup is fresh ginger. Its",
+                  "children": []
+                },
+                {
+                  "token": " Adding",
+                  "logprob": -3.381535053253174,
+                  "totalLogprob": -9.3375763297081,
+                  "text": "A great ingredient to put in soup is fresh ginger. Adding",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "token": "!",
+              "logprob": -2.6018385887145996,
+              "totalLogprob": -8.35655403137207,
+              "text": "A great ingredient to put in soup is fresh ginger!",
+              "children": [
+                {
+                  "token": " It",
+                  "logprob": -0.8973871469497681,
+                  "totalLogprob": -9.253941178321838,
+                  "text": "A great ingredient to put in soup is fresh ginger! It",
+                  "children": []
+                },
+                {
+                  "token": "\n\n",
+                  "logprob": -1.5341802835464478,
+                  "totalLogprob": -9.890734314918518,
+                  "text": "A great ingredient to put in soup is fresh ginger!\n\n",
+                  "children": []
+                },
+                {
+                  "token": " Adding",
+                  "logprob": -2.867617130279541,
+                  "totalLogprob": -11.224171161651611,
+                  "text": "A great ingredient to put in soup is fresh ginger! Adding",
+                  "children": []
+                },
+                {
+                  "token": " Fresh",
+                  "logprob": -2.896408796310425,
+                  "totalLogprob": -11.252962827682495,
+                  "text": "A great ingredient to put in soup is fresh ginger! Fresh",
+                  "children": []
+                },
+                {
+                  "token": " Its",
+                  "logprob": -2.943739652633667,
+                  "totalLogprob": -11.300293684005737,
+                  "text": "A great ingredient to put in soup is fresh ginger! Its",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "token": ",",
+              "logprob": -3.0635921955108643,
+              "totalLogprob": -8.818307638168335,
+              "text": "A great ingredient to put in soup is fresh ginger,",
+              "children": [
+                {
+                  "token": " and",
+                  "logprob": -1.0264732837677002,
+                  "totalLogprob": -9.844780921936035,
+                  "text": "A great ingredient to put in soup is fresh ginger, and",
+                  "children": []
+                },
+                {
+                  "token": " which",
+                  "logprob": -1.8778125047683716,
+                  "totalLogprob": -10.696120142936707,
+                  "text": "A great ingredient to put in soup is fresh ginger, which",
+                  "children": []
+                },
+                {
+                  "token": " it",
+                  "logprob": -2.1574106216430664,
+                  "totalLogprob": -10.975718259811401,
+                  "text": "A great ingredient to put in soup is fresh ginger, it",
+                  "children": []
+                },
+                {
+                  "token": " because",
+                  "logprob": -2.432276964187622,
+                  "totalLogprob": -11.250584602355957,
+                  "text": "A great ingredient to put in soup is fresh ginger, because",
+                  "children": []
+                },
+                {
+                  "token": " but",
+                  "logprob": -2.8790578842163086,
+                  "totalLogprob": -11.697365522384644,
+                  "text": "A great ingredient to put in soup is fresh ginger, but",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "token": " and",
+              "logprob": -3.367936372756958,
+              "totalLogprob": -9.122651815414429,
+              "text": "A great ingredient to put in soup is fresh ginger and",
+              "children": [
+                {
+                  "token": " garlic",
+                  "logprob": -0.6052951216697693,
+                  "totalLogprob": -9.727946937084198,
+                  "text": "A great ingredient to put in soup is fresh ginger and garlic",
+                  "children": []
+                },
+                {
+                  "token": " turmeric",
+                  "logprob": -2.239182472229004,
+                  "totalLogprob": -11.361834287643433,
+                  "text": "A great ingredient to put in soup is fresh ginger and turmeric",
+                  "children": []
+                },
+                {
+                  "token": " a",
+                  "logprob": -3.1994400024414062,
+                  "totalLogprob": -12.322091817855835,
+                  "text": "A great ingredient to put in soup is fresh ginger and a",
+                  "children": []
+                },
+                {
+                  "token": " lemon",
+                  "logprob": -3.5168209075927734,
+                  "totalLogprob": -12.639472723007202,
+                  "text": "A great ingredient to put in soup is fresh ginger and lemon",
+                  "children": []
+                },
+                {
+                  "token": " scall",
+                  "logprob": -3.7579689025878906,
+                  "totalLogprob": -12.88062071800232,
+                  "text": "A great ingredient to put in soup is fresh ginger and scall",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "token": " **",
+      "logprob": -3.4292798042297363,
+      "totalLogprob": -3.4292798042297363,
+      "text": "A great ingredient to put in soup is **",
+      "children": [
+        {
+          "token": "dried",
+          "logprob": -1.6917979717254639,
+          "totalLogprob": -5.1210777759552,
+          "text": "A great ingredient to put in soup is **dried",
+          "children": [
+            {
+              "token": " mushrooms",
+              "logprob": -0.8037900328636169,
+              "totalLogprob": -5.924867808818817,
+              "text": "A great ingredient to put in soup is **dried mushrooms",
+              "children": [
+                {
+                  "token": "**.",
+                  "logprob": -0.18740017712116241,
+                  "totalLogprob": -6.1122679859399796,
+                  "text": "A great ingredient to put in soup is **dried mushrooms**.",
+                  "children": []
+                },
+                {
+                  "token": "**,",
+                  "logprob": -2.724778413772583,
+                  "totalLogprob": -8.6496462225914,
+                  "text": "A great ingredient to put in soup is **dried mushrooms**,",
+                  "children": []
+                },
+                {
+                  "token": ".**",
+                  "logprob": -2.8407721519470215,
+                  "totalLogprob": -8.765639960765839,
+                  "text": "A great ingredient to put in soup is **dried mushrooms.**",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "token": " tomatoes",
+              "logprob": -2.280167579650879,
+              "totalLogprob": -7.401245355606079,
+              "text": "A great ingredient to put in soup is **dried tomatoes",
+              "children": [
+                {
+                  "token": "**.",
+                  "logprob": -0.3110211491584778,
+                  "totalLogprob": -7.712266504764557,
+                  "text": "A great ingredient to put in soup is **dried tomatoes**.",
+                  "children": []
+                },
+                {
+                  "token": "**",
+                  "logprob": -1.7581417560577393,
+                  "totalLogprob": -9.159387111663818,
+                  "text": "A great ingredient to put in soup is **dried tomatoes**",
+                  "children": []
+                },
+                {
+                  "token": "**,",
+                  "logprob": -2.9155097007751465,
+                  "totalLogprob": -10.316755056381226,
+                  "text": "A great ingredient to put in soup is **dried tomatoes**,",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "token": " shi",
+              "logprob": -2.3428430557250977,
+              "totalLogprob": -7.463920831680298,
+              "text": "A great ingredient to put in soup is **dried shi",
+              "children": [
+                {
+                  "token": "itake",
+                  "logprob": -0.00003898219802067615,
+                  "totalLogprob": -7.4639598138783185,
+                  "text": "A great ingredient to put in soup is **dried shiitake",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "token": " cranberries",
+              "logprob": -2.464226722717285,
+              "totalLogprob": -7.585304498672485,
+              "text": "A great ingredient to put in soup is **dried cranberries",
+              "children": [
+                {
+                  "token": "**.",
+                  "logprob": -0.10987523943185806,
+                  "totalLogprob": -7.695179738104343,
+                  "text": "A great ingredient to put in soup is **dried cranberries**.",
+                  "children": []
+                },
+                {
+                  "token": "**",
+                  "logprob": -2.6685681343078613,
+                  "totalLogprob": -10.253872632980347,
+                  "text": "A great ingredient to put in soup is **dried cranberries**",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "token": " hibiscus",
+              "logprob": -3.790799140930176,
+              "totalLogprob": -8.911876916885376,
+              "text": "A great ingredient to put in soup is **dried hibiscus",
+              "children": [
+                {
+                  "token": " flowers",
+                  "logprob": -0.010907193645834923,
+                  "totalLogprob": -8.922784110531211,
+                  "text": "A great ingredient to put in soup is **dried hibiscus flowers",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "token": "onion",
+          "logprob": -2.56000018119812,
+          "totalLogprob": -5.9892799854278564,
+          "text": "A great ingredient to put in soup is **onion",
+          "children": [
+            {
+              "token": "**.",
+              "logprob": -0.21036280691623688,
+              "totalLogprob": -6.199642792344093,
+              "text": "A great ingredient to put in soup is **onion**.",
+              "children": [
+                {
+                  "token": "\n\n",
+                  "logprob": -0.6912892460823059,
+                  "totalLogprob": -6.890932038426399,
+                  "text": "A great ingredient to put in soup is **onion**.\n\n",
+                  "children": []
+                },
+                {
+                  "token": " It",
+                  "logprob": -1.9522926807403564,
+                  "totalLogprob": -8.15193547308445,
+                  "text": "A great ingredient to put in soup is **onion**. It",
+                  "children": []
+                },
+                {
+                  "token": " ",
+                  "logprob": -2.8203327655792236,
+                  "totalLogprob": -9.019975557923317,
+                  "text": "A great ingredient to put in soup is **onion**. ",
+                  "children": []
+                },
+                {
+                  "token": "\n",
+                  "logprob": -2.949448823928833,
+                  "totalLogprob": -9.149091616272926,
+                  "text": "A great ingredient to put in soup is **onion**.\n",
+                  "children": []
+                },
+                {
+                  "token": " On",
+                  "logprob": -3.109523057937622,
+                  "totalLogprob": -9.309165850281715,
+                  "text": "A great ingredient to put in soup is **onion**. On",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "token": "**",
+              "logprob": -2.3094305992126465,
+              "totalLogprob": -8.298710584640503,
+              "text": "A great ingredient to put in soup is **onion**",
+              "children": [
+                {
+                  "token": " and",
+                  "logprob": -0.961049497127533,
+                  "totalLogprob": -9.259760081768036,
+                  "text": "A great ingredient to put in soup is **onion** and",
+                  "children": []
+                },
+                {
+                  "token": "!",
+                  "logprob": -1.033570647239685,
+                  "totalLogprob": -9.332281231880188,
+                  "text": "A great ingredient to put in soup is **onion**!",
+                  "children": []
+                },
+                {
+                  "token": " because",
+                  "logprob": -2.8480467796325684,
+                  "totalLogprob": -11.146757364273071,
+                  "text": "A great ingredient to put in soup is **onion** because",
+                  "children": []
+                },
+                {
+                  "token": "\n\n",
+                  "logprob": -3.167701244354248,
+                  "totalLogprob": -11.466411828994751,
+                  "text": "A great ingredient to put in soup is **onion**\n\n",
+                  "children": []
+                },
+                {
+                  "token": " -",
+                  "logprob": -3.352135181427002,
+                  "totalLogprob": -11.650845766067505,
+                  "text": "A great ingredient to put in soup is **onion** -",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "token": "**,",
+              "logprob": -3.4437687397003174,
+              "totalLogprob": -9.433048725128174,
+              "text": "A great ingredient to put in soup is **onion**,",
+              "children": [
+                {
+                  "token": " and",
+                  "logprob": -1.2872672080993652,
+                  "totalLogprob": -10.720315933227539,
+                  "text": "A great ingredient to put in soup is **onion**, and",
+                  "children": []
+                },
+                {
+                  "token": " because",
+                  "logprob": -1.5449957847595215,
+                  "totalLogprob": -10.978044509887695,
+                  "text": "A great ingredient to put in soup is **onion**, because",
+                  "children": []
+                },
+                {
+                  "token": " which",
+                  "logprob": -2.151956081390381,
+                  "totalLogprob": -11.585004806518555,
+                  "text": "A great ingredient to put in soup is **onion**, which",
+                  "children": []
+                },
+                {
+                  "token": " as",
+                  "logprob": -2.3651633262634277,
+                  "totalLogprob": -11.798212051391602,
+                  "text": "A great ingredient to put in soup is **onion**, as",
+                  "children": []
+                },
+                {
+                  "token": " but",
+                  "logprob": -2.675563335418701,
+                  "totalLogprob": -12.108612060546875,
+                  "text": "A great ingredient to put in soup is **onion**, but",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "token": ".**",
+              "logprob": -3.5609374046325684,
+              "totalLogprob": -9.550217390060425,
+              "text": "A great ingredient to put in soup is **onion.**",
+              "children": [
+                {
+                  "token": "\n\n",
+                  "logprob": -0.5619547963142395,
+                  "totalLogprob": -10.112172186374664,
+                  "text": "A great ingredient to put in soup is **onion.**\n\n",
+                  "children": []
+                },
+                {
+                  "token": " It",
+                  "logprob": -2.163923501968384,
+                  "totalLogprob": -11.714140892028809,
+                  "text": "A great ingredient to put in soup is **onion.** It",
+                  "children": []
+                },
+                {
+                  "token": " ",
+                  "logprob": -2.9389097690582275,
+                  "totalLogprob": -12.489127159118652,
+                  "text": "A great ingredient to put in soup is **onion.** ",
+                  "children": []
+                },
+                {
+                  "token": "\n",
+                  "logprob": -2.9759256839752197,
+                  "totalLogprob": -12.526143074035645,
+                  "text": "A great ingredient to put in soup is **onion.**\n",
+                  "children": []
+                },
+                {
+                  "token": "  ",
+                  "logprob": -3.5357553958892822,
+                  "totalLogprob": -13.085972785949707,
+                  "text": "A great ingredient to put in soup is **onion.**  ",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "token": "ginger",
+          "logprob": -2.9027650356292725,
+          "totalLogprob": -6.332044839859009,
+          "text": "A great ingredient to put in soup is **ginger",
+          "children": [
+            {
+              "token": "**.",
+              "logprob": -0.36844348907470703,
+              "totalLogprob": -6.700488328933716,
+              "text": "A great ingredient to put in soup is **ginger**.",
+              "children": [
+                {
+                  "token": "\n\n",
+                  "logprob": -0.9587991833686829,
+                  "totalLogprob": -7.659287512302399,
+                  "text": "A great ingredient to put in soup is **ginger**.\n\n",
+                  "children": []
+                },
+                {
+                  "token": " It",
+                  "logprob": -1.0858476161956787,
+                  "totalLogprob": -7.7863359451293945,
+                  "text": "A great ingredient to put in soup is **ginger**. It",
+                  "children": []
+                },
+                {
+                  "token": " Ginger",
+                  "logprob": -2.410024642944336,
+                  "totalLogprob": -9.110512971878052,
+                  "text": "A great ingredient to put in soup is **ginger**. Ginger",
+                  "children": []
+                },
+                {
+                  "token": " ",
+                  "logprob": -3.174710988998413,
+                  "totalLogprob": -9.875199317932129,
+                  "text": "A great ingredient to put in soup is **ginger**. ",
+                  "children": []
+                },
+                {
+                  "token": " Its",
+                  "logprob": -3.4069058895111084,
+                  "totalLogprob": -10.107394218444824,
+                  "text": "A great ingredient to put in soup is **ginger**. Its",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "token": ".**",
+              "logprob": -1.7798395156860352,
+              "totalLogprob": -8.111884355545044,
+              "text": "A great ingredient to put in soup is **ginger.**",
+              "children": [
+                {
+                  "token": "\n\n",
+                  "logprob": -0.8393442630767822,
+                  "totalLogprob": -8.951228618621826,
+                  "text": "A great ingredient to put in soup is **ginger.**\n\n",
+                  "children": []
+                },
+                {
+                  "token": " It",
+                  "logprob": -1.1940882205963135,
+                  "totalLogprob": -9.305972576141357,
+                  "text": "A great ingredient to put in soup is **ginger.** It",
+                  "children": []
+                },
+                {
+                  "token": " Ginger",
+                  "logprob": -2.558473825454712,
+                  "totalLogprob": -10.670358180999756,
+                  "text": "A great ingredient to put in soup is **ginger.** Ginger",
+                  "children": []
+                },
+                {
+                  "token": " ",
+                  "logprob": -3.3828470706939697,
+                  "totalLogprob": -11.494731426239014,
+                  "text": "A great ingredient to put in soup is **ginger.** ",
+                  "children": []
+                },
+                {
+                  "token": "  ",
+                  "logprob": -3.4873697757720947,
+                  "totalLogprob": -11.599254131317139,
+                  "text": "A great ingredient to put in soup is **ginger.**  ",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "token": "**",
+              "logprob": -2.228224754333496,
+              "totalLogprob": -8.560269594192505,
+              "text": "A great ingredient to put in soup is **ginger**",
+              "children": [
+                {
+                  "token": "!",
+                  "logprob": -0.7167929410934448,
+                  "totalLogprob": -9.27706253528595,
+                  "text": "A great ingredient to put in soup is **ginger**!",
+                  "children": []
+                },
+                {
+                  "token": " and",
+                  "logprob": -1.0518149137496948,
+                  "totalLogprob": -9.6120845079422,
+                  "text": "A great ingredient to put in soup is **ginger** and",
+                  "children": []
+                },
+                {
+                  "token": " -",
+                  "logprob": -3.438832998275757,
+                  "totalLogprob": -11.999102592468262,
+                  "text": "A great ingredient to put in soup is **ginger** -",
+                  "children": []
+                },
+                {
+                  "token": "\n\n",
+                  "logprob": -3.6866188049316406,
+                  "totalLogprob": -12.246888399124146,
+                  "text": "A great ingredient to put in soup is **ginger**\n\n",
+                  "children": []
+                },
+                {
+                  "token": " –",
+                  "logprob": -3.7868566513061523,
+                  "totalLogprob": -12.347126245498657,
+                  "text": "A great ingredient to put in soup is **ginger** –",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "token": "car",
+          "logprob": -3.3428609371185303,
+          "totalLogprob": -6.772140741348267,
+          "text": "A great ingredient to put in soup is **car",
+          "children": [
+            {
+              "token": "rots",
+              "logprob": -0.0014108234317973256,
+              "totalLogprob": -6.773551564780064,
+              "text": "A great ingredient to put in soup is **carrots",
+              "children": [
+                {
+                  "token": "**.",
+                  "logprob": -0.12150245159864426,
+                  "totalLogprob": -6.895054016378708,
+                  "text": "A great ingredient to put in soup is **carrots**.",
+                  "children": []
+                },
+                {
+                  "token": "**",
+                  "logprob": -2.7290921211242676,
+                  "totalLogprob": -9.502643685904332,
+                  "text": "A great ingredient to put in soup is **carrots**",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "token": "chicken",
+          "logprob": -3.4361884593963623,
+          "totalLogprob": -6.865468263626099,
+          "text": "A great ingredient to put in soup is **chicken",
+          "children": [
+            {
+              "token": " broth",
+              "logprob": -0.3552646040916443,
+              "totalLogprob": -7.220732867717743,
+              "text": "A great ingredient to put in soup is **chicken broth",
+              "children": [
+                {
+                  "token": "**.",
+                  "logprob": -0.1133563295006752,
+                  "totalLogprob": -7.334089197218418,
+                  "text": "A great ingredient to put in soup is **chicken broth**.",
+                  "children": []
+                },
+                {
+                  "token": "**",
+                  "logprob": -2.8620097637176514,
+                  "totalLogprob": -10.082742631435394,
+                  "text": "A great ingredient to put in soup is **chicken broth**",
+                  "children": []
+                },
+                {
+                  "token": ".**",
+                  "logprob": -3.2023074626922607,
+                  "totalLogprob": -10.423040330410004,
+                  "text": "A great ingredient to put in soup is **chicken broth.**",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "token": " stock",
+              "logprob": -1.7598456144332886,
+              "totalLogprob": -8.625313878059387,
+              "text": "A great ingredient to put in soup is **chicken stock",
+              "children": [
+                {
+                  "token": "**.",
+                  "logprob": -0.16534991562366486,
+                  "totalLogprob": -8.790663793683052,
+                  "text": "A great ingredient to put in soup is **chicken stock**.",
+                  "children": []
+                },
+                {
+                  "token": "**",
+                  "logprob": -2.3881359100341797,
+                  "totalLogprob": -11.013449788093567,
+                  "text": "A great ingredient to put in soup is **chicken stock**",
+                  "children": []
+                },
+                {
+                  "token": ".**",
+                  "logprob": -3.1494216918945312,
+                  "totalLogprob": -11.774735569953918,
+                  "text": "A great ingredient to put in soup is **chicken stock.**",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "token": " bone",
+              "logprob": -3.0123939514160156,
+              "totalLogprob": -9.877862215042114,
+              "text": "A great ingredient to put in soup is **chicken bone",
+              "children": [
+                {
+                  "token": " broth",
+                  "logprob": -0.11707980185747147,
+                  "totalLogprob": -9.994942016899586,
+                  "text": "A great ingredient to put in soup is **chicken bone broth",
+                  "children": []
+                },
+                {
+                  "token": " marrow",
+                  "logprob": -2.739396095275879,
+                  "totalLogprob": -12.617258310317993,
+                  "text": "A great ingredient to put in soup is **chicken bone marrow",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "token": "**",
+              "logprob": -3.9458062648773193,
+              "totalLogprob": -10.811274528503418,
+              "text": "A great ingredient to put in soup is **chicken**",
+              "children": [
+                {
+                  "token": " broth",
+                  "logprob": -0.7383552193641663,
+                  "totalLogprob": -11.549629747867584,
+                  "text": "A great ingredient to put in soup is **chicken** broth",
+                  "children": []
+                },
+                {
+                  "token": " stock",
+                  "logprob": -2.242347240447998,
+                  "totalLogprob": -13.053621768951416,
+                  "text": "A great ingredient to put in soup is **chicken** stock",
+                  "children": []
+                },
+                {
+                  "token": " bones",
+                  "logprob": -2.500487804412842,
+                  "totalLogprob": -13.31176233291626,
+                  "text": "A great ingredient to put in soup is **chicken** bones",
+                  "children": []
+                },
+                {
+                  "token": "!",
+                  "logprob": -2.7536730766296387,
+                  "totalLogprob": -13.564947605133057,
+                  "text": "A great ingredient to put in soup is **chicken**!",
+                  "children": []
+                },
+                {
+                  "token": " bone",
+                  "logprob": -2.877293109893799,
+                  "totalLogprob": -13.688567638397217,
+                  "text": "A great ingredient to put in soup is **chicken** bone",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "token": " bones",
+              "logprob": -4.635980606079102,
+              "totalLogprob": -11.5014488697052,
+              "text": "A great ingredient to put in soup is **chicken bones",
+              "children": [
+                {
+                  "token": "**.",
+                  "logprob": -0.24500465393066406,
+                  "totalLogprob": -11.746453523635864,
+                  "text": "A great ingredient to put in soup is **chicken bones**.",
+                  "children": []
+                },
+                {
+                  "token": "**",
+                  "logprob": -2.006978988647461,
+                  "totalLogprob": -13.508427858352661,
+                  "text": "A great ingredient to put in soup is **chicken bones**",
+                  "children": []
+                },
+                {
+                  "token": ".**",
+                  "logprob": -3.3476810455322266,
+                  "totalLogprob": -14.849129915237427,
+                  "text": "A great ingredient to put in soup is **chicken bones.**",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
