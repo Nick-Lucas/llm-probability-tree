@@ -21,11 +21,16 @@ export class LlamaServerSampler implements Sampler {
       // cache_prompt: true // reuses kv cache across calls for speed
     };
 
-    const { body: resBody } = await request(`${this.baseUrl}/completion`, {
+    const { body: resBody, statusCode } = await request(`${this.baseUrl}/completion`, {
       method: "POST",
       body: JSON.stringify(body),
       headers: { "content-type": "application/json" },
     });
+
+    if (statusCode !== 200) {
+      const errText = await resBody.text();
+      throw new Error(`Llama server error ${statusCode}: ${errText}`);
+    }
 
     const json = await resBody.json() as any;
 
