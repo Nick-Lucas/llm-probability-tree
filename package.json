@@ -1,0 +1,23 @@
+{
+  "name": "llm-probabilities",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "dist/gemini-probabilities.js",
+  "scripts": {
+    "typecheck": "tsc",
+    "dev": "DOTENV_CONFIG_PATH=.env node -r dotenv/config src/example.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.17.1",
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "dotenv": "^17.2.2"
+  },
+  "devDependencies": {
+    "@types/node": "^24.5.2",
+    "typescript": "^5.9.2"
+  }
+}
