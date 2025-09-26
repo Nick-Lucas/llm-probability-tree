@@ -1,25 +1,25 @@
 export interface TreeNode {
-  token: string;
-  logprob: number;
-  totalLogprob: number;
-  text: string;
-  children: TreeNode[];
+  token: string
+  logprob: number
+  totalLogprob: number
+  text: string
+  children: TreeNode[]
 }
 
 export interface SamplerResult {
-  maxDepth: number;
-  topKPerStep: number;
-  temperature: number;
-  prompt: string;
-  tree: TreeNode;
+  maxDepth: number
+  topKPerStep: number
+  temperature: number
+  prompt: string
+  tree: TreeNode
 }
 
-import capitalOfFrance from "../../outputs/token-tree--the-capital-of-france-is.json";
-import ingredientForSoup from "../../outputs/token-tree--a-great-ingredient-to-put-in-soup-is.json";
-import meaningOfLife from "../../outputs/token-tree--the-meaning-of-life-is.json";
+import capitalOfFrance from '../../outputs/token-tree--the-capital-of-france-is.json'
+import ingredientForSoup from '../../outputs/token-tree--a-great-ingredient-to-put-in-soup-is.json'
+import meaningOfLife from '../../outputs/token-tree--the-meaning-of-life-is.json'
 
 export const data: { title: string; result: SamplerResult }[] = [
-  { title: "The capital of France", result: capitalOfFrance },
-  { title: "A great ingredient to put in soup", result: ingredientForSoup },
-  { title: "The meaning of life", result: meaningOfLife },
-];
+  { title: 'The capital of France', result: capitalOfFrance },
+  { title: 'A great ingredient to put in soup', result: ingredientForSoup },
+  { title: 'The meaning of life', result: meaningOfLife },
+]

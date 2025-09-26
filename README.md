@@ -6,9 +6,9 @@ LLMs are probabilistic models which generate a completion to a give prompt, we o
 
 ## Prerequisites
 
-* nodejs 24+
-* pnpm
-* [llama-server](https://github.com/ggml-org/llama.cpp)
+- nodejs 24+
+- pnpm
+- [llama-server](https://github.com/ggml-org/llama.cpp)
 
 ## Running locally
 
