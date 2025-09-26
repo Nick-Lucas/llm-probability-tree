@@ -1,5 +1,8 @@
 packages:
   - viz
+  - frontend
 
 onlyBuiltDependencies:
+  - '@tailwindcss/oxide'
   - esbuild
+  - unrs-resolver

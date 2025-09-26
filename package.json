@@ -8,7 +8,8 @@
     "typecheck": "tsc",
     "dev": "DOTENV_CONFIG_PATH=.env node -r dotenv/config src/example.ts",
     "sampler": "DOTENV_CONFIG_PATH=.env node -r dotenv/config src/tree/exec.ts",
-    "viz": "pnpm --filter ./viz dev"
+    "viz": "pnpm --filter ./viz dev",
+    "frontend": "pnpm --filter ./frontend dev"
   },
   "keywords": [],
   "author": "",
