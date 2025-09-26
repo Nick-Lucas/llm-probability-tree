@@ -23,6 +23,7 @@ export const TreeNodeComponent: React.FC<{
   pathFilter: 'all' | 'finished' | 'top2'
 }> = ({ node, depth, parentChildren, decimalPlaces, pathFilter }) => {
   const [isCollapsed, setIsCollapsed] = React.useState(false)
+
   const indent = depth > 0 ? 20 : 0
   const probability = node.logprob
   const totalProbability = node.totalLogprob
@@ -118,23 +119,24 @@ export const TreeNodeComponent: React.FC<{
         </div>
       </div>
       <div
+        className="grid overflow-hidden transition-[grid-template-rows,opacity] duration-300 ease-out"
         style={{
-          transition: 'max-height 0.3s ease-out, opacity 0.3s ease-out',
-          maxHeight: isCollapsed ? '0px' : '10000px',
+          gridTemplateRows: isCollapsed ? '0fr' : '1fr',
           opacity: isCollapsed ? 0 : 1,
         }}
-        className="overflow-hidden"
       >
-        {filteredChildren.map((child, index) => (
-          <TreeNodeComponent
-            key={index}
-            node={child}
-            depth={depth + 1}
-            parentChildren={filteredChildren}
-            decimalPlaces={decimalPlaces}
-            pathFilter={pathFilter}
-          />
-        ))}
+        <div className="min-h-0">
+          {filteredChildren.map((child, index) => (
+            <TreeNodeComponent
+              key={index}
+              node={child}
+              depth={depth + 1}
+              parentChildren={filteredChildren}
+              decimalPlaces={decimalPlaces}
+              pathFilter={pathFilter}
+            />
+          ))}
+        </div>
       </div>
     </div>
   )
