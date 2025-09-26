@@ -5,15 +5,11 @@ export default function Header() {
     <header className="p-2 flex gap-2 bg-white text-black justify-between">
       <nav className="flex flex-row">
         <div className="px-2 font-bold">
-          <Link to="/">Home</Link>
+          <Link to="/generate">Generate</Link>
         </div>
-
+        
         <div className="px-2 font-bold">
-          <Link to="/demo/start/server-funcs">Start - Server Functions</Link>
-        </div>
-
-        <div className="px-2 font-bold">
-          <Link to="/demo/start/api-request">Start - API Request</Link>
+          <Link to="/tree">View Trees</Link>
         </div>
       </nav>
     </header>
