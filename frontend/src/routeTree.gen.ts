@@ -10,17 +10,11 @@
 
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as TreeRouteImport } from './routes/tree'
-import { Route as GenerateRouteImport } from './routes/generate'
 import { Route as IndexRouteImport } from './routes/index'
 
 const TreeRoute = TreeRouteImport.update({
   id: '/tree',
   path: '/tree',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const GenerateRoute = GenerateRouteImport.update({
-  id: '/generate',
-  path: '/generate',
   getParentRoute: () => rootRouteImport,
 } as any)
 const IndexRoute = IndexRouteImport.update({
@@ -31,31 +25,27 @@ const IndexRoute = IndexRouteImport.update({
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
-  '/generate': typeof GenerateRoute
   '/tree': typeof TreeRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
-  '/generate': typeof GenerateRoute
   '/tree': typeof TreeRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
-  '/generate': typeof GenerateRoute
   '/tree': typeof TreeRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/' | '/generate' | '/tree'
+  fullPaths: '/' | '/tree'
   fileRoutesByTo: FileRoutesByTo
-  to: '/' | '/generate' | '/tree'
-  id: '__root__' | '/' | '/generate' | '/tree'
+  to: '/' | '/tree'
+  id: '__root__' | '/' | '/tree'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
-  GenerateRoute: typeof GenerateRoute
   TreeRoute: typeof TreeRoute
 }
 
@@ -66,13 +56,6 @@ declare module '@tanstack/react-router' {
       path: '/tree'
       fullPath: '/tree'
       preLoaderRoute: typeof TreeRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/generate': {
-      id: '/generate'
-      path: '/generate'
-      fullPath: '/generate'
-      preLoaderRoute: typeof GenerateRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/': {
@@ -87,7 +70,6 @@ declare module '@tanstack/react-router' {
 
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
-  GenerateRoute: GenerateRoute,
   TreeRoute: TreeRoute,
 }
 export const routeTree = rootRouteImport
