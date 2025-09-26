@@ -1,6 +1,6 @@
 # LLM Probability Tree
 
-LLMs are probabilistic models which generate a completion to a give prompt, we orchestrate this by measuring probabilities of each "next token" and then deciding which token we use (which might not be the most probable one) to continue the completion. This project is a tool to explore the possible outputs of an LLM, by default gemma3 on llama-server, and store the results for exploration via the frontend.
+LLMs are probabilistic models which generate a completion to a given prompt, we orchestrate this by measuring probabilities of each "next token" and then deciding which token we use (which might not be the most probable one) to continue the completion. This project is a tool to explore the possible outputs of an LLM, by default gemma3 on llama-server, and store the results for exploration via the frontend.
 
 [Explore the Trees I've already committed](https://llm-probability-tree.me-62f.workers.dev/)
 
