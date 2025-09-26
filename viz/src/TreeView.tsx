@@ -1,5 +1,7 @@
 import React from "react";
+import { useSearch, useNavigate } from "@tanstack/react-router";
 import { data, type TreeNode } from "./data";
+import type { SearchParams } from "./routes";
 
 const hasLeafDescendant = (node: TreeNode): boolean => {
   const isLeaf = node.token === '\n\n' && node.children.length === 0;
@@ -26,8 +28,8 @@ const TreeNodeComponent: React.FC<{
   depth: number;
   parentChildren?: TreeNode[];
   decimalPlaces: number;
-  showOnlyFinished: boolean;
-}> = ({ node, depth, parentChildren, decimalPlaces, showOnlyFinished }) => {
+  pathFilter: 'all' | 'finished' | 'top2';
+}> = ({ node, depth, parentChildren, decimalPlaces, pathFilter }) => {
   const [isCollapsed, setIsCollapsed] = React.useState(false);
   const indent = depth * 20;
   const probability = Math.exp(node.logprob);
@@ -55,9 +57,19 @@ const TreeNodeComponent: React.FC<{
     return prob.toFixed(decimalPlaces) + 'ish';
   };
 
-  const filteredChildren = showOnlyFinished
-    ? node.children.filter(child => hasLeafDescendant(child))
-    : node.children;
+  const filteredChildren = (() => {
+    switch (pathFilter) {
+      case 'finished':
+        return node.children.filter(child => hasLeafDescendant(child));
+      case 'top2':
+        return node.children
+          .slice()
+          .sort((a, b) => Math.exp(b.logprob) - Math.exp(a.logprob))
+          .slice(0, 2);
+      default:
+        return node.children;
+    }
+  })();
 
   return (
     <div
@@ -144,7 +156,7 @@ const TreeNodeComponent: React.FC<{
             depth={depth + 1}
             parentChildren={filteredChildren}
             decimalPlaces={decimalPlaces}
-            showOnlyFinished={showOnlyFinished}
+            pathFilter={pathFilter}
           />
         ))}
       </div>
@@ -156,10 +168,19 @@ export const TreeView: React.FC<TreeViewProps> = ({
   node,
   depth = 0,
 }) => {
-  const [selectedDataIndex, setSelectedDataIndex] = React.useState(0);
-  const [decimalPlaces, setDecimalPlaces] = React.useState(4);
-  const [showOnlyFinished, setShowOnlyFinished] = React.useState(false);
+  const search = useSearch({ from: '/' }) as SearchParams;
+  const navigate = useNavigate({ from: '/' });
+
+  const selectedDataIndex = search.dataIndex;
+  const decimalPlaces = search.decimalPlaces;
+  const pathFilter = search.pathFilter;
   const selectedData = node || data[selectedDataIndex].tree;
+
+  const updateSearch = (updates: Partial<SearchParams>) => {
+    navigate({
+      search: { ...search, ...updates },
+    });
+  };
 
   return (
     <div
@@ -177,7 +198,7 @@ export const TreeView: React.FC<TreeViewProps> = ({
             <select
               id="data-selector"
               value={selectedDataIndex}
-              onChange={(e) => setSelectedDataIndex(Number(e.target.value))}
+              onChange={(e) => updateSearch({ dataIndex: Number(e.target.value) })}
               style={{
                 padding: "4px 8px",
                 fontSize: "14px",
@@ -199,7 +220,7 @@ export const TreeView: React.FC<TreeViewProps> = ({
             <select
               id="decimal-selector"
               value={decimalPlaces}
-              onChange={(e) => setDecimalPlaces(Number(e.target.value))}
+              onChange={(e) => updateSearch({ decimalPlaces: Number(e.target.value) })}
               style={{
                 padding: "4px 8px",
                 fontSize: "14px",
@@ -221,8 +242,8 @@ export const TreeView: React.FC<TreeViewProps> = ({
             </label>
             <select
               id="nodes-selector"
-              value={showOnlyFinished ? "finished" : "all"}
-              onChange={(e) => setShowOnlyFinished(e.target.value === "finished")}
+              value={pathFilter}
+              onChange={(e) => updateSearch({ pathFilter: e.target.value as 'all' | 'finished' | 'top2' })}
               style={{
                 padding: "4px 8px",
                 fontSize: "14px",
@@ -232,11 +253,12 @@ export const TreeView: React.FC<TreeViewProps> = ({
             >
               <option value="all">Show All</option>
               <option value="finished">Only Finished</option>
+              <option value="top2">Top 2</option>
             </select>
           </div>
         </div>
       )}
-      <TreeNodeComponent node={selectedData} depth={depth} decimalPlaces={decimalPlaces} showOnlyFinished={showOnlyFinished} />
+      <TreeNodeComponent node={selectedData} depth={depth} decimalPlaces={decimalPlaces} pathFilter={pathFilter} />
     </div>
   );
 };
