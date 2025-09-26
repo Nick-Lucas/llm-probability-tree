@@ -23,7 +23,7 @@ export const TreeNodeComponent: React.FC<{
   pathFilter: 'all' | 'finished' | 'top2'
 }> = ({ node, depth, parentChildren, decimalPlaces, pathFilter }) => {
   const [isCollapsed, setIsCollapsed] = React.useState(false)
-  const indent = depth * 20
+  const indent = depth > 0 ? 20 : 0
   const probability = node.logprob
   const totalProbability = node.totalLogprob
 
@@ -65,36 +65,26 @@ export const TreeNodeComponent: React.FC<{
 
   return (
     <div
-      style={{
-        marginLeft: `${indent}px`,
-        borderLeft: depth > 0 ? '1px solid #ccc' : 'none',
-        paddingLeft: '8px',
-      }}
+      style={{ marginLeft: `${indent}px` }}
+      className={`pl-2 ${depth > 0 ? 'border-l border-gray-300' : ''}`}
     >
       <div
         style={{
-          padding: '4px 8px',
-          margin: '2px 0',
           backgroundColor: isLeaf ? '#8f66f0' : probabilityBg,
-          border: '1px solid #ddd',
-          borderRadius: '4px',
-          fontSize: '14px',
-          cursor: hasChildren ? 'pointer' : 'default',
         }}
+        className={`px-2 py-1 my-0.5 border border-gray-300 rounded text-sm ${
+          hasChildren ? 'cursor-pointer' : 'cursor-default'
+        }`}
         onClick={() => hasChildren && setIsCollapsed(!isCollapsed)}
       >
         <div
           style={{
-            fontWeight: 'bold',
             color: isLeaf ? '#FFFFFF' : '#333',
-            display: 'flex',
-            alignItems: 'center',
           }}
+          className="font-bold flex items-center"
         >
           {hasChildren && (
-            <span
-              style={{ marginRight: '8px', fontSize: '12px', color: '#888' }}
-            >
+            <span className="mr-2 text-xs text-gray-500">
               {isCollapsed ? '▶' : '▼'}
             </span>
           )}
@@ -103,19 +93,16 @@ export const TreeNodeComponent: React.FC<{
 
           <span
             style={{
-              marginLeft: '8px',
-              fontSize: '12px',
               color: isLeaf ? '#E0E7FF' : '#666',
             }}
+            className="ml-2 text-xs"
           >
             (probability: {formatProbability(probability)}, cumulative:{' '}
             {formatProbability(totalProbability)})
           </span>
 
           {hasChildren && (
-            <span
-              style={{ marginLeft: '8px', fontSize: '11px', color: '#888' }}
-            >
+            <span className="ml-2 text-[11px] text-gray-500">
               ({filteredChildren.length} children)
             </span>
           )}
@@ -123,24 +110,20 @@ export const TreeNodeComponent: React.FC<{
 
         <div
           style={{
-            fontSize: '12px',
             color: isLeaf ? '#F3F4F6' : '#555',
-            marginTop: '4px',
-            fontFamily: 'monospace',
-            whiteSpace: 'pre-wrap',
-            paddingTop: '2px',
           }}
+          className="text-xs mt-1 font-mono whitespace-pre-wrap pt-0.5"
         >
           "{isLeaf ? node.text.trim() : node.text}"
         </div>
       </div>
       <div
         style={{
-          overflow: 'hidden',
           transition: 'max-height 0.3s ease-out, opacity 0.3s ease-out',
           maxHeight: isCollapsed ? '0px' : '10000px',
           opacity: isCollapsed ? 0 : 1,
         }}
+        className="overflow-hidden"
       >
         {filteredChildren.map((child, index) => (
           <TreeNodeComponent

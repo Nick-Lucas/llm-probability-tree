@@ -25,26 +25,13 @@ export const TreeView: React.FC<TreeViewProps> = ({ depth = 0 }) => {
   };
 
   return (
-    <div
-      style={{
-        padding: "16px",
-        fontFamily: "Arial, sans-serif",
-      }}
-    >
+    <div className="p-4 font-sans">
       {
-        <div
-          style={{
-            marginBottom: "16px",
-            display: "flex",
-            gap: "16px",
-            alignItems: "center",
-            flexWrap: "wrap",
-          }}
-        >
+        <div className="mb-4 flex gap-4 items-center flex-wrap">
           <div>
             <label
               htmlFor="data-selector"
-              style={{ marginRight: "8px", fontWeight: "bold" }}
+              className="mr-2 font-bold"
             >
               Choose dataset:
             </label>
@@ -54,12 +41,7 @@ export const TreeView: React.FC<TreeViewProps> = ({ depth = 0 }) => {
               onChange={(e) =>
                 updateSearch({ dataIndex: Number(e.target.value) })
               }
-              style={{
-                padding: "4px 8px",
-                fontSize: "14px",
-                border: "1px solid #ccc",
-                borderRadius: "4px",
-              }}
+              className="px-2 py-1 text-sm border border-gray-300 rounded"
             >
               {data.map((item, index) => (
                 <option key={index} value={index}>
@@ -71,7 +53,7 @@ export const TreeView: React.FC<TreeViewProps> = ({ depth = 0 }) => {
           <div>
             <label
               htmlFor="decimal-selector"
-              style={{ marginRight: "8px", fontWeight: "bold" }}
+              className="mr-2 font-bold"
             >
               Decimal places:
             </label>
@@ -81,12 +63,7 @@ export const TreeView: React.FC<TreeViewProps> = ({ depth = 0 }) => {
               onChange={(e) =>
                 updateSearch({ decimalPlaces: Number(e.target.value) })
               }
-              style={{
-                padding: "4px 8px",
-                fontSize: "14px",
-                border: "1px solid #ccc",
-                borderRadius: "4px",
-              }}
+              className="px-2 py-1 text-sm border border-gray-300 rounded"
             >
               <option value={-1}>No Rounding</option>
               {[...Array(11)].map((_, i) => (
@@ -99,7 +76,7 @@ export const TreeView: React.FC<TreeViewProps> = ({ depth = 0 }) => {
           <div>
             <label
               htmlFor="nodes-selector"
-              style={{ marginRight: "8px", fontWeight: "bold" }}
+              className="mr-2 font-bold"
             >
               Paths:
             </label>
@@ -111,12 +88,7 @@ export const TreeView: React.FC<TreeViewProps> = ({ depth = 0 }) => {
                   pathFilter: e.target.value as "all" | "finished" | "top2",
                 })
               }
-              style={{
-                padding: "4px 8px",
-                fontSize: "14px",
-                border: "1px solid #ccc",
-                borderRadius: "4px",
-              }}
+              className="px-2 py-1 text-sm border border-gray-300 rounded"
             >
               <option value="all">Show All</option>
               <option value="finished">Only Finished</option>
@@ -126,26 +98,11 @@ export const TreeView: React.FC<TreeViewProps> = ({ depth = 0 }) => {
         </div>
       }
 
-      <div
-        style={{
-          marginBottom: "16px",
-          padding: "12px",
-          backgroundColor: "#f8f9fa",
-          border: "1px solid #e9ecef",
-          borderRadius: "6px",
-        }}
-      >
-        <h3 style={{ margin: "0 0 8px 0", fontSize: "16px", fontWeight: "bold" }}>
+      <div className="mb-4 p-3 bg-gray-50 border border-gray-200 rounded-md">
+        <h3 className="m-0 mb-2 text-base font-bold">
           Dataset Properties
         </h3>
-        <div
-          style={{
-            display: "grid",
-            gridTemplateColumns: "repeat(auto-fit, minmax(200px, 1fr))",
-            gap: "8px",
-            fontSize: "14px",
-          }}
-        >
+        <div className="grid grid-cols-[repeat(auto-fit,minmax(200px,1fr))] gap-2 text-sm">
           <div>
             <strong>Max Depth:</strong> {data[selectedDataIndex].result.maxDepth}
           </div>
@@ -155,7 +112,7 @@ export const TreeView: React.FC<TreeViewProps> = ({ depth = 0 }) => {
           <div>
             <strong>Temperature:</strong> {data[selectedDataIndex].result.temperature}
           </div>
-          <div style={{ gridColumn: "1 / -1" }}>
+          <div className="col-span-full">
             <strong>Prompt:</strong> "{data[selectedDataIndex].result.prompt}"
           </div>
         </div>
