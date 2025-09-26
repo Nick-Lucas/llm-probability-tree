@@ -1,12 +1,14 @@
-import { Unstable_SankeyChart as SankeyChart } from "@mui/x-charts-pro/SankeyChart";
-import { toSankeyFormat } from "./to-sankey";
+// import { Unstable_SankeyChart as SankeyChart } from "@mui/x-charts-pro/SankeyChart";
+// import { toSankeyFormat } from "./to-sankey";
+import TreeView from "./TreeView";
 
-const data = toSankeyFormat()
+// const data = toSankeyFormat()
 
 function App() {
   return (
     <>
-      <SankeyChart
+    <TreeView />
+      {/* <SankeyChart
         sx={{
           width: '100%',
           height: '100%',
@@ -19,7 +21,7 @@ function App() {
             links: data.links,
           },
         }}
-      />
+      /> */}
     </>
   );
 }
