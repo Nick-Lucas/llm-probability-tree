@@ -1,6 +1,12 @@
 import React from "react";
 import { data, type TreeNode } from "./data";
 
+const hasLeafDescendant = (node: TreeNode): boolean => {
+  const isLeaf = node.token === '\n\n' && node.children.length === 0;
+  if (isLeaf) return true;
+  return node.children.some(child => hasLeafDescendant(child));
+};
+
 interface TreeViewProps {
   node?: TreeNode;
   depth?: number;
@@ -20,7 +26,8 @@ const TreeNodeComponent: React.FC<{
   depth: number;
   parentChildren?: TreeNode[];
   decimalPlaces: number;
-}> = ({ node, depth, parentChildren, decimalPlaces }) => {
+  showOnlyFinished: boolean;
+}> = ({ node, depth, parentChildren, decimalPlaces, showOnlyFinished }) => {
   const [isCollapsed, setIsCollapsed] = React.useState(false);
   const indent = depth * 20;
   const probability = Math.exp(node.logprob);
@@ -47,6 +54,10 @@ const TreeNodeComponent: React.FC<{
     if (decimalPlaces === -1) return prob.toString();
     return prob.toFixed(decimalPlaces) + 'ish';
   };
+
+  const filteredChildren = showOnlyFinished
+    ? node.children.filter(child => hasLeafDescendant(child))
+    : node.children;
 
   return (
     <div
@@ -100,7 +111,7 @@ const TreeNodeComponent: React.FC<{
             <span
               style={{ marginLeft: "8px", fontSize: "11px", color: "#888" }}
             >
-              ({node.children.length} children)
+              ({filteredChildren.length} children)
             </span>
           )}
         </div>
@@ -126,13 +137,14 @@ const TreeNodeComponent: React.FC<{
           opacity: isCollapsed ? 0 : 1,
         }}
       >
-        {node.children.map((child, index) => (
+        {filteredChildren.map((child, index) => (
           <TreeNodeComponent
             key={index}
             node={child}
             depth={depth + 1}
-            parentChildren={node.children}
+            parentChildren={filteredChildren}
             decimalPlaces={decimalPlaces}
+            showOnlyFinished={showOnlyFinished}
           />
         ))}
       </div>
@@ -146,6 +158,7 @@ export const TreeView: React.FC<TreeViewProps> = ({
 }) => {
   const [selectedDataIndex, setSelectedDataIndex] = React.useState(0);
   const [decimalPlaces, setDecimalPlaces] = React.useState(4);
+  const [showOnlyFinished, setShowOnlyFinished] = React.useState(false);
   const selectedData = node || data[selectedDataIndex].tree;
 
   return (
@@ -202,9 +215,28 @@ export const TreeView: React.FC<TreeViewProps> = ({
               ))}
             </select>
           </div>
+          <div>
+            <label htmlFor="nodes-selector" style={{ marginRight: "8px", fontWeight: "bold" }}>
+              Paths:
+            </label>
+            <select
+              id="nodes-selector"
+              value={showOnlyFinished ? "finished" : "all"}
+              onChange={(e) => setShowOnlyFinished(e.target.value === "finished")}
+              style={{
+                padding: "4px 8px",
+                fontSize: "14px",
+                border: "1px solid #ccc",
+                borderRadius: "4px",
+              }}
+            >
+              <option value="all">Show All</option>
+              <option value="finished">Only Finished</option>
+            </select>
+          </div>
         </div>
       )}
-      <TreeNodeComponent node={selectedData} depth={depth} decimalPlaces={decimalPlaces} />
+      <TreeNodeComponent node={selectedData} depth={depth} decimalPlaces={decimalPlaces} showOnlyFinished={showOnlyFinished} />
     </div>
   );
 };
