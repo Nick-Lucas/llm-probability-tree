@@ -32,6 +32,12 @@ export class LlamaServerSampler implements Sampler {
 
       // no sampling randomness, we want consistent results
       seed: -1,
+
+      // Disable samplers as we're doing sampling
+      samplers: [],
+
+      model:
+        'this is ignored by llama.cpp server, it uses the model you boot the CLI with',
     }
 
     const { body: resBody, statusCode } = await request(

@@ -26,7 +26,6 @@ export const TreeNodeComponent: React.FC<{
 
   const indent = depth > 0 ? 20 : 0
   const probability = node.logprob
-  const totalProbability = node.totalLogprob
 
   // Calculate normalized probability among siblings
   let normalizedProb = 1 // Default to 1 for single child
@@ -98,9 +97,10 @@ export const TreeNodeComponent: React.FC<{
             }}
             className="ml-2 text-xs"
           >
-            (probability: {formatProbability(probability)}, cumulative:{' '}
-            {formatProbability(totalProbability)})
+            (probability: {formatProbability(probability)})
           </span>
+
+          <span className="flex-1" />
 
           {hasChildren && (
             <span className="ml-2 text-[11px] text-gray-500">
