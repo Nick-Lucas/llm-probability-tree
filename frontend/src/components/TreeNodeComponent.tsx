@@ -29,7 +29,7 @@ export const TreeNodeComponent: React.FC<{
   const totalProbability = node.totalLogprob
 
   // Calculate normalized probability among siblings
-  let normalizedProb = 0.5 // Default neutral color
+  let normalizedProb = 1 // Default to 1 for single child
   if (parentChildren && parentChildren.length > 1) {
     const siblingProbs = parentChildren.map((child) => child.logprob)
     const maxProb = Math.max(...siblingProbs)
