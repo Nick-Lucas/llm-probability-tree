@@ -35,6 +35,11 @@ export class LlamaServerSampler implements Sampler {
       method: "POST",
       body: JSON.stringify(body),
       headers: { "content-type": "application/json" },
+
+      
+      // Increase timeouts a lot since building token trees can take a while
+      headersTimeout: 1000*60*60,
+      bodyTimeout: 0,
     });
 
     if (statusCode !== 200) {

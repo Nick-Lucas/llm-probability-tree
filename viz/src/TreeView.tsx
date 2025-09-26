@@ -4,13 +4,12 @@ import { data, type TreeNode } from "./data";
 import type { SearchParams } from "./routes";
 
 const hasLeafDescendant = (node: TreeNode): boolean => {
-  const isLeaf = node.token === '\n\n' && node.children.length === 0;
+  const isLeaf = node.token === "\n\n" && node.children.length === 0;
   if (isLeaf) return true;
-  return node.children.some(child => hasLeafDescendant(child));
+  return node.children.some((child) => hasLeafDescendant(child));
 };
 
 interface TreeViewProps {
-  node?: TreeNode;
   depth?: number;
   parentChildren?: TreeNode[];
 }
@@ -28,7 +27,7 @@ const TreeNodeComponent: React.FC<{
   depth: number;
   parentChildren?: TreeNode[];
   decimalPlaces: number;
-  pathFilter: 'all' | 'finished' | 'top2';
+  pathFilter: "all" | "finished" | "top2";
 }> = ({ node, depth, parentChildren, decimalPlaces, pathFilter }) => {
   const [isCollapsed, setIsCollapsed] = React.useState(false);
   const indent = depth * 20;
@@ -50,18 +49,18 @@ const TreeNodeComponent: React.FC<{
     depth === 0 ? "#f0f0f0" : getColorFromProbability(normalizedProb);
   const hasChildren = node.children.length > 0;
 
-  const isLeaf = node.token === '\n\n' && node.children.length === 0;
+  const isLeaf = node.token === "\n\n" && node.children.length === 0;
 
   const formatProbability = (prob: number) => {
     if (decimalPlaces === -1) return prob.toString();
-    return prob.toFixed(decimalPlaces) + 'ish';
+    return prob.toFixed(decimalPlaces) + "ish";
   };
 
   const filteredChildren = (() => {
     switch (pathFilter) {
-      case 'finished':
-        return node.children.filter(child => hasLeafDescendant(child));
-      case 'top2':
+      case "finished":
+        return node.children.filter((child) => hasLeafDescendant(child));
+      case "top2":
         return node.children
           .slice()
           .sort((a, b) => Math.exp(b.logprob) - Math.exp(a.logprob))
@@ -110,14 +109,15 @@ const TreeNodeComponent: React.FC<{
           {isLeaf ? "✅" : `Token: "${node.token}"`}
 
           <span
-              style={{
-                marginLeft: "8px",
-                fontSize: "12px",
-                color: isLeaf ? "#E0E7FF" : "#666",
-              }}
-            >
-              (probability: {formatProbability(probability)}, cumulative: {formatProbability(totalProbability)})
-            </span>
+            style={{
+              marginLeft: "8px",
+              fontSize: "12px",
+              color: isLeaf ? "#E0E7FF" : "#666",
+            }}
+          >
+            (probability: {formatProbability(probability)}, cumulative:{" "}
+            {formatProbability(totalProbability)})
+          </span>
 
           {hasChildren && (
             <span
@@ -164,17 +164,14 @@ const TreeNodeComponent: React.FC<{
   );
 };
 
-export const TreeView: React.FC<TreeViewProps> = ({
-  node,
-  depth = 0,
-}) => {
-  const search = useSearch({ from: '/' }) as SearchParams;
-  const navigate = useNavigate({ from: '/' });
+export const TreeView: React.FC<TreeViewProps> = ({ depth = 0 }) => {
+  const search = useSearch({ from: "/" }) as SearchParams;
+  const navigate = useNavigate({ from: "/" });
 
   const selectedDataIndex = search.dataIndex;
   const decimalPlaces = search.decimalPlaces;
   const pathFilter = search.pathFilter;
-  const selectedData = node || data[selectedDataIndex].tree;
+  const node = data[selectedDataIndex].result.tree;
 
   const updateSearch = (updates: Partial<SearchParams>) => {
     navigate({
@@ -189,16 +186,29 @@ export const TreeView: React.FC<TreeViewProps> = ({
         fontFamily: "Arial, sans-serif",
       }}
     >
-      {!node && (
-        <div style={{ marginBottom: "16px", display: "flex", gap: "16px", alignItems: "center", flexWrap: "wrap" }}>
+      {
+        <div
+          style={{
+            marginBottom: "16px",
+            display: "flex",
+            gap: "16px",
+            alignItems: "center",
+            flexWrap: "wrap",
+          }}
+        >
           <div>
-            <label htmlFor="data-selector" style={{ marginRight: "8px", fontWeight: "bold" }}>
+            <label
+              htmlFor="data-selector"
+              style={{ marginRight: "8px", fontWeight: "bold" }}
+            >
               Choose dataset:
             </label>
             <select
               id="data-selector"
               value={selectedDataIndex}
-              onChange={(e) => updateSearch({ dataIndex: Number(e.target.value) })}
+              onChange={(e) =>
+                updateSearch({ dataIndex: Number(e.target.value) })
+              }
               style={{
                 padding: "4px 8px",
                 fontSize: "14px",
@@ -214,13 +224,18 @@ export const TreeView: React.FC<TreeViewProps> = ({
             </select>
           </div>
           <div>
-            <label htmlFor="decimal-selector" style={{ marginRight: "8px", fontWeight: "bold" }}>
+            <label
+              htmlFor="decimal-selector"
+              style={{ marginRight: "8px", fontWeight: "bold" }}
+            >
               Decimal places:
             </label>
             <select
               id="decimal-selector"
               value={decimalPlaces}
-              onChange={(e) => updateSearch({ decimalPlaces: Number(e.target.value) })}
+              onChange={(e) =>
+                updateSearch({ decimalPlaces: Number(e.target.value) })
+              }
               style={{
                 padding: "4px 8px",
                 fontSize: "14px",
@@ -231,19 +246,26 @@ export const TreeView: React.FC<TreeViewProps> = ({
               <option value={-1}>No Rounding</option>
               {[...Array(11)].map((_, i) => (
                 <option key={i} value={i}>
-                  {i} decimal{i !== 1 ? 's' : ''}
+                  {i} decimal{i !== 1 ? "s" : ""}
                 </option>
               ))}
             </select>
           </div>
           <div>
-            <label htmlFor="nodes-selector" style={{ marginRight: "8px", fontWeight: "bold" }}>
+            <label
+              htmlFor="nodes-selector"
+              style={{ marginRight: "8px", fontWeight: "bold" }}
+            >
               Paths:
             </label>
             <select
               id="nodes-selector"
               value={pathFilter}
-              onChange={(e) => updateSearch({ pathFilter: e.target.value as 'all' | 'finished' | 'top2' })}
+              onChange={(e) =>
+                updateSearch({
+                  pathFilter: e.target.value as "all" | "finished" | "top2",
+                })
+              }
               style={{
                 padding: "4px 8px",
                 fontSize: "14px",
@@ -257,8 +279,14 @@ export const TreeView: React.FC<TreeViewProps> = ({
             </select>
           </div>
         </div>
-      )}
-      <TreeNodeComponent node={selectedData} depth={depth} decimalPlaces={decimalPlaces} pathFilter={pathFilter} />
+      }
+
+      <TreeNodeComponent
+        node={node}
+        depth={depth}
+        decimalPlaces={decimalPlaces}
+        pathFilter={pathFilter}
+      />
     </div>
   );
 };

@@ -8,19 +8,29 @@ async function execute(prompt: string) {
 
   const sampler = new LlamaServerSampler("http://127.0.0.1:8080");
 
-  const root = await buildTokenTree(sampler, prompt, {
+  const maxDepth = 6;
+  const topKPerStep = 5;
+  const temperature = 0;
+
+  const tree = await buildTokenTree(sampler, prompt, {
     // maxDepth^topKPerStep predicts the number of API calls
-    maxDepth: 4,
-    topKPerStep: 5,
+    maxDepth,
+    topKPerStep,
 
     // Temperature won't really matter since we're exploring all trees 
     // and so reshaping probabilities won't change outcomes, 0 should 
     // yield the most "real" probability values
-    temperature: 0,
+    temperature,
     stopIf: (text) => !text || text.endsWith("\n\n") || text.length > 500, // example
   });
 
-  const json = JSON.stringify(root, null, 2)
+  const json = JSON.stringify({
+    maxDepth,
+    topKPerStep,
+    temperature,
+    prompt,
+    tree
+  }, null, 2)
   console.log(json);
   writeFileSync(`./outputs/token-tree--${prompt.replace(/ /g, "-").toLowerCase()}.json`, json);
 }
