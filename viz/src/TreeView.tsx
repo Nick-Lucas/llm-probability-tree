@@ -19,7 +19,8 @@ const TreeNodeComponent: React.FC<{
   node: TreeNode;
   depth: number;
   parentChildren?: TreeNode[];
-}> = ({ node, depth, parentChildren }) => {
+  decimalPlaces: number;
+}> = ({ node, depth, parentChildren, decimalPlaces }) => {
   const [isCollapsed, setIsCollapsed] = React.useState(false);
   const indent = depth * 20;
   const probability = Math.exp(node.logprob);
@@ -41,6 +42,11 @@ const TreeNodeComponent: React.FC<{
   const hasChildren = node.children.length > 0;
 
   const isLeaf = node.token === '\n\n' && node.children.length === 0;
+
+  const formatProbability = (prob: number) => {
+    if (decimalPlaces === -1) return prob.toString();
+    return prob.toFixed(decimalPlaces) + 'ish';
+  };
 
   return (
     <div
@@ -87,7 +93,7 @@ const TreeNodeComponent: React.FC<{
                 color: isLeaf ? "#E0E7FF" : "#666",
               }}
             >
-              (probability: {probability.toFixed(4)}ish, cumulative: {totalProbability.toFixed(4)}ish)
+              (probability: {formatProbability(probability)}, cumulative: {formatProbability(totalProbability)})
             </span>
 
           {hasChildren && (
@@ -98,6 +104,7 @@ const TreeNodeComponent: React.FC<{
             </span>
           )}
         </div>
+
         <div
           style={{
             fontSize: "12px",
@@ -105,9 +112,10 @@ const TreeNodeComponent: React.FC<{
             marginTop: "4px",
             fontFamily: "monospace",
             whiteSpace: "pre-wrap",
+            paddingTop: "2px",
           }}
         >
-          "{node.text}"
+          "{isLeaf ? node.text.trim() : node.text}"
         </div>
       </div>
       <div
@@ -124,6 +132,7 @@ const TreeNodeComponent: React.FC<{
             node={child}
             depth={depth + 1}
             parentChildren={node.children}
+            decimalPlaces={decimalPlaces}
           />
         ))}
       </div>
@@ -136,6 +145,7 @@ export const TreeView: React.FC<TreeViewProps> = ({
   depth = 0,
 }) => {
   const [selectedDataIndex, setSelectedDataIndex] = React.useState(0);
+  const [decimalPlaces, setDecimalPlaces] = React.useState(4);
   const selectedData = node || data[selectedDataIndex].tree;
 
   return (
@@ -146,30 +156,55 @@ export const TreeView: React.FC<TreeViewProps> = ({
       }}
     >
       {!node && (
-        <div style={{ marginBottom: "16px" }}>
-          <label htmlFor="data-selector" style={{ marginRight: "8px", fontWeight: "bold" }}>
-            Choose dataset:
-          </label>
-          <select
-            id="data-selector"
-            value={selectedDataIndex}
-            onChange={(e) => setSelectedDataIndex(Number(e.target.value))}
-            style={{
-              padding: "4px 8px",
-              fontSize: "14px",
-              border: "1px solid #ccc",
-              borderRadius: "4px",
-            }}
-          >
-            {data.map((item, index) => (
-              <option key={index} value={index}>
-                {item.title}
-              </option>
-            ))}
-          </select>
+        <div style={{ marginBottom: "16px", display: "flex", gap: "16px", alignItems: "center", flexWrap: "wrap" }}>
+          <div>
+            <label htmlFor="data-selector" style={{ marginRight: "8px", fontWeight: "bold" }}>
+              Choose dataset:
+            </label>
+            <select
+              id="data-selector"
+              value={selectedDataIndex}
+              onChange={(e) => setSelectedDataIndex(Number(e.target.value))}
+              style={{
+                padding: "4px 8px",
+                fontSize: "14px",
+                border: "1px solid #ccc",
+                borderRadius: "4px",
+              }}
+            >
+              {data.map((item, index) => (
+                <option key={index} value={index}>
+                  {item.title}
+                </option>
+              ))}
+            </select>
+          </div>
+          <div>
+            <label htmlFor="decimal-selector" style={{ marginRight: "8px", fontWeight: "bold" }}>
+              Decimal places:
+            </label>
+            <select
+              id="decimal-selector"
+              value={decimalPlaces}
+              onChange={(e) => setDecimalPlaces(Number(e.target.value))}
+              style={{
+                padding: "4px 8px",
+                fontSize: "14px",
+                border: "1px solid #ccc",
+                borderRadius: "4px",
+              }}
+            >
+              <option value={-1}>No Rounding</option>
+              {[...Array(11)].map((_, i) => (
+                <option key={i} value={i}>
+                  {i} decimal{i !== 1 ? 's' : ''}
+                </option>
+              ))}
+            </select>
+          </div>
         </div>
       )}
-      <TreeNodeComponent node={selectedData} depth={depth} />
+      <TreeNodeComponent node={selectedData} depth={depth} decimalPlaces={decimalPlaces} />
     </div>
   );
 };
