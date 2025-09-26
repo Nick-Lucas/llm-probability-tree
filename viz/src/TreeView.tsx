@@ -281,6 +281,41 @@ export const TreeView: React.FC<TreeViewProps> = ({ depth = 0 }) => {
         </div>
       }
 
+      <div
+        style={{
+          marginBottom: "16px",
+          padding: "12px",
+          backgroundColor: "#f8f9fa",
+          border: "1px solid #e9ecef",
+          borderRadius: "6px",
+        }}
+      >
+        <h3 style={{ margin: "0 0 8px 0", fontSize: "16px", fontWeight: "bold" }}>
+          Dataset Properties
+        </h3>
+        <div
+          style={{
+            display: "grid",
+            gridTemplateColumns: "repeat(auto-fit, minmax(200px, 1fr))",
+            gap: "8px",
+            fontSize: "14px",
+          }}
+        >
+          <div>
+            <strong>Max Depth:</strong> {data[selectedDataIndex].result.maxDepth}
+          </div>
+          <div>
+            <strong>Top K Per Step:</strong> {data[selectedDataIndex].result.topKPerStep}
+          </div>
+          <div>
+            <strong>Temperature:</strong> {data[selectedDataIndex].result.temperature}
+          </div>
+          <div style={{ gridColumn: "1 / -1" }}>
+            <strong>Prompt:</strong> "{data[selectedDataIndex].result.prompt}"
+          </div>
+        </div>
+      </div>
+
       <TreeNodeComponent
         node={node}
         depth={depth}
