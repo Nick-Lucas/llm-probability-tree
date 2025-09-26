@@ -1,0 +1,2616 @@
+{
+  "maxDepth": 6,
+  "topKPerStep": 5,
+  "temperature": 0,
+  "prompt": "The capital of france is Paris",
+  "tree": {
+    "token": "",
+    "logprob": 0,
+    "totalLogprob": 0,
+    "text": "The capital of france is Paris",
+    "children": [
+      {
+        "token": ".",
+        "logprob": -0.04447736218571663,
+        "totalLogprob": -0.04447736218571663,
+        "text": "The capital of france is Paris.",
+        "children": [
+          {
+            "token": "\n\n",
+            "logprob": -0.1438194364309311,
+            "totalLogprob": -0.18829679861664772,
+            "text": "The capital of france is Paris.\n\n",
+            "children": []
+          },
+          {
+            "token": "\n",
+            "logprob": -2.5387074947357178,
+            "totalLogprob": -2.5831848569214344,
+            "text": "The capital of france is Paris.\n",
+            "children": [
+              {
+                "token": "The",
+                "logprob": -0.12904591858386993,
+                "totalLogprob": -2.7122307755053043,
+                "text": "The capital of france is Paris.\nThe",
+                "children": [
+                  {
+                    "token": " largest",
+                    "logprob": -0.6474526524543762,
+                    "totalLogprob": -3.3596834279596806,
+                    "text": "The capital of france is Paris.\nThe largest",
+                    "children": [
+                      {
+                        "token": " city",
+                        "logprob": -0.07496574521064758,
+                        "totalLogprob": -3.434649173170328,
+                        "text": "The capital of france is Paris.\nThe largest city",
+                        "children": [
+                          {
+                            "token": " in",
+                            "logprob": -0.00934844184666872,
+                            "totalLogprob": -3.443997615016997,
+                            "text": "The capital of france is Paris.\nThe largest city in",
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "token": " ocean",
+                        "logprob": -3.809882402420044,
+                        "totalLogprob": -7.1695658303797245,
+                        "text": "The capital of france is Paris.\nThe largest ocean",
+                        "children": [
+                          {
+                            "token": " in",
+                            "logprob": -0.9082874059677124,
+                            "totalLogprob": -8.077853236347437,
+                            "text": "The capital of france is Paris.\nThe largest ocean in",
+                            "children": []
+                          },
+                          {
+                            "token": " is",
+                            "logprob": -1.063045859336853,
+                            "totalLogprob": -8.232611689716578,
+                            "text": "The capital of france is Paris.\nThe largest ocean is",
+                            "children": []
+                          },
+                          {
+                            "token": " on",
+                            "logprob": -1.396582007408142,
+                            "totalLogprob": -8.566147837787867,
+                            "text": "The capital of france is Paris.\nThe largest ocean on",
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "token": " country",
+                        "logprob": -3.8880321979522705,
+                        "totalLogprob": -7.247715625911951,
+                        "text": "The capital of france is Paris.\nThe largest country",
+                        "children": [
+                          {
+                            "token": " in",
+                            "logprob": -0.005724571645259857,
+                            "totalLogprob": -7.253440197557211,
+                            "text": "The capital of france is Paris.\nThe largest country in",
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "token": " capital",
+                    "logprob": -1.384696364402771,
+                    "totalLogprob": -4.096927139908075,
+                    "text": "The capital of france is Paris.\nThe capital",
+                    "children": [
+                      {
+                        "token": " of",
+                        "logprob": -0.0034155696630477905,
+                        "totalLogprob": -4.100342709571123,
+                        "text": "The capital of france is Paris.\nThe capital of",
+                        "children": [
+                          {
+                            "token": " Germany",
+                            "logprob": -1.2273142337799072,
+                            "totalLogprob": -5.32765694335103,
+                            "text": "The capital of france is Paris.\nThe capital of Germany",
+                            "children": []
+                          },
+                          {
+                            "token": " Canada",
+                            "logprob": -1.5115530490875244,
+                            "totalLogprob": -5.6118957586586475,
+                            "text": "The capital of france is Paris.\nThe capital of Canada",
+                            "children": []
+                          },
+                          {
+                            "token": " Spain",
+                            "logprob": -2.0110819339752197,
+                            "totalLogprob": -6.111424643546343,
+                            "text": "The capital of france is Paris.\nThe capital of Spain",
+                            "children": []
+                          },
+                          {
+                            "token": " Italy",
+                            "logprob": -2.3445494174957275,
+                            "totalLogprob": -6.444892127066851,
+                            "text": "The capital of france is Paris.\nThe capital of Italy",
+                            "children": []
+                          },
+                          {
+                            "token": " Australia",
+                            "logprob": -3.2458994388580322,
+                            "totalLogprob": -7.346242148429155,
+                            "text": "The capital of france is Paris.\nThe capital of Australia",
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "token": " population",
+                    "logprob": -3.1797544956207275,
+                    "totalLogprob": -5.891985271126032,
+                    "text": "The capital of france is Paris.\nThe population",
+                    "children": [
+                      {
+                        "token": " of",
+                        "logprob": -0.0009615274029783905,
+                        "totalLogprob": -5.89294679852901,
+                        "text": "The capital of france is Paris.\nThe population of",
+                        "children": [
+                          {
+                            "token": " Paris",
+                            "logprob": -0.7024580836296082,
+                            "totalLogprob": -6.595404882158618,
+                            "text": "The capital of france is Paris.\nThe population of Paris",
+                            "children": []
+                          },
+                          {
+                            "token": " France",
+                            "logprob": -0.7695109248161316,
+                            "totalLogprob": -6.662457723345142,
+                            "text": "The capital of france is Paris.\nThe population of France",
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "token": " currency",
+                    "logprob": -4.054362773895264,
+                    "totalLogprob": -6.766593549400568,
+                    "text": "The capital of france is Paris.\nThe currency",
+                    "children": [
+                      {
+                        "token": " of",
+                        "logprob": -0.014189784415066242,
+                        "totalLogprob": -6.780783333815634,
+                        "text": "The capital of france is Paris.\nThe currency of",
+                        "children": [
+                          {
+                            "token": " France",
+                            "logprob": -0.039094727486371994,
+                            "totalLogprob": -6.819878061302006,
+                            "text": "The capital of france is Paris.\nThe currency of France",
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "token": " city",
+                    "logprob": -4.064673900604248,
+                    "totalLogprob": -6.776904676109552,
+                    "text": "The capital of france is Paris.\nThe city",
+                    "children": [
+                      {
+                        "token": " of",
+                        "logprob": -0.005864917300641537,
+                        "totalLogprob": -6.782769593410194,
+                        "text": "The capital of france is Paris.\nThe city of",
+                        "children": [
+                          {
+                            "token": " Rome",
+                            "logprob": -0.41311144828796387,
+                            "totalLogprob": -7.195881041698158,
+                            "text": "The capital of france is Paris.\nThe city of Rome",
+                            "children": []
+                          },
+                          {
+                            "token": " London",
+                            "logprob": -1.6236770153045654,
+                            "totalLogprob": -8.40644660871476,
+                            "text": "The capital of france is Paris.\nThe city of London",
+                            "children": []
+                          },
+                          {
+                            "token": " Tokyo",
+                            "logprob": -3.2471835613250732,
+                            "totalLogprob": -10.029953154735267,
+                            "text": "The capital of france is Paris.\nThe city of Tokyo",
+                            "children": []
+                          },
+                          {
+                            "token": " New",
+                            "logprob": -4.14939546585083,
+                            "totalLogprob": -10.932165059261024,
+                            "text": "The capital of france is Paris.\nThe city of New",
+                            "children": []
+                          },
+                          {
+                            "token": " Berlin",
+                            "logprob": -4.425688743591309,
+                            "totalLogprob": -11.208458337001503,
+                            "text": "The capital of france is Paris.\nThe city of Berlin",
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "token": "",
+                "logprob": -2.805016040802002,
+                "totalLogprob": -5.388200897723436,
+                "text": "The capital of france is Paris.\n",
+                "children": [
+                  {
+                    "token": "The",
+                    "logprob": -0.12904591858386993,
+                    "totalLogprob": -5.517246816307306,
+                    "text": "The capital of france is Paris.\nThe",
+                    "children": [
+                      {
+                        "token": " largest",
+                        "logprob": -0.6474526524543762,
+                        "totalLogprob": -6.1646994687616825,
+                        "text": "The capital of france is Paris.\nThe largest",
+                        "children": [
+                          {
+                            "token": " city",
+                            "logprob": -0.07496574521064758,
+                            "totalLogprob": -6.23966521397233,
+                            "text": "The capital of france is Paris.\nThe largest city",
+                            "children": []
+                          },
+                          {
+                            "token": " ocean",
+                            "logprob": -3.809882402420044,
+                            "totalLogprob": -9.974581871181726,
+                            "text": "The capital of france is Paris.\nThe largest ocean",
+                            "children": []
+                          },
+                          {
+                            "token": " country",
+                            "logprob": -3.8880321979522705,
+                            "totalLogprob": -10.052731666713953,
+                            "text": "The capital of france is Paris.\nThe largest country",
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "token": " capital",
+                        "logprob": -1.384696364402771,
+                        "totalLogprob": -6.901943180710077,
+                        "text": "The capital of france is Paris.\nThe capital",
+                        "children": [
+                          {
+                            "token": " of",
+                            "logprob": -0.0034155696630477905,
+                            "totalLogprob": -6.905358750373125,
+                            "text": "The capital of france is Paris.\nThe capital of",
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "token": " population",
+                        "logprob": -3.1797544956207275,
+                        "totalLogprob": -8.697001311928034,
+                        "text": "The capital of france is Paris.\nThe population",
+                        "children": [
+                          {
+                            "token": " of",
+                            "logprob": -0.0009615274029783905,
+                            "totalLogprob": -8.697962839331012,
+                            "text": "The capital of france is Paris.\nThe population of",
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "token": " currency",
+                        "logprob": -4.054362773895264,
+                        "totalLogprob": -9.57160959020257,
+                        "text": "The capital of france is Paris.\nThe currency",
+                        "children": [
+                          {
+                            "token": " of",
+                            "logprob": -0.014189784415066242,
+                            "totalLogprob": -9.585799374617636,
+                            "text": "The capital of france is Paris.\nThe currency of",
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "token": " city",
+                        "logprob": -4.064673900604248,
+                        "totalLogprob": -9.581920716911554,
+                        "text": "The capital of france is Paris.\nThe city",
+                        "children": [
+                          {
+                            "token": " of",
+                            "logprob": -0.005864917300641537,
+                            "totalLogprob": -9.587785634212196,
+                            "text": "The capital of france is Paris.\nThe city of",
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "token": "",
+                    "logprob": -2.805016040802002,
+                    "totalLogprob": -8.193216938525438,
+                    "text": "The capital of france is Paris.\n",
+                    "children": [
+                      {
+                        "token": "The",
+                        "logprob": -0.12904591858386993,
+                        "totalLogprob": -8.322262857109308,
+                        "text": "The capital of france is Paris.\nThe",
+                        "children": [
+                          {
+                            "token": " largest",
+                            "logprob": -0.6474526524543762,
+                            "totalLogprob": -8.969715509563684,
+                            "text": "The capital of france is Paris.\nThe largest",
+                            "children": []
+                          },
+                          {
+                            "token": " capital",
+                            "logprob": -1.384696364402771,
+                            "totalLogprob": -9.70695922151208,
+                            "text": "The capital of france is Paris.\nThe capital",
+                            "children": []
+                          },
+                          {
+                            "token": " population",
+                            "logprob": -3.1797544956207275,
+                            "totalLogprob": -11.502017352730036,
+                            "text": "The capital of france is Paris.\nThe population",
+                            "children": []
+                          },
+                          {
+                            "token": " currency",
+                            "logprob": -4.054362773895264,
+                            "totalLogprob": -12.376625631004572,
+                            "text": "The capital of france is Paris.\nThe currency",
+                            "children": []
+                          },
+                          {
+                            "token": " city",
+                            "logprob": -4.064673900604248,
+                            "totalLogprob": -12.386936757713556,
+                            "text": "The capital of france is Paris.\nThe city",
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "token": "",
+                        "logprob": -2.805016040802002,
+                        "totalLogprob": -10.99823297932744,
+                        "text": "The capital of france is Paris.\n",
+                        "children": [
+                          {
+                            "token": "The",
+                            "logprob": -0.12904591858386993,
+                            "totalLogprob": -11.12727889791131,
+                            "text": "The capital of france is Paris.\nThe",
+                            "children": []
+                          },
+                          {
+                            "token": "",
+                            "logprob": -2.805016040802002,
+                            "totalLogprob": -13.803249020129442,
+                            "text": "The capital of france is Paris.\n",
+                            "children": []
+                          },
+                          {
+                            "token": "It",
+                            "logprob": -4.970606327056885,
+                            "totalLogprob": -15.968839306384325,
+                            "text": "The capital of france is Paris.\nIt",
+                            "children": []
+                          },
+                          {
+                            "token": "What",
+                            "logprob": -5.159328937530518,
+                            "totalLogprob": -16.157561916857958,
+                            "text": "The capital of france is Paris.\nWhat",
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "token": "It",
+                        "logprob": -4.970606327056885,
+                        "totalLogprob": -13.163823265582323,
+                        "text": "The capital of france is Paris.\nIt",
+                        "children": [
+                          {
+                            "token": " is",
+                            "logprob": -0.26810941100120544,
+                            "totalLogprob": -13.431932676583529,
+                            "text": "The capital of france is Paris.\nIt is",
+                            "children": []
+                          },
+                          {
+                            "token": "'",
+                            "logprob": -1.906108021736145,
+                            "totalLogprob": -15.069931287318468,
+                            "text": "The capital of france is Paris.\nIt'",
+                            "children": []
+                          },
+                          {
+                            "token": "’",
+                            "logprob": -3.3051578998565674,
+                            "totalLogprob": -16.46898116543889,
+                            "text": "The capital of france is Paris.\nIt’",
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "token": "What",
+                        "logprob": -5.159328937530518,
+                        "totalLogprob": -13.352545876055956,
+                        "text": "The capital of france is Paris.\nWhat",
+                        "children": [
+                          {
+                            "token": " is",
+                            "logprob": -0.040427833795547485,
+                            "totalLogprob": -13.392973709851503,
+                            "text": "The capital of france is Paris.\nWhat is",
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "token": "It",
+                    "logprob": -4.970606327056885,
+                    "totalLogprob": -10.358807224780321,
+                    "text": "The capital of france is Paris.\nIt",
+                    "children": [
+                      {
+                        "token": " is",
+                        "logprob": -0.26810941100120544,
+                        "totalLogprob": -10.626916635781527,
+                        "text": "The capital of france is Paris.\nIt is",
+                        "children": [
+                          {
+                            "token": " a",
+                            "logprob": -1.1595923900604248,
+                            "totalLogprob": -11.786509025841951,
+                            "text": "The capital of france is Paris.\nIt is a",
+                            "children": []
+                          },
+                          {
+                            "token": " the",
+                            "logprob": -1.4897620677947998,
+                            "totalLogprob": -12.116678703576326,
+                            "text": "The capital of france is Paris.\nIt is the",
+                            "children": []
+                          },
+                          {
+                            "token": " known",
+                            "logprob": -1.6325232982635498,
+                            "totalLogprob": -12.259439934045076,
+                            "text": "The capital of france is Paris.\nIt is known",
+                            "children": []
+                          },
+                          {
+                            "token": " located",
+                            "logprob": -2.5733401775360107,
+                            "totalLogprob": -13.200256813317537,
+                            "text": "The capital of france is Paris.\nIt is located",
+                            "children": []
+                          },
+                          {
+                            "token": " also",
+                            "logprob": -2.6210973262786865,
+                            "totalLogprob": -13.248013962060213,
+                            "text": "The capital of france is Paris.\nIt is also",
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "token": "'",
+                        "logprob": -1.906108021736145,
+                        "totalLogprob": -12.264915246516466,
+                        "text": "The capital of france is Paris.\nIt'",
+                        "children": [
+                          {
+                            "token": "s",
+                            "logprob": -0.00005400326699600555,
+                            "totalLogprob": -12.264969249783462,
+                            "text": "The capital of france is Paris.\nIt's",
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "token": "’",
+                        "logprob": -3.3051578998565674,
+                        "totalLogprob": -13.663965124636889,
+                        "text": "The capital of france is Paris.\nIt’",
+                        "children": [
+                          {
+                            "token": "s",
+                            "logprob": -0.00011289757094345987,
+                            "totalLogprob": -13.664078022207832,
+                            "text": "The capital of france is Paris.\nIt’s",
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "token": "What",
+                    "logprob": -5.159328937530518,
+                    "totalLogprob": -10.547529835253954,
+                    "text": "The capital of france is Paris.\nWhat",
+                    "children": [
+                      {
+                        "token": " is",
+                        "logprob": -0.040427833795547485,
+                        "totalLogprob": -10.587957669049501,
+                        "text": "The capital of france is Paris.\nWhat is",
+                        "children": [
+                          {
+                            "token": " the",
+                            "logprob": -0.013883438892662525,
+                            "totalLogprob": -10.601841107942164,
+                            "text": "The capital of france is Paris.\nWhat is the",
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "token": "It",
+                "logprob": -4.970606327056885,
+                "totalLogprob": -7.553791183978319,
+                "text": "The capital of france is Paris.\nIt",
+                "children": [
+                  {
+                    "token": " is",
+                    "logprob": -0.26810941100120544,
+                    "totalLogprob": -7.821900594979525,
+                    "text": "The capital of france is Paris.\nIt is",
+                    "children": [
+                      {
+                        "token": " a",
+                        "logprob": -1.1595923900604248,
+                        "totalLogprob": -8.98149298503995,
+                        "text": "The capital of france is Paris.\nIt is a",
+                        "children": [
+                          {
+                            "token": " city",
+                            "logprob": -1.2288627624511719,
+                            "totalLogprob": -10.210355747491121,
+                            "text": "The capital of france is Paris.\nIt is a city",
+                            "children": []
+                          },
+                          {
+                            "token": " beautiful",
+                            "logprob": -1.5763435363769531,
+                            "totalLogprob": -10.557836521416903,
+                            "text": "The capital of france is Paris.\nIt is a beautiful",
+                            "children": []
+                          },
+                          {
+                            "token": " very",
+                            "logprob": -1.8640708923339844,
+                            "totalLogprob": -10.845563877373934,
+                            "text": "The capital of france is Paris.\nIt is a very",
+                            "children": []
+                          },
+                          {
+                            "token": " major",
+                            "logprob": -2.1638755798339844,
+                            "totalLogprob": -11.145368564873934,
+                            "text": "The capital of france is Paris.\nIt is a major",
+                            "children": []
+                          },
+                          {
+                            "token": " global",
+                            "logprob": -3.0349044799804688,
+                            "totalLogprob": -12.016397465020418,
+                            "text": "The capital of france is Paris.\nIt is a global",
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "token": " the",
+                        "logprob": -1.4897620677947998,
+                        "totalLogprob": -9.311662662774324,
+                        "text": "The capital of france is Paris.\nIt is the",
+                        "children": [
+                          {
+                            "token": " largest",
+                            "logprob": -1.1722534894943237,
+                            "totalLogprob": -10.483916152268648,
+                            "text": "The capital of france is Paris.\nIt is the largest",
+                            "children": []
+                          },
+                          {
+                            "token": " most",
+                            "logprob": -1.5763176679611206,
+                            "totalLogprob": -10.887980330735445,
+                            "text": "The capital of france is Paris.\nIt is the most",
+                            "children": []
+                          },
+                          {
+                            "token": " capital",
+                            "logprob": -2.39081072807312,
+                            "totalLogprob": -11.702473390847445,
+                            "text": "The capital of france is Paris.\nIt is the capital",
+                            "children": []
+                          },
+                          {
+                            "token": " city",
+                            "logprob": -2.468092918395996,
+                            "totalLogprob": -11.77975558117032,
+                            "text": "The capital of france is Paris.\nIt is the city",
+                            "children": []
+                          },
+                          {
+                            "token": " world",
+                            "logprob": -2.47695255279541,
+                            "totalLogprob": -11.788615215569735,
+                            "text": "The capital of france is Paris.\nIt is the world",
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "token": " known",
+                        "logprob": -1.6325232982635498,
+                        "totalLogprob": -9.454423893243074,
+                        "text": "The capital of france is Paris.\nIt is known",
+                        "children": [
+                          {
+                            "token": " for",
+                            "logprob": -0.05467836186289787,
+                            "totalLogprob": -9.509102255105972,
+                            "text": "The capital of france is Paris.\nIt is known for",
+                            "children": []
+                          },
+                          {
+                            "token": " as",
+                            "logprob": -3.067854404449463,
+                            "totalLogprob": -12.522278297692537,
+                            "text": "The capital of france is Paris.\nIt is known as",
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "token": " located",
+                        "logprob": -2.5733401775360107,
+                        "totalLogprob": -10.395240772515535,
+                        "text": "The capital of france is Paris.\nIt is located",
+                        "children": [
+                          {
+                            "token": " in",
+                            "logprob": -0.6802294254302979,
+                            "totalLogprob": -11.075470197945833,
+                            "text": "The capital of france is Paris.\nIt is located in",
+                            "children": []
+                          },
+                          {
+                            "token": " on",
+                            "logprob": -0.747287929058075,
+                            "totalLogprob": -11.14252870157361,
+                            "text": "The capital of france is Paris.\nIt is located on",
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "token": " also",
+                        "logprob": -2.6210973262786865,
+                        "totalLogprob": -10.442997921258211,
+                        "text": "The capital of france is Paris.\nIt is also",
+                        "children": [
+                          {
+                            "token": " the",
+                            "logprob": -0.5176585912704468,
+                            "totalLogprob": -10.960656512528658,
+                            "text": "The capital of france is Paris.\nIt is also the",
+                            "children": []
+                          },
+                          {
+                            "token": " known",
+                            "logprob": -1.495323657989502,
+                            "totalLogprob": -11.938321579247713,
+                            "text": "The capital of france is Paris.\nIt is also known",
+                            "children": []
+                          },
+                          {
+                            "token": " a",
+                            "logprob": -2.4388489723205566,
+                            "totalLogprob": -12.881846893578768,
+                            "text": "The capital of france is Paris.\nIt is also a",
+                            "children": []
+                          },
+                          {
+                            "token": " home",
+                            "logprob": -3.3716483116149902,
+                            "totalLogprob": -13.814646232873201,
+                            "text": "The capital of france is Paris.\nIt is also home",
+                            "children": []
+                          },
+                          {
+                            "token": " one",
+                            "logprob": -4.031850337982178,
+                            "totalLogprob": -14.474848259240389,
+                            "text": "The capital of france is Paris.\nIt is also one",
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "token": "'",
+                    "logprob": -1.906108021736145,
+                    "totalLogprob": -9.459899205714464,
+                    "text": "The capital of france is Paris.\nIt'",
+                    "children": [
+                      {
+                        "token": "s",
+                        "logprob": -0.00005400326699600555,
+                        "totalLogprob": -9.45995320898146,
+                        "text": "The capital of france is Paris.\nIt's",
+                        "children": [
+                          {
+                            "token": " a",
+                            "logprob": -0.7346357703208923,
+                            "totalLogprob": -10.194588979302353,
+                            "text": "The capital of france is Paris.\nIt's a",
+                            "children": []
+                          },
+                          {
+                            "token": " known",
+                            "logprob": -2.0095057487487793,
+                            "totalLogprob": -11.46945895773024,
+                            "text": "The capital of france is Paris.\nIt's known",
+                            "children": []
+                          },
+                          {
+                            "token": " also",
+                            "logprob": -2.0695643424987793,
+                            "totalLogprob": -11.52951755148024,
+                            "text": "The capital of france is Paris.\nIt's also",
+                            "children": []
+                          },
+                          {
+                            "token": " the",
+                            "logprob": -2.3491415977478027,
+                            "totalLogprob": -11.809094806729263,
+                            "text": "The capital of france is Paris.\nIt's the",
+                            "children": []
+                          },
+                          {
+                            "token": " famous",
+                            "logprob": -2.9440226554870605,
+                            "totalLogprob": -12.40397586446852,
+                            "text": "The capital of france is Paris.\nIt's famous",
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "token": "’",
+                    "logprob": -3.3051578998565674,
+                    "totalLogprob": -10.858949083834887,
+                    "text": "The capital of france is Paris.\nIt’",
+                    "children": [
+                      {
+                        "token": "s",
+                        "logprob": -0.00011289757094345987,
+                        "totalLogprob": -10.85906198140583,
+                        "text": "The capital of france is Paris.\nIt’s",
+                        "children": [
+                          {
+                            "token": " a",
+                            "logprob": -0.7281920909881592,
+                            "totalLogprob": -11.58725407239399,
+                            "text": "The capital of france is Paris.\nIt’s a",
+                            "children": []
+                          },
+                          {
+                            "token": " known",
+                            "logprob": -1.9414128065109253,
+                            "totalLogprob": -12.800474787916755,
+                            "text": "The capital of france is Paris.\nIt’s known",
+                            "children": []
+                          },
+                          {
+                            "token": " also",
+                            "logprob": -2.216780424118042,
+                            "totalLogprob": -13.075842405523872,
+                            "text": "The capital of france is Paris.\nIt’s also",
+                            "children": []
+                          },
+                          {
+                            "token": " the",
+                            "logprob": -2.3882739543914795,
+                            "totalLogprob": -13.24733593579731,
+                            "text": "The capital of france is Paris.\nIt’s the",
+                            "children": []
+                          },
+                          {
+                            "token": " famous",
+                            "logprob": -2.8685452938079834,
+                            "totalLogprob": -13.727607275213813,
+                            "text": "The capital of france is Paris.\nIt’s famous",
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "token": "What",
+                "logprob": -5.159328937530518,
+                "totalLogprob": -7.742513794451952,
+                "text": "The capital of france is Paris.\nWhat",
+                "children": [
+                  {
+                    "token": " is",
+                    "logprob": -0.040427833795547485,
+                    "totalLogprob": -7.7829416282474995,
+                    "text": "The capital of france is Paris.\nWhat is",
+                    "children": [
+                      {
+                        "token": " the",
+                        "logprob": -0.013883438892662525,
+                        "totalLogprob": -7.796825067140162,
+                        "text": "The capital of france is Paris.\nWhat is the",
+                        "children": [
+                          {
+                            "token": " capital",
+                            "logprob": -0.024744825437664986,
+                            "totalLogprob": -7.821569892577827,
+                            "text": "The capital of france is Paris.\nWhat is the capital",
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "token": " The",
+            "logprob": -3.6963744163513184,
+            "totalLogprob": -3.740851778537035,
+            "text": "The capital of france is Paris. The",
+            "children": [
+              {
+                "token": " capital",
+                "logprob": -1.6256130933761597,
+                "totalLogprob": -5.366464871913195,
+                "text": "The capital of france is Paris. The capital",
+                "children": [
+                  {
+                    "token": " of",
+                    "logprob": -0.015274478122591972,
+                    "totalLogprob": -5.381739350035787,
+                    "text": "The capital of france is Paris. The capital of",
+                    "children": [
+                      {
+                        "token": " Germany",
+                        "logprob": -1.2778340578079224,
+                        "totalLogprob": -6.659573407843709,
+                        "text": "The capital of france is Paris. The capital of Germany",
+                        "children": [
+                          {
+                            "token": " is",
+                            "logprob": -0.00062777433777228,
+                            "totalLogprob": -6.660201182181481,
+                            "text": "The capital of france is Paris. The capital of Germany is",
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "token": " Spain",
+                        "logprob": -1.7200947999954224,
+                        "totalLogprob": -7.101834150031209,
+                        "text": "The capital of france is Paris. The capital of Spain",
+                        "children": [
+                          {
+                            "token": " is",
+                            "logprob": -0.0010978046339005232,
+                            "totalLogprob": -7.1029319546651095,
+                            "text": "The capital of france is Paris. The capital of Spain is",
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "token": " Italy",
+                        "logprob": -1.8175526857376099,
+                        "totalLogprob": -7.1992920357733965,
+                        "text": "The capital of france is Paris. The capital of Italy",
+                        "children": [
+                          {
+                            "token": " is",
+                            "logprob": -0.001492242212407291,
+                            "totalLogprob": -7.200784277985804,
+                            "text": "The capital of france is Paris. The capital of Italy is",
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "token": " Belgium",
+                        "logprob": -2.684419870376587,
+                        "totalLogprob": -8.066159220412374,
+                        "text": "The capital of france is Paris. The capital of Belgium",
+                        "children": [
+                          {
+                            "token": " is",
+                            "logprob": -0.0008902339031919837,
+                            "totalLogprob": -8.067049454315566,
+                            "text": "The capital of france is Paris. The capital of Belgium is",
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "token": " the",
+                        "logprob": -2.8672046661376953,
+                        "totalLogprob": -8.248944016173482,
+                        "text": "The capital of france is Paris. The capital of the",
+                        "children": [
+                          {
+                            "token": " United",
+                            "logprob": -0.05094320699572563,
+                            "totalLogprob": -8.299887223169208,
+                            "text": "The capital of france is Paris. The capital of the United",
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "token": " city",
+                "logprob": -1.843525767326355,
+                "totalLogprob": -5.58437754586339,
+                "text": "The capital of france is Paris. The city",
+                "children": [
+                  {
+                    "token": " is",
+                    "logprob": -0.38121894001960754,
+                    "totalLogprob": -5.9655964858829975,
+                    "text": "The capital of france is Paris. The city is",
+                    "children": [
+                      {
+                        "token": " known",
+                        "logprob": -0.8449272513389587,
+                        "totalLogprob": -6.810523737221956,
+                        "text": "The capital of france is Paris. The city is known",
+                        "children": [
+                          {
+                            "token": " for",
+                            "logprob": -0.011051282286643982,
+                            "totalLogprob": -6.8215750195086,
+                            "text": "The capital of france is Paris. The city is known for",
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "token": " famous",
+                        "logprob": -0.9982017874717712,
+                        "totalLogprob": -6.963798273354769,
+                        "text": "The capital of france is Paris. The city is famous",
+                        "children": [
+                          {
+                            "token": " for",
+                            "logprob": -0.006171695422381163,
+                            "totalLogprob": -6.96996996877715,
+                            "text": "The capital of france is Paris. The city is famous for",
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "token": " renowned",
+                        "logprob": -2.2282776832580566,
+                        "totalLogprob": -8.193874169141054,
+                        "text": "The capital of france is Paris. The city is renowned",
+                        "children": [
+                          {
+                            "token": " for",
+                            "logprob": -0.016731154173612595,
+                            "totalLogprob": -8.210605323314667,
+                            "text": "The capital of france is Paris. The city is renowned for",
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "token": " famed",
+                        "logprob": -3.858665943145752,
+                        "totalLogprob": -9.82426242902875,
+                        "text": "The capital of france is Paris. The city is famed",
+                        "children": [
+                          {
+                            "token": " for",
+                            "logprob": -0.01091791968792677,
+                            "totalLogprob": -9.835180348716676,
+                            "text": "The capital of france is Paris. The city is famed for",
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "token": " a",
+                        "logprob": -4.213472843170166,
+                        "totalLogprob": -10.179069329053164,
+                        "text": "The capital of france is Paris. The city is a",
+                        "children": [
+                          {
+                            "token": " global",
+                            "logprob": -0.9306820631027222,
+                            "totalLogprob": -11.109751392155886,
+                            "text": "The capital of france is Paris. The city is a global",
+                            "children": []
+                          },
+                          {
+                            "token": " major",
+                            "logprob": -1.1121243238449097,
+                            "totalLogprob": -11.291193652898073,
+                            "text": "The capital of france is Paris. The city is a major",
+                            "children": []
+                          },
+                          {
+                            "token": " world",
+                            "logprob": -3.0566892623901367,
+                            "totalLogprob": -13.2357585914433,
+                            "text": "The capital of france is Paris. The city is a world",
+                            "children": []
+                          },
+                          {
+                            "token": " popular",
+                            "logprob": -3.2725608348846436,
+                            "totalLogprob": -13.451630163937807,
+                            "text": "The capital of france is Paris. The city is a popular",
+                            "children": []
+                          },
+                          {
+                            "token": " renowned",
+                            "logprob": -3.4546422958374023,
+                            "totalLogprob": -13.633711624890566,
+                            "text": "The capital of france is Paris. The city is a renowned",
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "token": " of",
+                    "logprob": -2.31162166595459,
+                    "totalLogprob": -7.89599921181798,
+                    "text": "The capital of france is Paris. The city of",
+                    "children": [
+                      {
+                        "token": " Paris",
+                        "logprob": -0.38379430770874023,
+                        "totalLogprob": -8.27979351952672,
+                        "text": "The capital of france is Paris. The city of Paris",
+                        "children": [
+                          {
+                            "token": " is",
+                            "logprob": -0.11489270627498627,
+                            "totalLogprob": -8.394686225801706,
+                            "text": "The capital of france is Paris. The city of Paris is",
+                            "children": []
+                          },
+                          {
+                            "token": " has",
+                            "logprob": -3.0974996089935303,
+                            "totalLogprob": -11.37729312852025,
+                            "text": "The capital of france is Paris. The city of Paris has",
+                            "children": []
+                          },
+                          {
+                            "token": " was",
+                            "logprob": -3.228961706161499,
+                            "totalLogprob": -11.508755225688219,
+                            "text": "The capital of france is Paris. The city of Paris was",
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "token": " Rome",
+                        "logprob": -1.820289134979248,
+                        "totalLogprob": -9.716288346797228,
+                        "text": "The capital of france is Paris. The city of Rome",
+                        "children": [
+                          {
+                            "token": " is",
+                            "logprob": -0.3001945912837982,
+                            "totalLogprob": -10.016482938081026,
+                            "text": "The capital of france is Paris. The city of Rome is",
+                            "children": []
+                          },
+                          {
+                            "token": ",",
+                            "logprob": -1.7649734020233154,
+                            "totalLogprob": -11.481261748820543,
+                            "text": "The capital of france is Paris. The city of Rome,",
+                            "children": []
+                          },
+                          {
+                            "token": " has",
+                            "logprob": -3.0401389598846436,
+                            "totalLogprob": -12.756427306681871,
+                            "text": "The capital of france is Paris. The city of Rome has",
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "token": " France",
+                        "logprob": -3.8758997917175293,
+                        "totalLogprob": -11.771899003535509,
+                        "text": "The capital of france is Paris. The city of France",
+                        "children": [
+                          {
+                            "token": " is",
+                            "logprob": -0.1569925844669342,
+                            "totalLogprob": -11.928891588002443,
+                            "text": "The capital of france is Paris. The city of France is",
+                            "children": []
+                          },
+                          {
+                            "token": " has",
+                            "logprob": -2.8896682262420654,
+                            "totalLogprob": -14.661567229777575,
+                            "text": "The capital of france is Paris. The city of France has",
+                            "children": []
+                          },
+                          {
+                            "token": " was",
+                            "logprob": -3.1944682598114014,
+                            "totalLogprob": -14.96636726334691,
+                            "text": "The capital of france is Paris. The city of France was",
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "token": " the",
+                        "logprob": -4.051945209503174,
+                        "totalLogprob": -11.947944421321154,
+                        "text": "The capital of france is Paris. The city of the",
+                        "children": [
+                          {
+                            "token": " Eiffel",
+                            "logprob": -1.7853107452392578,
+                            "totalLogprob": -13.733255166560411,
+                            "text": "The capital of france is Paris. The city of the Eiffel",
+                            "children": []
+                          },
+                          {
+                            "token": " Louvre",
+                            "logprob": -1.9605704545974731,
+                            "totalLogprob": -13.908514875918627,
+                            "text": "The capital of france is Paris. The city of the Louvre",
+                            "children": []
+                          },
+                          {
+                            "token": " French",
+                            "logprob": -2.289181709289551,
+                            "totalLogprob": -14.237126130610704,
+                            "text": "The capital of france is Paris. The city of the French",
+                            "children": []
+                          },
+                          {
+                            "token": " sun",
+                            "logprob": -2.7476806640625,
+                            "totalLogprob": -14.695625085383654,
+                            "text": "The capital of france is Paris. The city of the sun",
+                            "children": []
+                          },
+                          {
+                            "token": " same",
+                            "logprob": -3.1627988815307617,
+                            "totalLogprob": -15.110743302851915,
+                            "text": "The capital of france is Paris. The city of the same",
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "token": " New",
+                        "logprob": -4.270778179168701,
+                        "totalLogprob": -12.166777390986681,
+                        "text": "The capital of france is Paris. The city of New",
+                        "children": [
+                          {
+                            "token": " York",
+                            "logprob": -0.001637785928323865,
+                            "totalLogprob": -12.168415176915005,
+                            "text": "The capital of france is Paris. The city of New York",
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "token": " has",
+                    "logprob": -2.5800867080688477,
+                    "totalLogprob": -8.164464253932238,
+                    "text": "The capital of france is Paris. The city has",
+                    "children": [
+                      {
+                        "token": " a",
+                        "logprob": -0.4073721468448639,
+                        "totalLogprob": -8.571836400777102,
+                        "text": "The capital of france is Paris. The city has a",
+                        "children": [
+                          {
+                            "token": " rich",
+                            "logprob": -0.6441398859024048,
+                            "totalLogprob": -9.215976286679506,
+                            "text": "The capital of france is Paris. The city has a rich",
+                            "children": []
+                          },
+                          {
+                            "token": " lot",
+                            "logprob": -1.8022552728652954,
+                            "totalLogprob": -10.374091673642397,
+                            "text": "The capital of france is Paris. The city has a lot",
+                            "children": []
+                          },
+                          {
+                            "token": " long",
+                            "logprob": -1.8176742792129517,
+                            "totalLogprob": -10.389510679990053,
+                            "text": "The capital of france is Paris. The city has a long",
+                            "children": []
+                          },
+                          {
+                            "token": " very",
+                            "logprob": -3.5598504543304443,
+                            "totalLogprob": -12.131686855107546,
+                            "text": "The capital of france is Paris. The city has a very",
+                            "children": []
+                          },
+                          {
+                            "token": " beautiful",
+                            "logprob": -4.393449306488037,
+                            "totalLogprob": -12.965285707265139,
+                            "text": "The capital of france is Paris. The city has a beautiful",
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "token": " been",
+                        "logprob": -2.2596957683563232,
+                        "totalLogprob": -10.42416002228856,
+                        "text": "The capital of france is Paris. The city has been",
+                        "children": [
+                          {
+                            "token": " a",
+                            "logprob": -0.6072694659233093,
+                            "totalLogprob": -11.03142948821187,
+                            "text": "The capital of france is Paris. The city has been a",
+                            "children": []
+                          },
+                          {
+                            "token": " the",
+                            "logprob": -2.121208429336548,
+                            "totalLogprob": -12.545368451625109,
+                            "text": "The capital of france is Paris. The city has been the",
+                            "children": []
+                          },
+                          {
+                            "token": " an",
+                            "logprob": -3.525799036026001,
+                            "totalLogprob": -13.949959058314562,
+                            "text": "The capital of france is Paris. The city has been an",
+                            "children": []
+                          },
+                          {
+                            "token": " known",
+                            "logprob": -3.595411539077759,
+                            "totalLogprob": -14.01957156136632,
+                            "text": "The capital of france is Paris. The city has been known",
+                            "children": []
+                          },
+                          {
+                            "token": " renowned",
+                            "logprob": -3.787824869155884,
+                            "totalLogprob": -14.211984891444445,
+                            "text": "The capital of france is Paris. The city has been renowned",
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "token": " many",
+                        "logprob": -2.3023173809051514,
+                        "totalLogprob": -10.466781634837389,
+                        "text": "The capital of france is Paris. The city has many",
+                        "children": [
+                          {
+                            "token": " famous",
+                            "logprob": -0.5007128119468689,
+                            "totalLogprob": -10.967494446784258,
+                            "text": "The capital of france is Paris. The city has many famous",
+                            "children": []
+                          },
+                          {
+                            "token": " beautiful",
+                            "logprob": -2.2525877952575684,
+                            "totalLogprob": -12.719369430094957,
+                            "text": "The capital of france is Paris. The city has many beautiful",
+                            "children": []
+                          },
+                          {
+                            "token": " historical",
+                            "logprob": -2.4380600452423096,
+                            "totalLogprob": -12.904841680079699,
+                            "text": "The capital of france is Paris. The city has many historical",
+                            "children": []
+                          },
+                          {
+                            "token": " attractions",
+                            "logprob": -2.8350653648376465,
+                            "totalLogprob": -13.301846999675035,
+                            "text": "The capital of france is Paris. The city has many attractions",
+                            "children": []
+                          },
+                          {
+                            "token": " things",
+                            "logprob": -3.9463608264923096,
+                            "totalLogprob": -14.413142461329699,
+                            "text": "The capital of france is Paris. The city has many things",
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "token": " an",
+                        "logprob": -3.443244695663452,
+                        "totalLogprob": -11.60770894959569,
+                        "text": "The capital of france is Paris. The city has an",
+                        "children": [
+                          {
+                            "token": " amazing",
+                            "logprob": -2.068115711212158,
+                            "totalLogprob": -13.675824660807848,
+                            "text": "The capital of france is Paris. The city has an amazing",
+                            "children": []
+                          },
+                          {
+                            "token": " impressive",
+                            "logprob": -2.1324238777160645,
+                            "totalLogprob": -13.740132827311754,
+                            "text": "The capital of france is Paris. The city has an impressive",
+                            "children": []
+                          },
+                          {
+                            "token": " incredible",
+                            "logprob": -2.153202533721924,
+                            "totalLogprob": -13.760911483317614,
+                            "text": "The capital of france is Paris. The city has an incredible",
+                            "children": []
+                          },
+                          {
+                            "token": " enormous",
+                            "logprob": -2.6543831825256348,
+                            "totalLogprob": -14.262092132121325,
+                            "text": "The capital of france is Paris. The city has an enormous",
+                            "children": []
+                          },
+                          {
+                            "token": " extensive",
+                            "logprob": -3.0320305824279785,
+                            "totalLogprob": -14.639739532023668,
+                            "text": "The capital of france is Paris. The city has an extensive",
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "token": " beautiful",
+                        "logprob": -4.874053478240967,
+                        "totalLogprob": -13.038517732173204,
+                        "text": "The capital of france is Paris. The city has beautiful",
+                        "children": [
+                          {
+                            "token": " architecture",
+                            "logprob": -0.4987979531288147,
+                            "totalLogprob": -13.53731568530202,
+                            "text": "The capital of france is Paris. The city has beautiful architecture",
+                            "children": []
+                          },
+                          {
+                            "token": " sights",
+                            "logprob": -3.0555453300476074,
+                            "totalLogprob": -16.094063062220812,
+                            "text": "The capital of france is Paris. The city has beautiful sights",
+                            "children": []
+                          },
+                          {
+                            "token": " landmarks",
+                            "logprob": -3.0607657432556152,
+                            "totalLogprob": -16.09928347542882,
+                            "text": "The capital of france is Paris. The city has beautiful landmarks",
+                            "children": []
+                          },
+                          {
+                            "token": " scenery",
+                            "logprob": -3.1174333095550537,
+                            "totalLogprob": -16.155951041728258,
+                            "text": "The capital of france is Paris. The city has beautiful scenery",
+                            "children": []
+                          },
+                          {
+                            "token": " art",
+                            "logprob": -3.122577428817749,
+                            "totalLogprob": -16.161095160990953,
+                            "text": "The capital of france is Paris. The city has beautiful art",
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "token": "'",
+                    "logprob": -2.851975440979004,
+                    "totalLogprob": -8.436352986842394,
+                    "text": "The capital of france is Paris. The city'",
+                    "children": [
+                      {
+                        "token": "s",
+                        "logprob": -0.000011444157280493528,
+                        "totalLogprob": -8.436364430999674,
+                        "text": "The capital of france is Paris. The city's",
+                        "children": [
+                          {
+                            "token": " population",
+                            "logprob": -1.709370732307434,
+                            "totalLogprob": -10.145735163307108,
+                            "text": "The capital of france is Paris. The city's population",
+                            "children": []
+                          },
+                          {
+                            "token": " most",
+                            "logprob": -1.776698350906372,
+                            "totalLogprob": -10.213062781906046,
+                            "text": "The capital of france is Paris. The city's most",
+                            "children": []
+                          },
+                          {
+                            "token": " famous",
+                            "logprob": -1.897390604019165,
+                            "totalLogprob": -10.33375503501884,
+                            "text": "The capital of france is Paris. The city's famous",
+                            "children": []
+                          },
+                          {
+                            "token": " history",
+                            "logprob": -3.0160038471221924,
+                            "totalLogprob": -11.452368278121867,
+                            "text": "The capital of france is Paris. The city's history",
+                            "children": []
+                          },
+                          {
+                            "token": " iconic",
+                            "logprob": -3.17049241065979,
+                            "totalLogprob": -11.606856841659464,
+                            "text": "The capital of france is Paris. The city's iconic",
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "token": " was",
+                    "logprob": -3.3599042892456055,
+                    "totalLogprob": -8.944281835108995,
+                    "text": "The capital of france is Paris. The city was",
+                    "children": [
+                      {
+                        "token": " founded",
+                        "logprob": -0.5274913907051086,
+                        "totalLogprob": -9.471773225814104,
+                        "text": "The capital of france is Paris. The city was founded",
+                        "children": [
+                          {
+                            "token": " in",
+                            "logprob": -0.12429121881723404,
+                            "totalLogprob": -9.596064444631338,
+                            "text": "The capital of france is Paris. The city was founded in",
+                            "children": []
+                          },
+                          {
+                            "token": " by",
+                            "logprob": -2.3356292247772217,
+                            "totalLogprob": -11.807402450591326,
+                            "text": "The capital of france is Paris. The city was founded by",
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "token": " built",
+                        "logprob": -2.2242400646209717,
+                        "totalLogprob": -11.168521899729967,
+                        "text": "The capital of france is Paris. The city was built",
+                        "children": [
+                          {
+                            "token": " on",
+                            "logprob": -0.4376673698425293,
+                            "totalLogprob": -11.606189269572496,
+                            "text": "The capital of france is Paris. The city was built on",
+                            "children": []
+                          },
+                          {
+                            "token": " in",
+                            "logprob": -1.9371333122253418,
+                            "totalLogprob": -13.105655211955309,
+                            "text": "The capital of france is Paris. The city was built in",
+                            "children": []
+                          },
+                          {
+                            "token": " by",
+                            "logprob": -2.2979445457458496,
+                            "totalLogprob": -13.466466445475817,
+                            "text": "The capital of france is Paris. The city was built by",
+                            "children": []
+                          },
+                          {
+                            "token": " upon",
+                            "logprob": -3.42164945602417,
+                            "totalLogprob": -14.590171355754137,
+                            "text": "The capital of france is Paris. The city was built upon",
+                            "children": []
+                          },
+                          {
+                            "token": " around",
+                            "logprob": -3.7376465797424316,
+                            "totalLogprob": -14.906168479472399,
+                            "text": "The capital of france is Paris. The city was built around",
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "token": " originally",
+                        "logprob": -2.982159376144409,
+                        "totalLogprob": -11.926441211253405,
+                        "text": "The capital of france is Paris. The city was originally",
+                        "children": [
+                          {
+                            "token": " founded",
+                            "logprob": -0.28349825739860535,
+                            "totalLogprob": -12.20993946865201,
+                            "text": "The capital of france is Paris. The city was originally founded",
+                            "children": []
+                          },
+                          {
+                            "token": " built",
+                            "logprob": -2.2762389183044434,
+                            "totalLogprob": -14.202680129557848,
+                            "text": "The capital of france is Paris. The city was originally built",
+                            "children": []
+                          },
+                          {
+                            "token": " a",
+                            "logprob": -2.7247118949890137,
+                            "totalLogprob": -14.651153106242418,
+                            "text": "The capital of france is Paris. The city was originally a",
+                            "children": []
+                          },
+                          {
+                            "token": " established",
+                            "logprob": -3.3564953804016113,
+                            "totalLogprob": -15.282936591655016,
+                            "text": "The capital of france is Paris. The city was originally established",
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "token": " named",
+                        "logprob": -3.3272273540496826,
+                        "totalLogprob": -12.271509189158678,
+                        "text": "The capital of france is Paris. The city was named",
+                        "children": [
+                          {
+                            "token": " after",
+                            "logprob": -0.036005470901727676,
+                            "totalLogprob": -12.307514660060406,
+                            "text": "The capital of france is Paris. The city was named after",
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "token": " the",
+                        "logprob": -3.676241636276245,
+                        "totalLogprob": -12.62052347138524,
+                        "text": "The capital of france is Paris. The city was the",
+                        "children": [
+                          {
+                            "token": " capital",
+                            "logprob": -0.448373407125473,
+                            "totalLogprob": -13.068896878510714,
+                            "text": "The capital of france is Paris. The city was the capital",
+                            "children": []
+                          },
+                          {
+                            "token": " center",
+                            "logprob": -1.605695366859436,
+                            "totalLogprob": -14.226218838244677,
+                            "text": "The capital of france is Paris. The city was the center",
+                            "children": []
+                          },
+                          {
+                            "token": " seat",
+                            "logprob": -3.480691432952881,
+                            "totalLogprob": -16.10121490433812,
+                            "text": "The capital of france is Paris. The city was the seat",
+                            "children": []
+                          },
+                          {
+                            "token": " first",
+                            "logprob": -3.638253688812256,
+                            "totalLogprob": -16.258777160197496,
+                            "text": "The capital of france is Paris. The city was the first",
+                            "children": []
+                          },
+                          {
+                            "token": " site",
+                            "logprob": -4.2224440574646,
+                            "totalLogprob": -16.84296752884984,
+                            "text": "The capital of france is Paris. The city was the site",
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "token": " population",
+                "logprob": -1.9764937162399292,
+                "totalLogprob": -5.717345494776964,
+                "text": "The capital of france is Paris. The population",
+                "children": [
+                  {
+                    "token": " of",
+                    "logprob": -0.07148736715316772,
+                    "totalLogprob": -5.788832861930132,
+                    "text": "The capital of france is Paris. The population of",
+                    "children": [
+                      {
+                        "token": " Paris",
+                        "logprob": -0.10994655638933182,
+                        "totalLogprob": -5.898779418319464,
+                        "text": "The capital of france is Paris. The population of Paris",
+                        "children": [
+                          {
+                            "token": " is",
+                            "logprob": -0.020655298605561256,
+                            "totalLogprob": -5.919434716925025,
+                            "text": "The capital of france is Paris. The population of Paris is",
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "token": " the",
+                        "logprob": -2.8179047107696533,
+                        "totalLogprob": -8.606737572699785,
+                        "text": "The capital of france is Paris. The population of the",
+                        "children": [
+                          {
+                            "token": " city",
+                            "logprob": -0.30692213773727417,
+                            "totalLogprob": -8.91365971043706,
+                            "text": "The capital of france is Paris. The population of the city",
+                            "children": []
+                          },
+                          {
+                            "token": " capital",
+                            "logprob": -1.6905138492584229,
+                            "totalLogprob": -10.297251421958208,
+                            "text": "The capital of france is Paris. The population of the capital",
+                            "children": []
+                          },
+                          {
+                            "token": " country",
+                            "logprob": -3.747943162918091,
+                            "totalLogprob": -12.354680735617876,
+                            "text": "The capital of france is Paris. The population of the country",
+                            "children": []
+                          },
+                          {
+                            "token": " Paris",
+                            "logprob": -4.381375312805176,
+                            "totalLogprob": -12.988112885504961,
+                            "text": "The capital of france is Paris. The population of the Paris",
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "token": " is",
+                    "logprob": -2.742309331893921,
+                    "totalLogprob": -8.459654826670885,
+                    "text": "The capital of france is Paris. The population is",
+                    "children": [
+                      {
+                        "token": " approximately",
+                        "logprob": -0.7496781349182129,
+                        "totalLogprob": -9.209332961589098,
+                        "text": "The capital of france is Paris. The population is approximately",
+                        "children": [
+                          {
+                            "token": " ",
+                            "logprob": -0.0032242005690932274,
+                            "totalLogprob": -9.212557162158191,
+                            "text": "The capital of france is Paris. The population is approximately ",
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "token": " around",
+                        "logprob": -1.7661155462265015,
+                        "totalLogprob": -10.225770372897387,
+                        "text": "The capital of france is Paris. The population is around",
+                        "children": [
+                          {
+                            "token": " ",
+                            "logprob": -0.002120775170624256,
+                            "totalLogprob": -10.22789114806801,
+                            "text": "The capital of france is Paris. The population is around ",
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "token": " about",
+                        "logprob": -1.8231300115585327,
+                        "totalLogprob": -10.282784838229418,
+                        "text": "The capital of france is Paris. The population is about",
+                        "children": [
+                          {
+                            "token": " ",
+                            "logprob": -0.002763270866125822,
+                            "totalLogprob": -10.285548109095544,
+                            "text": "The capital of france is Paris. The population is about ",
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "token": " over",
+                        "logprob": -2.6874642372131348,
+                        "totalLogprob": -11.14711906388402,
+                        "text": "The capital of france is Paris. The population is over",
+                        "children": [
+                          {
+                            "token": " ",
+                            "logprob": -0.008515691384673119,
+                            "totalLogprob": -11.155634755268693,
+                            "text": "The capital of france is Paris. The population is over ",
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "token": " ",
+                        "logprob": -2.6910881996154785,
+                        "totalLogprob": -11.150743026286364,
+                        "text": "The capital of france is Paris. The population is ",
+                        "children": [
+                          {
+                            "token": "2",
+                            "logprob": -0.013197341002523899,
+                            "totalLogprob": -11.163940367288888,
+                            "text": "The capital of france is Paris. The population is 2",
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "token": " largest",
+                "logprob": -2.5580835342407227,
+                "totalLogprob": -6.298935312777758,
+                "text": "The capital of france is Paris. The largest",
+                "children": [
+                  {
+                    "token": " city",
+                    "logprob": -0.11020659655332565,
+                    "totalLogprob": -6.409141909331083,
+                    "text": "The capital of france is Paris. The largest city",
+                    "children": [
+                      {
+                        "token": " in",
+                        "logprob": -0.056087203323841095,
+                        "totalLogprob": -6.465229112654924,
+                        "text": "The capital of france is Paris. The largest city in",
+                        "children": [
+                          {
+                            "token": " France",
+                            "logprob": -0.14420506358146667,
+                            "totalLogprob": -6.609434176236391,
+                            "text": "The capital of france is Paris. The largest city in France",
+                            "children": []
+                          },
+                          {
+                            "token": " the",
+                            "logprob": -2.523752212524414,
+                            "totalLogprob": -8.988981325179338,
+                            "text": "The capital of france is Paris. The largest city in the",
+                            "children": []
+                          },
+                          {
+                            "token": " Europe",
+                            "logprob": -3.8983030319213867,
+                            "totalLogprob": -10.363532144576311,
+                            "text": "The capital of france is Paris. The largest city in Europe",
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "token": " of",
+                        "logprob": -3.936940908432007,
+                        "totalLogprob": -10.34608281776309,
+                        "text": "The capital of france is Paris. The largest city of",
+                        "children": [
+                          {
+                            "token": " France",
+                            "logprob": -0.28174909949302673,
+                            "totalLogprob": -10.627831917256117,
+                            "text": "The capital of france is Paris. The largest city of France",
+                            "children": []
+                          },
+                          {
+                            "token": " the",
+                            "logprob": -1.8970444202423096,
+                            "totalLogprob": -12.2431272380054,
+                            "text": "The capital of france is Paris. The largest city of the",
+                            "children": []
+                          },
+                          {
+                            "token": " Italy",
+                            "logprob": -3.9550583362579346,
+                            "totalLogprob": -14.301141154021025,
+                            "text": "The capital of france is Paris. The largest city of Italy",
+                            "children": []
+                          },
+                          {
+                            "token": " Spain",
+                            "logprob": -4.243862628936768,
+                            "totalLogprob": -14.589945446699858,
+                            "text": "The capital of france is Paris. The largest city of Spain",
+                            "children": []
+                          },
+                          {
+                            "token": " Canada",
+                            "logprob": -4.601743221282959,
+                            "totalLogprob": -14.94782603904605,
+                            "text": "The capital of france is Paris. The largest city of Canada",
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "token": " lake",
+                    "logprob": -3.3071060180664062,
+                    "totalLogprob": -9.606041330844164,
+                    "text": "The capital of france is Paris. The largest lake",
+                    "children": [
+                      {
+                        "token": " in",
+                        "logprob": -0.01685529202222824,
+                        "totalLogprob": -9.622896622866392,
+                        "text": "The capital of france is Paris. The largest lake in",
+                        "children": [
+                          {
+                            "token": " Europe",
+                            "logprob": -0.04391998052597046,
+                            "totalLogprob": -9.666816603392363,
+                            "text": "The capital of france is Paris. The largest lake in Europe",
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "token": " river",
+                    "logprob": -3.9016494750976562,
+                    "totalLogprob": -10.200584787875414,
+                    "text": "The capital of france is Paris. The largest river",
+                    "children": [
+                      {
+                        "token": " in",
+                        "logprob": -0.06472520530223846,
+                        "totalLogprob": -10.265309993177652,
+                        "text": "The capital of france is Paris. The largest river in",
+                        "children": [
+                          {
+                            "token": " France",
+                            "logprob": -0.5589210987091064,
+                            "totalLogprob": -10.824231091886759,
+                            "text": "The capital of france is Paris. The largest river in France",
+                            "children": []
+                          },
+                          {
+                            "token": " Europe",
+                            "logprob": -1.4783755540847778,
+                            "totalLogprob": -11.74368554726243,
+                            "text": "The capital of france is Paris. The largest river in Europe",
+                            "children": []
+                          },
+                          {
+                            "token": " the",
+                            "logprob": -2.1756432056427,
+                            "totalLogprob": -12.440953198820353,
+                            "text": "The capital of france is Paris. The largest river in the",
+                            "children": []
+                          },
+                          {
+                            "token": " Canada",
+                            "logprob": -3.189704179763794,
+                            "totalLogprob": -13.455014172941446,
+                            "text": "The capital of france is Paris. The largest river in Canada",
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "token": " of",
+                        "logprob": -3.8144047260284424,
+                        "totalLogprob": -14.014989513903856,
+                        "text": "The capital of france is Paris. The largest river of",
+                        "children": [
+                          {
+                            "token": " France",
+                            "logprob": -0.03900206834077835,
+                            "totalLogprob": -14.053991582244635,
+                            "text": "The capital of france is Paris. The largest river of France",
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "token": " country",
+                "logprob": -2.9741647243499756,
+                "totalLogprob": -6.715016502887011,
+                "text": "The capital of france is Paris. The country",
+                "children": [
+                  {
+                    "token": " is",
+                    "logprob": -0.6524968147277832,
+                    "totalLogprob": -7.367513317614794,
+                    "text": "The capital of france is Paris. The country is",
+                    "children": [
+                      {
+                        "token": " known",
+                        "logprob": -0.40531033277511597,
+                        "totalLogprob": -7.77282365038991,
+                        "text": "The capital of france is Paris. The country is known",
+                        "children": [
+                          {
+                            "token": " for",
+                            "logprob": -0.012562292627990246,
+                            "totalLogprob": -7.7853859430179,
+                            "text": "The capital of france is Paris. The country is known for",
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "token": " famous",
+                        "logprob": -2.059128522872925,
+                        "totalLogprob": -9.426641840487719,
+                        "text": "The capital of france is Paris. The country is famous",
+                        "children": [
+                          {
+                            "token": " for",
+                            "logprob": -0.005927032791078091,
+                            "totalLogprob": -9.432568873278797,
+                            "text": "The capital of france is Paris. The country is famous for",
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "token": " located",
+                        "logprob": -2.7352375984191895,
+                        "totalLogprob": -10.102750916033983,
+                        "text": "The capital of france is Paris. The country is located",
+                        "children": [
+                          {
+                            "token": " in",
+                            "logprob": -0.13783469796180725,
+                            "totalLogprob": -10.24058561399579,
+                            "text": "The capital of france is Paris. The country is located in",
+                            "children": []
+                          },
+                          {
+                            "token": " on",
+                            "logprob": -2.17122483253479,
+                            "totalLogprob": -12.273975748568773,
+                            "text": "The capital of france is Paris. The country is located on",
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "token": " a",
+                        "logprob": -3.4295060634613037,
+                        "totalLogprob": -10.797019381076097,
+                        "text": "The capital of france is Paris. The country is a",
+                        "children": [
+                          {
+                            "token": " major",
+                            "logprob": -0.6780462861061096,
+                            "totalLogprob": -11.475065667182207,
+                            "text": "The capital of france is Paris. The country is a major",
+                            "children": []
+                          },
+                          {
+                            "token": " global",
+                            "logprob": -2.1566553115844727,
+                            "totalLogprob": -12.95367469266057,
+                            "text": "The capital of france is Paris. The country is a global",
+                            "children": []
+                          },
+                          {
+                            "token": " renowned",
+                            "logprob": -3.434483528137207,
+                            "totalLogprob": -14.231502909213305,
+                            "text": "The capital of france is Paris. The country is a renowned",
+                            "children": []
+                          },
+                          {
+                            "token": " beautiful",
+                            "logprob": -3.457164764404297,
+                            "totalLogprob": -14.254184145480394,
+                            "text": "The capital of france is Paris. The country is a beautiful",
+                            "children": []
+                          },
+                          {
+                            "token": " center",
+                            "logprob": -3.6447067260742188,
+                            "totalLogprob": -14.441726107150316,
+                            "text": "The capital of france is Paris. The country is a center",
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "token": " renowned",
+                        "logprob": -3.450949192047119,
+                        "totalLogprob": -10.818462509661913,
+                        "text": "The capital of france is Paris. The country is renowned",
+                        "children": [
+                          {
+                            "token": " for",
+                            "logprob": -0.01892826519906521,
+                            "totalLogprob": -10.837390774860978,
+                            "text": "The capital of france is Paris. The country is renowned for",
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "token": "'",
+                    "logprob": -1.9272780418395996,
+                    "totalLogprob": -8.64229454472661,
+                    "text": "The capital of france is Paris. The country'",
+                    "children": [
+                      {
+                        "token": "s",
+                        "logprob": -0.00001609338323760312,
+                        "totalLogprob": -8.642310638109848,
+                        "text": "The capital of france is Paris. The country's",
+                        "children": [
+                          {
+                            "token": " most",
+                            "logprob": -1.8179959058761597,
+                            "totalLogprob": -10.460306543986007,
+                            "text": "The capital of france is Paris. The country's most",
+                            "children": []
+                          },
+                          {
+                            "token": " population",
+                            "logprob": -2.066934585571289,
+                            "totalLogprob": -10.709245223681137,
+                            "text": "The capital of france is Paris. The country's population",
+                            "children": []
+                          },
+                          {
+                            "token": " currency",
+                            "logprob": -2.3106508255004883,
+                            "totalLogprob": -10.952961463610336,
+                            "text": "The capital of france is Paris. The country's currency",
+                            "children": []
+                          },
+                          {
+                            "token": " largest",
+                            "logprob": -2.3495702743530273,
+                            "totalLogprob": -10.991880912462875,
+                            "text": "The capital of france is Paris. The country's largest",
+                            "children": []
+                          },
+                          {
+                            "token": " capital",
+                            "logprob": -2.3834550380706787,
+                            "totalLogprob": -11.025765676180526,
+                            "text": "The capital of france is Paris. The country's capital",
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "token": " has",
+                    "logprob": -2.1149020195007324,
+                    "totalLogprob": -8.829918522387743,
+                    "text": "The capital of france is Paris. The country has",
+                    "children": [
+                      {
+                        "token": " a",
+                        "logprob": -0.18561618030071259,
+                        "totalLogprob": -9.015534702688456,
+                        "text": "The capital of france is Paris. The country has a",
+                        "children": [
+                          {
+                            "token": " rich",
+                            "logprob": -0.5465063452720642,
+                            "totalLogprob": -9.56204104796052,
+                            "text": "The capital of france is Paris. The country has a rich",
+                            "children": []
+                          },
+                          {
+                            "token": " long",
+                            "logprob": -1.3139891624450684,
+                            "totalLogprob": -10.329523865133524,
+                            "text": "The capital of france is Paris. The country has a long",
+                            "children": []
+                          },
+                          {
+                            "token": " lot",
+                            "logprob": -3.551516056060791,
+                            "totalLogprob": -12.567050758749247,
+                            "text": "The capital of france is Paris. The country has a lot",
+                            "children": []
+                          },
+                          {
+                            "token": " very",
+                            "logprob": -3.9618163108825684,
+                            "totalLogprob": -12.977351013571024,
+                            "text": "The capital of france is Paris. The country has a very",
+                            "children": []
+                          },
+                          {
+                            "token": " history",
+                            "logprob": -3.963347911834717,
+                            "totalLogprob": -12.978882614523172,
+                            "text": "The capital of france is Paris. The country has a history",
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "token": " been",
+                        "logprob": -3.378410816192627,
+                        "totalLogprob": -12.20832933858037,
+                        "text": "The capital of france is Paris. The country has been",
+                        "children": [
+                          {
+                            "token": " a",
+                            "logprob": -0.9162378311157227,
+                            "totalLogprob": -13.124567169696093,
+                            "text": "The capital of france is Paris. The country has been a",
+                            "children": []
+                          },
+                          {
+                            "token": " the",
+                            "logprob": -2.274895668029785,
+                            "totalLogprob": -14.483225006610155,
+                            "text": "The capital of france is Paris. The country has been the",
+                            "children": []
+                          },
+                          {
+                            "token": " known",
+                            "logprob": -2.466233253479004,
+                            "totalLogprob": -14.674562592059374,
+                            "text": "The capital of france is Paris. The country has been known",
+                            "children": []
+                          },
+                          {
+                            "token": " an",
+                            "logprob": -3.4615297317504883,
+                            "totalLogprob": -15.669859070330858,
+                            "text": "The capital of france is Paris. The country has been an",
+                            "children": []
+                          },
+                          {
+                            "token": " ruled",
+                            "logprob": -3.6775331497192383,
+                            "totalLogprob": -15.885862488299608,
+                            "text": "The capital of france is Paris. The country has been ruled",
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "token": " many",
+                        "logprob": -3.7079827785491943,
+                        "totalLogprob": -12.537901300936937,
+                        "text": "The capital of france is Paris. The country has many",
+                        "children": [
+                          {
+                            "token": " famous",
+                            "logprob": -0.8995063900947571,
+                            "totalLogprob": -13.437407691031694,
+                            "text": "The capital of france is Paris. The country has many famous",
+                            "children": []
+                          },
+                          {
+                            "token": " beautiful",
+                            "logprob": -1.440535306930542,
+                            "totalLogprob": -13.97843660786748,
+                            "text": "The capital of france is Paris. The country has many beautiful",
+                            "children": []
+                          },
+                          {
+                            "token": " historical",
+                            "logprob": -1.955092191696167,
+                            "totalLogprob": -14.492993492633104,
+                            "text": "The capital of france is Paris. The country has many historical",
+                            "children": []
+                          },
+                          {
+                            "token": " attractions",
+                            "logprob": -3.452782392501831,
+                            "totalLogprob": -15.990683693438768,
+                            "text": "The capital of france is Paris. The country has many attractions",
+                            "children": []
+                          },
+                          {
+                            "token": " things",
+                            "logprob": -4.30362606048584,
+                            "totalLogprob": -16.841527361422777,
+                            "text": "The capital of france is Paris. The country has many things",
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "token": " an",
+                        "logprob": -3.7829091548919678,
+                        "totalLogprob": -12.61282767727971,
+                        "text": "The capital of france is Paris. The country has an",
+                        "children": [
+                          {
+                            "token": " area",
+                            "logprob": -1.2720578908920288,
+                            "totalLogprob": -13.88488556817174,
+                            "text": "The capital of france is Paris. The country has an area",
+                            "children": []
+                          },
+                          {
+                            "token": " extensive",
+                            "logprob": -2.2884418964385986,
+                            "totalLogprob": -14.90126957371831,
+                            "text": "The capital of france is Paris. The country has an extensive",
+                            "children": []
+                          },
+                          {
+                            "token": " amazing",
+                            "logprob": -2.9399044513702393,
+                            "totalLogprob": -15.55273212864995,
+                            "text": "The capital of france is Paris. The country has an amazing",
+                            "children": []
+                          },
+                          {
+                            "token": " extremely",
+                            "logprob": -3.213960886001587,
+                            "totalLogprob": -15.826788563281298,
+                            "text": "The capital of france is Paris. The country has an extremely",
+                            "children": []
+                          },
+                          {
+                            "token": " impressive",
+                            "logprob": -3.2772934436798096,
+                            "totalLogprob": -15.89012112095952,
+                            "text": "The capital of france is Paris. The country has an impressive",
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "token": " ",
+                        "logprob": -4.9051947593688965,
+                        "totalLogprob": -13.73511328175664,
+                        "text": "The capital of france is Paris. The country has ",
+                        "children": [
+                          {
+                            "token": "7",
+                            "logprob": -0.25514358282089233,
+                            "totalLogprob": -13.990256864577532,
+                            "text": "The capital of france is Paris. The country has 7",
+                            "children": []
+                          },
+                          {
+                            "token": "6",
+                            "logprob": -1.8157724142074585,
+                            "totalLogprob": -15.550885695964098,
+                            "text": "The capital of france is Paris. The country has 6",
+                            "children": []
+                          },
+                          {
+                            "token": "2",
+                            "logprob": -4.080798625946045,
+                            "totalLogprob": -17.815911907702684,
+                            "text": "The capital of france is Paris. The country has 2",
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "token": " of",
+                    "logprob": -2.3402600288391113,
+                    "totalLogprob": -9.055276531726122,
+                    "text": "The capital of france is Paris. The country of",
+                    "children": [
+                      {
+                        "token": " France",
+                        "logprob": -0.9723060727119446,
+                        "totalLogprob": -10.027582604438066,
+                        "text": "The capital of france is Paris. The country of France",
+                        "children": [
+                          {
+                            "token": " is",
+                            "logprob": -0.21753618121147156,
+                            "totalLogprob": -10.245118785649538,
+                            "text": "The capital of france is Paris. The country of France is",
+                            "children": []
+                          },
+                          {
+                            "token": " has",
+                            "logprob": -1.9061615467071533,
+                            "totalLogprob": -11.93374415114522,
+                            "text": "The capital of france is Paris. The country of France has",
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "token": " Italy",
+                        "logprob": -1.530388593673706,
+                        "totalLogprob": -10.585665125399828,
+                        "text": "The capital of france is Paris. The country of Italy",
+                        "children": [
+                          {
+                            "token": " is",
+                            "logprob": -0.19068662822246552,
+                            "totalLogprob": -10.776351753622293,
+                            "text": "The capital of france is Paris. The country of Italy is",
+                            "children": []
+                          },
+                          {
+                            "token": " has",
+                            "logprob": -1.9000638723373413,
+                            "totalLogprob": -12.48572899773717,
+                            "text": "The capital of france is Paris. The country of Italy has",
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "token": " Spain",
+                        "logprob": -2.775604009628296,
+                        "totalLogprob": -11.830880541354418,
+                        "text": "The capital of france is Paris. The country of Spain",
+                        "children": [
+                          {
+                            "token": " is",
+                            "logprob": -0.3329780697822571,
+                            "totalLogprob": -12.163858611136675,
+                            "text": "The capital of france is Paris. The country of Spain is",
+                            "children": []
+                          },
+                          {
+                            "token": " has",
+                            "logprob": -1.3597668409347534,
+                            "totalLogprob": -13.190647382289171,
+                            "text": "The capital of france is Paris. The country of Spain has",
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "token": " Portugal",
+                        "logprob": -3.439653158187866,
+                        "totalLogprob": -12.494929689913988,
+                        "text": "The capital of france is Paris. The country of Portugal",
+                        "children": [
+                          {
+                            "token": " is",
+                            "logprob": -0.22727850079536438,
+                            "totalLogprob": -12.722208190709352,
+                            "text": "The capital of france is Paris. The country of Portugal is",
+                            "children": []
+                          },
+                          {
+                            "token": " has",
+                            "logprob": -1.7688376903533936,
+                            "totalLogprob": -14.263767380267382,
+                            "text": "The capital of france is Paris. The country of Portugal has",
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "token": " Australia",
+                        "logprob": -3.6514689922332764,
+                        "totalLogprob": -12.706745523959398,
+                        "text": "The capital of france is Paris. The country of Australia",
+                        "children": [
+                          {
+                            "token": " is",
+                            "logprob": -0.3559299111366272,
+                            "totalLogprob": -13.062675435096025,
+                            "text": "The capital of france is Paris. The country of Australia is",
+                            "children": []
+                          },
+                          {
+                            "token": " has",
+                            "logprob": -1.309131145477295,
+                            "totalLogprob": -14.015876669436693,
+                            "text": "The capital of france is Paris. The country of Australia has",
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "token": "’",
+                    "logprob": -3.00425386428833,
+                    "totalLogprob": -9.71927036717534,
+                    "text": "The capital of france is Paris. The country’",
+                    "children": [
+                      {
+                        "token": "s",
+                        "logprob": -0.000014782061043661088,
+                        "totalLogprob": -9.719285149236384,
+                        "text": "The capital of france is Paris. The country’s",
+                        "children": [
+                          {
+                            "token": " most",
+                            "logprob": -1.6639926433563232,
+                            "totalLogprob": -11.383277792592708,
+                            "text": "The capital of france is Paris. The country’s most",
+                            "children": []
+                          },
+                          {
+                            "token": " population",
+                            "logprob": -2.1919286251068115,
+                            "totalLogprob": -11.911213774343196,
+                            "text": "The capital of france is Paris. The country’s population",
+                            "children": []
+                          },
+                          {
+                            "token": " capital",
+                            "logprob": -2.3156259059906006,
+                            "totalLogprob": -12.034911055226985,
+                            "text": "The capital of france is Paris. The country’s capital",
+                            "children": []
+                          },
+                          {
+                            "token": " largest",
+                            "logprob": -2.3805739879608154,
+                            "totalLogprob": -12.0998591371972,
+                            "text": "The capital of france is Paris. The country’s largest",
+                            "children": []
+                          },
+                          {
+                            "token": " currency",
+                            "logprob": -2.869891881942749,
+                            "totalLogprob": -12.589177031179133,
+                            "text": "The capital of france is Paris. The country’s currency",
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

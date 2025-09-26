@@ -43,6 +43,7 @@ async function execute(prompt: string) {
   )
 }
 
-await execute('The capital of france is')
+await execute('The capital of france')
+await execute('The capital of france is Paris')
 await execute('The meaning of life is')
 await execute('A great ingredient to put in soup is')
