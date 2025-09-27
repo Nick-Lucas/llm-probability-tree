@@ -12,6 +12,8 @@ export interface SamplerResult {
   temperature: number
   prompt: string
   tree: TreeNode
+  generatedStartedAt: string
+  generationEndedAt: string
 }
 
 import capitalOfFrance1 from '../../outputs/token-tree--the-capital-of-france.json'

@@ -1,5 +1,6 @@
 import React from 'react'
 import { useSearch, useNavigate } from '@tanstack/react-router'
+import { Duration } from 'luxon'
 import { data, type TreeNode } from '../data'
 import type { SearchParams } from '../routes/tree'
 import { TreeNodeComponent } from './TreeNodeComponent'
@@ -106,24 +107,43 @@ export const TreeView: React.FC<TreeViewProps> = ({ depth = 0 }) => {
         </div>
       }
 
-      <div className="mb-4 p-3 bg-gray-50 border border-gray-200 rounded-md">
-        <h3 className="m-0 mb-2 text-base font-bold">Dataset Properties</h3>
-        <div className="grid grid-cols-[repeat(auto-fit,minmax(200px,1fr))] gap-2 text-sm">
-          <div>
-            <strong>Max Depth:</strong>{' '}
+      <div className="mb-4 p-2 bg-gray-50 border border-gray-200 rounded text-xs text-gray-600">
+        <div className="flex flex-wrap gap-x-4 gap-y-1">
+          <span>
+            <span className="font-semibold">Depth:</span>{' '}
             {data[selectedDataIndex].result.maxDepth}
-          </div>
-          <div>
-            <strong>Top K Per Step:</strong>{' '}
+          </span>
+          <span>
+            <span className="font-semibold">Top-K:</span>{' '}
             {data[selectedDataIndex].result.topKPerStep}
-          </div>
-          <div>
-            <strong>Temperature:</strong>{' '}
+          </span>
+          <span>
+            <span className="font-semibold">Temp:</span>{' '}
             {data[selectedDataIndex].result.temperature}
-          </div>
-          <div className="col-span-full">
-            <strong>Prompt:</strong> "{data[selectedDataIndex].result.prompt}"
-          </div>
+          </span>
+          <span>
+            <span className="font-semibold">Generated:</span>{' '}
+            {new Date(
+              data[selectedDataIndex].result.generatedStartedAt,
+            ).toLocaleString()}
+          </span>
+
+          <span>
+            <span className="font-semibold">Runtime:</span>{' '}
+            {Duration.fromMillis(
+              new Date(
+                data[selectedDataIndex].result.generationEndedAt,
+              ).getTime() -
+                new Date(
+                  data[selectedDataIndex].result.generatedStartedAt,
+                ).getTime(),
+            ).toFormat('m:ss')}
+          </span>
+        </div>
+
+        <div className="mt-1 truncate">
+          <span className="font-semibold">Prompt:</span> "
+          {data[selectedDataIndex].result.prompt}"
         </div>
       </div>
 

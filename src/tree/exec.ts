@@ -14,6 +14,8 @@ async function execute(prompt: string) {
   const topKPerStep = 5
   const temperature = 0
 
+  const generatedStartedAt = new Date().toISOString()
+
   const tree = await buildTokenTree(sampler, prompt, {
     maxDepth,
     topKPerStep,
@@ -25,6 +27,8 @@ async function execute(prompt: string) {
     stopIf: (text) => !text || text.endsWith('\n\n') || text.length > 500, // example
   })
 
+  const generationEndedAt = new Date().toISOString()
+
   const json = JSON.stringify(
     {
       maxDepth,
@@ -32,6 +36,8 @@ async function execute(prompt: string) {
       temperature,
       prompt,
       tree,
+      generatedStartedAt,
+      generationEndedAt,
     },
     null,
     2
