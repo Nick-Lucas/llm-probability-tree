@@ -4,6 +4,8 @@ LLMs are probabilistic models which generate a completion to a given prompt, we 
 
 [Explore the Trees I've already committed](https://llm-probability-tree.me-62f.workers.dev/)
 
+This project is part of a dev.to post on how [LLMs do know what they want to say](https://dev.to/nicklucas/llms-do-know-what-theyre-going-to-say-54mh)
+
 ## Prerequisites
 
 - nodejs 24+
